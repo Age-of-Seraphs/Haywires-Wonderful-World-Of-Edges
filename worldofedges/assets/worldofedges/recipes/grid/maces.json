@@ -3,7 +3,7 @@
 		ingredientPattern: "T,P,S",
 		ingredients: {
 			"T": { type: "item", code: "worldofedges:flangedhead-steel" },
-			"S": { type: "item", code: "game:game:rod-steel" },
+		"S": { type: "item", code: "game:rod-steel" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
 		},
 		width: 1,

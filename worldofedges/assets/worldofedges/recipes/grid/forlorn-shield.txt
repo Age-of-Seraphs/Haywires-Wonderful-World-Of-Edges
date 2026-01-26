@@ -10,6 +10,6 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:forlorn-shield", quantity: 1  }
+		output: { type: "item", code: "worldofedges:forlorn-shield", quantity: 1  }
 	}
 ]

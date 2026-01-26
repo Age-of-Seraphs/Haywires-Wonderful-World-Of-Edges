@@ -1,6 +1,6 @@
 {
 	"code": "forlorn-shield",
-	"class": "vanillaarmory.customshield",
+	"class": "Item",
 lightHsv: [28, 4, 16],
 	"storageFlags": 257,
 	"durability": 1000,
