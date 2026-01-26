@@ -46,8 +46,8 @@ attributes: {
 		"club-morningstar-*"
 	],
 	shapeByType: {
-		"club-morningstar-silver": { "base": "vanillaarmory:shapes/item/tool/club/morningstar-ornate" },
-		"club-morningstar-gold": { "base": "vanillaarmory:shapes/item/tool/club/morningstar-ornate" },
+		"club-morningstar-silver": { "base": "worldofedges:shapes/item/tool/club/morningstar-ornate" },
+		"club-morningstar-gold": { "base": "worldofedges:shapes/item/tool/club/morningstar-ornate" },
 
 		"club-morningstar-*": { base: "game:item/tool/club/morningstar" },
 		
@@ -208,7 +208,7 @@ attributes: {
 		"club-morningstar-silver": 4.77,
 	},
 	creativeinventory: { 
-		"general": ["*"],  "vanillaarmory": ["*"], 
+		"general": ["*"],  "worldofedges": ["*"], 
 		"items": ["*"], 
 		"tools": ["*"],
 		"clutterByType": { "*-ruined": ["*"] }

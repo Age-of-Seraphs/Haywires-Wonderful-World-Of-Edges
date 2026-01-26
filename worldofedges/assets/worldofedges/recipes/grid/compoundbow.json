@@ -11,7 +11,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FST,BBT,FLT",
@@ -25,7 +25,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FST,BBT,FLT",
@@ -39,7 +39,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FST,BBT,FLT",
@@ -53,7 +53,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FST,BBT,FLT",
@@ -67,7 +67,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FST,BBT,FLT",
@@ -81,7 +81,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-ranger", quantity: 1  }
 	},
 
 
@@ -106,7 +106,7 @@
 		width: 3,
 		height: 3,
 		copyAttributesFrom: 'R',
-		output: { type: "item", code: "vanillaarmory:bow-yager", quantity: 1  }
+		output: { type: "item", code: "worldofedges:bow-yager", quantity: 1  }
 	}
 
 

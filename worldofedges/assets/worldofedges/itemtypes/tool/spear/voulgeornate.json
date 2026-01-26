@@ -18,7 +18,7 @@
 		"spear-voulge-*",
 	],
 	shapeByType: {
-		"*": { base: "vanillaarmory:shapes/item/tool/spear/voulge-ornate" }
+		"*": { base: "worldofedges:shapes/item/tool/spear/voulge-ornate" }
 	},
 	heldTpIdleAnimation: "spearidle",
 	heldRightReadyAnimation: "spearidle",
@@ -77,7 +77,7 @@
 		},
 		spearEntityCodeByType: {
 
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 
 		},
 		handbook: {
@@ -97,7 +97,7 @@
 		"spear-voulge-gold": 494,
 		"spear-voulge-silver": 494,
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"*": {

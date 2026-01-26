@@ -98,8 +98,8 @@
 		
 	],
 	shapeByType: {
-		"blade-claymore-gold": { base: "vanillaarmory:shapes/item/tool/blade/claymore-ornate" },
-		"blade-claymore-silver": { base: "vanillaarmory:shapes/item/tool/blade/claymore-ornate" },
+		"blade-claymore-gold": { base: "worldofedges:shapes/item/tool/blade/claymore-ornate" },
+		"blade-claymore-silver": { base: "worldofedges:shapes/item/tool/blade/claymore-ornate" },
 
 		"blade-claymore-*": { base: "game:item/tool/blade/claymore" },
 
@@ -177,7 +177,7 @@
 		
 	},
 	creativeinventoryByType: {
-		"*": { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+		"*": { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
 	},
 	guiTransformByType: {
 		"blade-claymore-*": 

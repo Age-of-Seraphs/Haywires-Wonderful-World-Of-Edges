@@ -90,8 +90,8 @@
 		"axe-bearded-*",
 	],
 	shapeByType: {
-		"axe-bearded-silver": { "base": "vanillaarmory:shapes/item/tool/axe/bearded-ornate" },
-		"axe-bearded-gold": { "base": "vanillaarmory:shapes/item/tool/axe/bearded-ornate" },
+		"axe-bearded-silver": { "base": "worldofedges:shapes/item/tool/axe/bearded-ornate" },
+		"axe-bearded-gold": { "base": "worldofedges:shapes/item/tool/axe/bearded-ornate" },
 		"axe-bearded-*": { "base": "game:item/tool/axe/bearded" },
 		
 	},
@@ -231,7 +231,7 @@
 		"axe-bearded-steel": 6.36,
 
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "worldofedges": ["*"], "clutterByType": { "*-ruined": ["*"] } },
 
 	fpHandTransform: {
 		translation: { x: -0.3, y: -0.5, z: 0.3 },

@@ -19,5 +19,5 @@
 "_____#_________",
 	]],
 	name: "Sabre blade",
-	output: { type: "item", code: "vanillaarmory:sabrehead-{metal}"  }
+	output: { type: "item", code: "worldofedges:sabrehead-{metal}"  }
 }

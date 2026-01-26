@@ -5,7 +5,7 @@
 		ingredients: {
 			"A": {
 				"type": "item",
-				"code": "vanillaarmory:sturdyleatherarmor-head"
+				"code": "worldofedges:sturdyleatherarmor-head"
 			},
 			"L": { type: "item", code: "game:leather-sturdy-plain" }
 		},
@@ -17,7 +17,7 @@
 		name: "leather helmet repair",
 		output: {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-head"
+			"code": "worldofedges:sturdyleatherarmor-head"
 		}
 	},
 	{
@@ -26,7 +26,7 @@
 		ingredients: {
 			"A": {
 				"type": "item",
-				"code": "vanillaarmory:sturdyleatherarmor-body"
+				"code": "worldofedges:sturdyleatherarmor-body"
 			},
 			"L": { type: "item", code: "game:leather-sturdy-plain" }
 		},
@@ -38,7 +38,7 @@
 		name: "leather body armor repair",
 		output: {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-body"
+			"code": "worldofedges:sturdyleatherarmor-body"
 		}
 	},
 	{
@@ -47,7 +47,7 @@
 		ingredients: {
 			"A": {
 				"type": "item",
-				"code": "vanillaarmory:sturdyleatherarmor-legs"
+				"code": "worldofedges:sturdyleatherarmor-legs"
 			},
 			"L": { type: "item", code: "game:leather-sturdy-plain" }
 		},
@@ -59,7 +59,7 @@
 		name: "leather leg armor repair",
 		output: {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-legs"
+			"code": "worldofedges:sturdyleatherarmor-legs"
 		}
 	}
 ]

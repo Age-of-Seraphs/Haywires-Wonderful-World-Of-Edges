@@ -95,8 +95,8 @@
 
 	],
 	shapeByType: {
-		"axe-double-silver": { "base": "vanillaarmory:shapes/item/tool/axe/double-ornate" },
-		"axe-double-gold": { "base": "vanillaarmory:shapes/item/tool/axe/double-ornate" },
+		"axe-double-silver": { "base": "worldofedges:shapes/item/tool/axe/double-ornate" },
+		"axe-double-gold": { "base": "worldofedges:shapes/item/tool/axe/double-ornate" },
 		"axe-double-*": { "base": "game:item/tool/axe/double" },
 		
 	},
@@ -190,7 +190,7 @@
 		"axe-double-steel": 6.89,
 		
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "worldofedges": ["*"], "clutterByType": { "*-ruined": ["*"] } },
 
 	fpHandTransform: {
 		translation: { x: -0.3, y: -0.5, z: 0.3 },

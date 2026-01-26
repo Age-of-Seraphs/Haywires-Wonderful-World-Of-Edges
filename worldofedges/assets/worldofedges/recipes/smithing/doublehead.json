@@ -11,5 +11,5 @@
 "_##______##_",
 	]],
 	name: "Double headed axe blade",
-	output: { type: "item", code: "vanillaarmory:doublehead-{metal}"  }
+	output: { type: "item", code: "worldofedges:doublehead-{metal}"  }
 }

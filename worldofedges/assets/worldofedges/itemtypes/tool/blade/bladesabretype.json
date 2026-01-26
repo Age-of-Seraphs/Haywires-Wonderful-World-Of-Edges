@@ -95,8 +95,8 @@
 	],
 	shapeByType: {
 
-		"blade-sabre-gold": { base: "vanillaarmory:shapes/item/tool/blade/sabre-ornate" },
-		"blade-sabre-silver": { base: "vanillaarmory:shapes/item/tool/blade/sabre-ornate" },
+		"blade-sabre-gold": { base: "worldofedges:shapes/item/tool/blade/sabre-ornate" },
+		"blade-sabre-silver": { base: "worldofedges:shapes/item/tool/blade/sabre-ornate" },
 
 		"blade-sabre-*": { base: "game:item/tool/blade/sabre" },
 		
@@ -195,7 +195,7 @@
 
 	},
 	creativeinventoryByType: {
-		"*": { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+		"*": { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
 	},
 	guiTransformByType: {
 				

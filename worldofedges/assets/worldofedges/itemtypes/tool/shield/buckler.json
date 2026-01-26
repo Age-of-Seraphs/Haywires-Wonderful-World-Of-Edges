@@ -116,10 +116,10 @@
 	variantgroups: [
 		{ code: "construction", states: [ "crude", "woodmetal", "woodmetalleather", "metal", ] }
 	],
-	creativeinventory: { "general": ["buckler-crude",],"vanillaarmory": ["buckler-crude",], "items": ["buckler-crude",], "tools": ["buckler-crude",] },
+	creativeinventory: { "general": ["buckler-crude",],"worldofedges": ["buckler-crude",], "items": ["buckler-crude",], "tools": ["buckler-crude",] },
 	shapeByType: {
 		"buckler-crude": { base: "game:item/tool/shield/rough" },
-		"*": { base: "vanillaarmory:shapes/item/tool/shield/buckler" }
+		"*": { base: "worldofedges:shapes/item/tool/shield/buckler" }
 	},
 	durabilitybytype: {
 		"buckler-crude": 80,

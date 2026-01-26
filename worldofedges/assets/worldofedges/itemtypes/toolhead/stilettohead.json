@@ -5,7 +5,7 @@
 	],
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shapeByType: {
-		"*": { "base": "vanillaarmory:shapes/item/tool/blade/stilettohead" },
+		"*": { "base": "worldofedges:shapes/item/tool/blade/stilettohead" },
 		
 	},
 	texturesByType: {

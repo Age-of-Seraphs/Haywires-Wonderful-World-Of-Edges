@@ -5,7 +5,7 @@
 	],
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shapeByType: {
-		"*": { "base": "vanillaarmory:shapes/item/tool/blade/daggerhead" },
+		"*": { "base": "worldofedges:shapes/item/tool/blade/daggerhead" },
 		
 	},
 	texturesByType: {
@@ -19,7 +19,7 @@
 			}
 		}
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"] },
 	fpHandTransform: {
 		translation: { x: -0.5, y: -0.4, z: 0 },
 		rotation: { x: 25, y: 0, z: 86 },

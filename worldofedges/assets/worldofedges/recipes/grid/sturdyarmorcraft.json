@@ -19,7 +19,7 @@
 		"name": "sturdy helmet",
 		"output": {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-head"
+			"code": "worldofedges:sturdyleatherarmor-head"
 		}
 	},
 	{
@@ -47,7 +47,7 @@
 		"name": "sturdy body armor",
 		"output": {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-body"
+			"code": "worldofedges:sturdyleatherarmor-body"
 		}
 	},
 	{
@@ -63,7 +63,7 @@
 		name: "sturdy leg armor",
 		output: {
 			"type": "item",
-			"code": "vanillaarmory:sturdyleatherarmor-legs"
+			"code": "worldofedges:sturdyleatherarmor-legs"
 		}
 	}
 ]

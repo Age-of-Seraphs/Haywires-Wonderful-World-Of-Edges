@@ -6,7 +6,7 @@
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shapeByType: {
 				
-		"boarhead-*": { base: "vanillaarmory:shapes/item/tool/spear/boarhead" }
+		"boarhead-*": { base: "worldofedges:shapes/item/tool/spear/boarhead" }
 
 
 
@@ -22,7 +22,7 @@
 			rotation: { x: -67, y: -6, z: -174 }
 		}
 	},
-	creativeinventory: { "general": ["*"], "vanillaarmory": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "worldofedges": ["*"], "items": ["*"] },
 	guiTransformByType: {
 		"*": {
 			translation: { x: 0, y: 0, z: 0 },

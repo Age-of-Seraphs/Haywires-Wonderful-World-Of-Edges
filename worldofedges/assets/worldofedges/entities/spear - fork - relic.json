@@ -20,11 +20,11 @@
 		renderer: "Shape",
 		shapeByType: {
 			
-			"spear-fork-*": { base: "vanillaarmory:item/tool/spear/forkrelic", offsetX: -0.8125 },
+			"spear-fork-*": { base: "worldofedges:item/tool/spear/forkrelic", offsetX: -0.8125 },
 			
 		},
 		texturesByType: {
-			"spear-fork-*": { "blackbronze": { base: "vanillaarmory:{material}" }, 
+			"spear-fork-*": { "blackbronze": { base: "worldofedges:{material}" }, 
 				"handle": { base: "game:block/wood/debarked/veryaged"} 
 			},
 		},

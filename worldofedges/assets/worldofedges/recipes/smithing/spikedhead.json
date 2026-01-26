@@ -39,5 +39,5 @@
 ],
 		],
 	name: "spiked mace head",
-	output: { type: "item", code: "vanillaarmory:spikedhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:spikedhead-{metal}"  }
 }

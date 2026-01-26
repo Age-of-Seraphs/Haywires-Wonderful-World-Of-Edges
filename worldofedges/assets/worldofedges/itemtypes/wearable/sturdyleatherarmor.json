@@ -18,7 +18,7 @@
 	"texturesByType": {
 		"*sturdyleatherarmor-*": {
 			"seraph": { "base": "game:block/transparent" },
-			"material": { "base": "vanillaarmory:sturdyleatherarmor" }
+			"material": { "base": "worldofedges:sturdyleatherarmor" }
 		}
 
 	},
@@ -69,7 +69,7 @@
 		"creativeinventory": {
 			"general": [ "*" ],
 			"items": [ "*" ],
-		 "vanillaarmory": ["*"],
+		 "worldofedges": ["*"],
 			"clothing": [ "*" ],
 		},
 		"renderAlphaTest": 0.25,

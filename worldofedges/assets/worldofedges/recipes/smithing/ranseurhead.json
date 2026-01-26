@@ -11,7 +11,7 @@
 "__*****__",
 	]],
 	name: "Ranseur spear blade",
-	output: { type: "item", code: "vanillaarmory:ranseurhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:ranseurhead-{metal}"  }
 }
 
 

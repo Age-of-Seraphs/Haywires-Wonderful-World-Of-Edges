@@ -20,8 +20,8 @@
 		renderer: "Shape",
 		shapeByType: {
 
-			"spear-fork-gold": { base: "vanillaarmory:item/tool/spear/fork-ornate", offsetX: -0.8125 },
-			"spear-fork-silver": { base: "vanillaarmory:item/tool/spear/fork-ornate", offsetX: -0.8125 },
+			"spear-fork-gold": { base: "worldofedges:item/tool/spear/fork-ornate", offsetX: -0.8125 },
+			"spear-fork-silver": { base: "worldofedges:item/tool/spear/fork-ornate", offsetX: -0.8125 },
 			"spear-fork-*": { base: "game:item/tool/spear/fork", offsetX: -0.8125 },
 			
 		},

@@ -87,8 +87,8 @@
 		"knife-khanjar-*",
 	],
 	shapeByType: {
-		"knife-khanjar-silver": { "base": "vanillaarmory:shapes/item/tool/blade/khanjar-ornate" },
-		"knife-khanjar-gold": { "base": "vanillaarmory:shapes/item/tool/blade/khanjar-ornate" },
+		"knife-khanjar-silver": { "base": "worldofedges:shapes/item/tool/blade/khanjar-ornate" },
+		"knife-khanjar-gold": { "base": "worldofedges:shapes/item/tool/blade/khanjar-ornate" },
 
 
 		"*": { base: "game:item/tool/knife/khanjar" }
@@ -184,7 +184,7 @@
 
 		
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	fpHandTransformByType: {
 		"*-ruined": {
 			translation: { x: 0.2, y: 0, z: 0.5 },

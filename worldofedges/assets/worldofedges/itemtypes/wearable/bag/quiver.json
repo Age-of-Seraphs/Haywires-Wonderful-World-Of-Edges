@@ -47,10 +47,10 @@
 
 
 texturesByType: {
-		"*-crude": {"quiver": { base: "vanillaarmory:quivercrude"} },
-		"*-hide": {"quiver": { base: "vanillaarmory:quiverhide" } },
-		"*-leather": {"quiver": { base: "vanillaarmory:quiverleather" } },
-		"*-sturdy": {"quiver": { base: "vanillaarmory:quiversturdy" } },
+		"*-crude": {"quiver": { base: "worldofedges:quivercrude"} },
+		"*-hide": {"quiver": { base: "worldofedges:quiverhide" } },
+		"*-leather": {"quiver": { base: "worldofedges:quiverleather" } },
+		"*-sturdy": {"quiver": { base: "worldofedges:quiversturdy" } },
 	},
 
 
@@ -58,7 +58,7 @@ texturesByType: {
 
 
 	storageFlags: 2,
-	creativeinventory: { "general": ["*"], "vanillaarmory": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "worldofedges": ["*"], "items": ["*"] },
 	guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: -47, y: 1, z: -17 },

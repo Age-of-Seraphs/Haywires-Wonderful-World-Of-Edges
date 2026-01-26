@@ -19,7 +19,7 @@
 		"spear-fork-*",
 	],
 	shapeByType: {
-		"*": { base: "vanillaarmory:shapes/item/tool/spear/fork-ornate" }
+		"*": { base: "worldofedges:shapes/item/tool/spear/fork-ornate" }
 	},
 	heldTpIdleAnimation: "spearidle",
 	heldRightReadyAnimation: "spearidle",
@@ -79,7 +79,7 @@
 		},
 		spearEntityCodeByType: {
 
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 
 		},
 		handbook: {
@@ -100,7 +100,7 @@
 		"spear-fork-silver": 228,
 
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"*": {

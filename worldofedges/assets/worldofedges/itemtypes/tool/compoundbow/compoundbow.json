@@ -10,15 +10,15 @@
 		"bow-yager": 800
 	},
 	shape: {
-		base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}",
+		base: "worldofedges:shapes/item/tool/bow/compoundbow/{type}",
 		alternates: [
-			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge1" },
-			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge2" },
-			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge3" }
+			{ base: "worldofedges:shapes/item/tool/bow/compoundbow/{type}-charge1" },
+			{ base: "worldofedges:shapes/item/tool/bow/compoundbow/{type}-charge2" },
+			{ base: "worldofedges:shapes/item/tool/bow/compoundbow/{type}-charge3" }
 		]
 	},
 	tool: "bow",
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
 		heldItemPitchFollow: 1,
 		aimAnimationByType: {
@@ -75,8 +75,8 @@
 			attachableToEntity: {
 				categoryCode: "utilities",
 				attachedShapeBySlotCode: {
-					"frontrightside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponr-bow-yager" },
-					"frontleftside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponl-bow-yager" }
+					"frontrightside": { base: "worldofedges:item/wearable/hooved/elk/weaponr-bow-yager" },
+					"frontleftside": { base: "worldofedges:item/wearable/hooved/elk/weaponl-bow-yager" }
 				}
 			}				
 		},
@@ -84,8 +84,8 @@
 			attachableToEntity: {
 				categoryCode: "utilities",
 				attachedShapeBySlotCode: {
-					"frontrightside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponr-bow-ranger" },
-					"frontleftside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponl-bow-ranger" }
+					"frontrightside": { base: "worldofedges:item/wearable/hooved/elk/weaponr-bow-ranger" },
+					"frontleftside": { base: "worldofedges:item/wearable/hooved/elk/weaponl-bow-ranger" }
 				}
 			}				
 		}

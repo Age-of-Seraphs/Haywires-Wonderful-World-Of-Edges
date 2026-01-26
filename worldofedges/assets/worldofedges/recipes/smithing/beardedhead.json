@@ -11,5 +11,5 @@
 "_##____",
 	]],
 	name: "Bearded axe blade",
-	output: { type: "item", code: "vanillaarmory:beardedhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:beardedhead-{metal}"  }
 }

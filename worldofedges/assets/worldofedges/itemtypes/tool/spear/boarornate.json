@@ -19,7 +19,7 @@
 		"spear-boar-*",
 	],
 	shapeByType: {
-		"*": { base: "vanillaarmory:shapes/item/tool/spear/boar-ornate" }
+		"*": { base: "worldofedges:shapes/item/tool/spear/boar-ornate" }
 	},
 	heldTpIdleAnimation: "spearidle",
 	heldRightReadyAnimation: "spearidle",
@@ -83,7 +83,7 @@
 		},
 		spearEntityCodeByType: {
 
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 
 		},
 		handbook: {
@@ -104,7 +104,7 @@
 		"spear-boar-silver": 456,
 			
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"*": {

@@ -26,5 +26,5 @@
 
 		],
 	name: "warhammer head",
-	output: { type: "item", code: "vanillaarmory:warhammerhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:warhammerhead-{metal}"  }
 }

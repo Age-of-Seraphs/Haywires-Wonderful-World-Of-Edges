@@ -47,8 +47,8 @@ attributes: {
 		"club-flanged-*"
 	],
 	shapeByType: {
-		"club-flanged-silver": { "base": "vanillaarmory:shapes/item/tool/club/flanged-ornate" },
-		"club-flanged-gold": { "base": "vanillaarmory:shapes/item/tool/club/flanged-ornate" },
+		"club-flanged-silver": { "base": "worldofedges:shapes/item/tool/club/flanged-ornate" },
+		"club-flanged-gold": { "base": "worldofedges:shapes/item/tool/club/flanged-ornate" },
 
 
 		"club-flanged-*": { base: "game:item/tool/club/flanged" },
@@ -212,7 +212,7 @@ attributes: {
 		"club-flanged-silver": 5.83,
 	},
 	creativeinventory: { 
-		"general": ["*"],  "vanillaarmory": ["*"], 
+		"general": ["*"],  "worldofedges": ["*"], 
 		"items": ["*"], 
 		"tools": ["*"],
 		"clutterByType": { "*-ruined": ["*"] }

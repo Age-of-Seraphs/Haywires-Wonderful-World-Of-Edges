@@ -69,7 +69,7 @@
 			"*-steel": 4,
 		},
 		spearEntityCodeByType: {
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 		},
 		handbook: {
 			groupBy: ["spear-*"]
@@ -89,7 +89,7 @@
 		"spear-generic-meteoriciron": 360,
 		"spear-generic-steel": 420,
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"spear-generic-*": {

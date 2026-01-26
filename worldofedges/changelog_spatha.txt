@@ -1,0 +1,8 @@
+Spatha & Gladius , Spatha is steel only, Gladius iron only, both require whetstones and have four different blades that can be upgraded.
+Swordsman :   Arming Sword, Gladius, Pernach, Spatha, Stiletto, Zwei,
+Spatha : 
+Attack : 
+Blunt : 2>2.3
+Dull : 4>4.8
+Sharp : 5>5.3
+Honed : 6>5.6

@@ -2,11 +2,11 @@
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:betterspearhead-*", name: "material", allowedVariants: [ "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:betterspearhead-*", name: "material", allowedVariants: [ "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:spear-generic-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-generic-{material}", quantity: 1  }
 	}
 ]

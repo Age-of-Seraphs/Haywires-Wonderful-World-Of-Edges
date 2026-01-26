@@ -20,8 +20,8 @@
 		renderer: "Shape",
 		shapeByType: {
 			
-			"spear-boar-gold": { base: "vanillaarmory:item/tool/spear/boar-ornate", offsetX: -0.8125 },
-			"spear-boar-silver": { base: "vanillaarmory:item/tool/spear/boar-ornate", offsetX: -0.8125 },
+			"spear-boar-gold": { base: "worldofedges:item/tool/spear/boar-ornate", offsetX: -0.8125 },
+			"spear-boar-silver": { base: "worldofedges:item/tool/spear/boar-ornate", offsetX: -0.8125 },
 			"spear-boar-*": { base: "game:item/tool/spear/boar", offsetX: -0.8125 },
 			
 		},

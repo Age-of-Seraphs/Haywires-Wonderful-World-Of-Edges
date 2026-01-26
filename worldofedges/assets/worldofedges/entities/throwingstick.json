@@ -1,6 +1,6 @@
 {
 	"code": "throwingstick",
-	"class": "vanillaarmory.entitythrowingstick",
+	"class": "worldofedges.entitythrowingstick",
 	"hitboxSize": { "x": 0.125, "y": 0.125 },
 	"variantgroups": [
 		{ "code": "material", "states": ["wood", "bone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
@@ -8,7 +8,7 @@
 	"client": {
 		"renderer": "Shape",
 		"shapeByType": {
-			"*": { "base": "vanillaarmory:item/tool/huntingstick", "offsetX": -0.08125 }
+			"*": { "base": "worldofedges:item/tool/huntingstick", "offsetX": -0.08125 }
 		},
 		"texturesByType": {
 			"throwingstick-wood": { 

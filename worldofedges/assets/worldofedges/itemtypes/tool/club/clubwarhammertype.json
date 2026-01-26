@@ -48,8 +48,8 @@ attributes: {
 		"club-warhammer-*",
 	],
 	shapeByType: {
-		"club-warhammer-silver": { "base": "vanillaarmory:shapes/item/tool/club/warhammer-ornate" },
-		"club-warhammer-gold": { "base": "vanillaarmory:shapes/item/tool/club/warhammer-ornate" },
+		"club-warhammer-silver": { "base": "worldofedges:shapes/item/tool/club/warhammer-ornate" },
+		"club-warhammer-gold": { "base": "worldofedges:shapes/item/tool/club/warhammer-ornate" },
 
 		"club-warhammer-*": { base: "game:item/tool/club/warhammer" },
 		
@@ -249,7 +249,7 @@ attributes: {
 
 	},
 	creativeinventory: { 
-		"general": ["*"],  "vanillaarmory": ["*"], 
+		"general": ["*"],  "worldofedges": ["*"], 
 		"items": ["*"], 
 		"tools": ["*"],
 		"clutterByType": { "*-ruined": ["*"] }

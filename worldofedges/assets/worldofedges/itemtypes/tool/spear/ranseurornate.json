@@ -19,7 +19,7 @@
 		"spear-ranseur-*",
 	],
 	shapeByType: {
-		"*": { base: "vanillaarmory:shapes/item/tool/spear/ranseur-ornate" }
+		"*": { base: "worldofedges:shapes/item/tool/spear/ranseur-ornate" }
 	},
 	heldTpIdleAnimation: "spearidle",
 	heldRightReadyAnimation: "spearidle",
@@ -81,7 +81,7 @@
 		},
 		spearEntityCodeByType: {
 
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 
 		},
 		handbook: {
@@ -102,7 +102,7 @@
 		"spear-ranseur-gold": 342,
 		
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"*": {

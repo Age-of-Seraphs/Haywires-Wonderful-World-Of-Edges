@@ -8,36 +8,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic0" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic1" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic1" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
@@ -46,12 +46,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic2" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
 
@@ -60,36 +60,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic2" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic3" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic3" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
@@ -98,12 +98,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-flanged-relic4" },
+			"T": { type: "item", code: "worldofedges:club-flanged-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
 
@@ -112,7 +112,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-flanged-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-flanged-relic4", quantity: 1  }
 	},
 
 
@@ -142,36 +142,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic0" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic1" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic1" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
@@ -180,12 +180,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic2" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
 
@@ -194,36 +194,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic2" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic3" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic3" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
@@ -232,12 +232,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-spiked-relic4" },
+			"T": { type: "item", code: "worldofedges:club-spiked-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
 
@@ -246,7 +246,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-spiked-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-spiked-relic4", quantity: 1  }
 	},
 
 
@@ -269,36 +269,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic0" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic1" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic1" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -307,12 +307,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic2" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -321,36 +321,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic2" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic3" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic3" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -359,12 +359,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-warhammer-relic4" },
+			"T": { type: "item", code: "worldofedges:club-warhammer-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -373,7 +373,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-warhammer-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-warhammer-relic4", quantity: 1  }
 	},
 
 
@@ -399,36 +399,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic0" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic1" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic1" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -437,12 +437,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic2" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -451,36 +451,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic2" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic3" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic3" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -489,12 +489,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-morningstar-relic4" },
+			"T": { type: "item", code: "worldofedges:club-morningstar-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -503,24 +503,24 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-morningstar-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-morningstar-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-*-relic5", name: "club", allowedVariants: ["morningstar", "warhammer"] },
+			"T": { type: "item", code: "worldofedges:club-*-relic5", name: "club", allowedVariants: ["morningstar", "warhammer"] },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-{club}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-{club}-relic5", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H__,GMD,T__",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-*-relic4", name: "club", allowedVariants: ["morningstar", "warhammer"] },
+			"T": { type: "item", code: "worldofedges:club-*-relic4", name: "club", allowedVariants: ["morningstar", "warhammer"] },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
 			"D": { type: "item", code: "game:gem-diamond-rough"},
@@ -528,24 +528,24 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-{club}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-{club}-relic5", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-*-relic5", name: "club", allowedVariants: ["flanged", "spiked"] },
+			"T": { type: "item", code: "worldofedges:club-*-relic5", name: "club", allowedVariants: ["flanged", "spiked"] },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 2  },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:club-{club}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-{club}-relic5", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H__,GMD,T__",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:club-*-relic4", name: "club", allowedVariants: ["flanged", "spiked"] },
+			"T": { type: "item", code: "worldofedges:club-*-relic4", name: "club", allowedVariants: ["flanged", "spiked"] },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 2  },
 			"D": { type: "item", code: "game:gem-diamond-rough"},
@@ -553,7 +553,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:club-{club}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:club-{club}-relic5", quantity: 1  }
 	},
 
 

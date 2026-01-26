@@ -23,5 +23,5 @@
 ],
 		],
 	name: "morningstar head",
-	output: { type: "item", code: "vanillaarmory:morningstarhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:morningstarhead-{metal}"  }
 }

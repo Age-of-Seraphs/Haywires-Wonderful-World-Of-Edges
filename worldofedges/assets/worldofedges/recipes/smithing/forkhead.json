@@ -11,7 +11,7 @@
 "____*____",
 	]],
 	name: "War fork blade",
-	output: { type: "item", code: "vanillaarmory:forkhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:forkhead-{metal}"  }
 }
 
 

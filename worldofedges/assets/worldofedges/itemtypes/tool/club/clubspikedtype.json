@@ -46,8 +46,8 @@ attributes: {
 		"club-spiked-*"
 	],
 	shapeByType: {
-		"club-spiked-silver": { "base": "vanillaarmory:shapes/item/tool/club/spiked-ornate" },
-		"club-spiked-gold": { "base": "vanillaarmory:shapes/item/tool/club/spiked-ornate" },
+		"club-spiked-silver": { "base": "worldofedges:shapes/item/tool/club/spiked-ornate" },
+		"club-spiked-gold": { "base": "worldofedges:shapes/item/tool/club/spiked-ornate" },
 
 		"club-spiked-*": { base: "game:item/tool/club/spiked" },
 		
@@ -210,7 +210,7 @@ attributes: {
 
 	},
 	creativeinventory: { 
-		"general": ["*"],  "vanillaarmory": ["*"], 
+		"general": ["*"],  "worldofedges": ["*"], 
 		"items": ["*"], 
 		"tools": ["*"],
 		"clutterByType": { "*-ruined": ["*"] }

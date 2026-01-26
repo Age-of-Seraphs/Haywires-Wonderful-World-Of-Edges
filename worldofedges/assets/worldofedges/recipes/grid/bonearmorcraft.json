@@ -26,7 +26,7 @@
 		"name": "bone helmet",
 		"output": {
 			"type": "item",
-			"code": "vanillaarmory:bonearmor-head"
+			"code": "worldofedges:bonearmor-head"
 		}
 	},
 	{
@@ -55,7 +55,7 @@
 		"name": "bone body armor",
 		"output": {
 			"type": "item",
-			"code": "vanillaarmory:bonearmor-body"
+			"code": "worldofedges:bonearmor-body"
 		}
 	},
 	{
@@ -84,7 +84,7 @@
 		name: "bone leg armor",
 		output: {
 			"type": "item",
-			"code": "vanillaarmory:bonearmor-legs"
+			"code": "worldofedges:bonearmor-legs"
 		}
 	}
 ]

@@ -6,7 +6,7 @@ lightHsv: [28, 4, 16],
 	"durability": 1000,
 	"creativeinventory": {
 		"general": [ "*" ],
-		"vanillaarmory": ["*"],
+		"worldofedges": ["*"],
 		"items": ["*"],
 		"tools": ["*"]
 	},
@@ -51,7 +51,7 @@ lightHsv: [28, 4, 16],
 		"rotateZ": 0
 	},
 
-	"shape": { "base": "vanillaarmory:item/tool/shield/forlornshield" },
+	"shape": { "base": "worldofedges:item/tool/shield/forlornshield" },
 
 	"behaviors": [
 		{

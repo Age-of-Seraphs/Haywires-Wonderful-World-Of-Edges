@@ -7,7 +7,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-crude", quantity: 1  }
 	},
 	{
 		ingredientPattern: "TTT,STS,TTT",
@@ -17,7 +17,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-crude", quantity: 1  }
 	},
 	{
 		ingredientPattern: "TTT,STS,TTT",
@@ -27,7 +27,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-crude", quantity: 1  }
 	},
 
 
@@ -42,7 +42,7 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-hide", quantity: 1  }
 	},
 	{
 		ingredientPattern: "SHS",
@@ -52,7 +52,7 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-hide", quantity: 1  }
 	},
 	{
 		ingredientPattern: "SHS",
@@ -62,7 +62,7 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-hide", quantity: 1  }
 	},
 
 
@@ -75,7 +75,7 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", code: "vanillaarmory:quiver-leather", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-leather", quantity: 1  }
 	},
 
 	{
@@ -86,7 +86,7 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", code: "vanillaarmory:quiver-sturdy", quantity: 1  }
+		output: { type: "item", code: "worldofedges:quiver-sturdy", quantity: 1  }
 	},
 
 

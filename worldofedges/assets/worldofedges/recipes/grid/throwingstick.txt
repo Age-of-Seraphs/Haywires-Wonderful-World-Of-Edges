@@ -8,26 +8,26 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:throwingstick-wood", quantity: 1  }
+		output: { type: "item", code: "worldofedges:throwingstick-wood", quantity: 1  }
 	},
 	{
 		ingredientPattern:"H,B",
 		ingredients: {
-			"H": { type: "item", code: "vanillaarmory:throwingstick-wood"},
+			"H": { type: "item", code: "worldofedges:throwingstick-wood"},
 			"B": { type: "item", code: "game:bone"}
 	},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:throwingstick-bone", quantity: 1  }
+		output: { type: "item", code: "worldofedges:throwingstick-bone", quantity: 1  }
 	},
 	{
 		ingredientPattern:"H,N",
 		ingredients: {
-			"H": { type: "item", code: "vanillaarmory:throwingstick-wood"},
+			"H": { type: "item", code: "worldofedges:throwingstick-wood"},
 			"N": { type: "item", code: "game:metalnailsandstrips-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
 	},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:throwingstick-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:throwingstick-{material}", quantity: 1  }
 	}
 ]

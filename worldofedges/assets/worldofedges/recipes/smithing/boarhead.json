@@ -11,7 +11,7 @@
 "__*****__",
 	]],
 	name: "Boar spear blade",
-	output: { type: "item", code: "vanillaarmory:boarhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:boarhead-{metal}"  }
 }
 
 

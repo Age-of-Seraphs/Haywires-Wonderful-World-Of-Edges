@@ -20,12 +20,12 @@
 		renderer: "Shape",
 		shapeByType: {
 			
-			"spear-ranseur-*": { base: "vanillaarmory:item/tool/spear/ranseurrelic", offsetX: -0.8125 },
+			"spear-ranseur-*": { base: "worldofedges:item/tool/spear/ranseurrelic", offsetX: -0.8125 },
 			
 		},
 		texturesByType: {
 			"spear-ranseur-*": { 
-				"metal": { base: "vanillaarmory:{material}" }, 
+				"metal": { base: "worldofedges:{material}" }, 
 				"wood": { base: "game:block/wood/debarked/veryaged"} 
 			},
 		},

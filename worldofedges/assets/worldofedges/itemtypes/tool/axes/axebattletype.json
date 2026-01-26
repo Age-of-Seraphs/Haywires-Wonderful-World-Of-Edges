@@ -89,8 +89,8 @@
 		
 	],
 	shapeByType: {
-		"axe-battle-gold": { "base": "vanillaarmory:shapes/item/tool/axe/battle-ornate" },
-		"axe-battle-silver": { "base": "vanillaarmory:shapes/item/tool/axe/battle-ornate" },
+		"axe-battle-gold": { "base": "worldofedges:shapes/item/tool/axe/battle-ornate" },
+		"axe-battle-silver": { "base": "worldofedges:shapes/item/tool/axe/battle-ornate" },
 		"axe-battle-*": { "base": "game:item/tool/axe/battle" },
 		
 	},
@@ -188,7 +188,7 @@
 		"axe-battle-steel": 6.89,
 
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "worldofedges": ["*"], "clutterByType": { "*-ruined": ["*"] } },
 
 	fpHandTransform: {
 		translation: { x: -0.3, y: -0.5, z: 0.3 },

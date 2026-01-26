@@ -15,5 +15,5 @@
 "_______#_______",
 	]],
 	name: "Gladius blade",
-	output: { type: "item", code: "vanillaarmory:gladiushead-{metal}"  }
+	output: { type: "item", code: "worldofedges:gladiushead-{metal}"  }
 }

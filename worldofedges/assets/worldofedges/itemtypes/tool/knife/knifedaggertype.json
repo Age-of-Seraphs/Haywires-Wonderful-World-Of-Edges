@@ -87,8 +87,8 @@
 		"knife-dagger-*",
 	],
 	shapeByType: {
-		"knife-dagger-silver": { "base": "vanillaarmory:shapes/item/tool/blade/dagger-ornate" },
-		"knife-dagger-gold": { "base": "vanillaarmory:shapes/item/tool/blade/dagger-ornate" },
+		"knife-dagger-silver": { "base": "worldofedges:shapes/item/tool/blade/dagger-ornate" },
+		"knife-dagger-gold": { "base": "worldofedges:shapes/item/tool/blade/dagger-ornate" },
 
 
 		"*": { base: "game:item/tool/knife/dagger" }
@@ -183,7 +183,7 @@
 
 		
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	fpHandTransformByType: {
 		"*-ruined": {
 			translation: { x: 0.2, y: 0, z: 0.5 },

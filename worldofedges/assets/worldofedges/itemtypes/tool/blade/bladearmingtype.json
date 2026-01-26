@@ -90,8 +90,8 @@
 
 	],
 	shapeByType: {
-		"blade-arming-gold": { base: "vanillaarmory:shapes/item/tool/blade/arming-ornate" },
-		"blade-arming-silver": { base: "vanillaarmory:shapes/item/tool/blade/arming-ornate" },
+		"blade-arming-gold": { base: "worldofedges:shapes/item/tool/blade/arming-ornate" },
+		"blade-arming-silver": { base: "worldofedges:shapes/item/tool/blade/arming-ornate" },
 		"blade-arming-*": { base: "game:item/tool/blade/arming" },
 		
 	},

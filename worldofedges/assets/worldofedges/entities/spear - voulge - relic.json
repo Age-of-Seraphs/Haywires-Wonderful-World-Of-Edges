@@ -20,11 +20,11 @@
 		renderer: "Shape",
 		shapeByType: {
 			
-			"spear-voulge-*": { base: "vanillaarmory:item/tool/spear/voulgerelic", offsetX: -0.8125 }
+			"spear-voulge-*": { base: "worldofedges:item/tool/spear/voulgerelic", offsetX: -0.8125 }
 			
 		},
 		texturesByType: {
-			"spear-voulge-*": { "blackbronze": { base: "vanillaarmory:{material}" }, 
+			"spear-voulge-*": { "blackbronze": { base: "worldofedges:{material}" }, 
 				"handle": { base: "game:block/wood/debarked/veryaged"} 
 			},
 		},

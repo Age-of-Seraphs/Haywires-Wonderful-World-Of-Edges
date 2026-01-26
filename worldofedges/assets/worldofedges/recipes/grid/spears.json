@@ -2,12 +2,12 @@
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:boarhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:boarhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:spear-boar-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-boar-{material}", quantity: 1  }
 	},
 
 
@@ -20,46 +20,46 @@
 	{
 		ingredientPattern: "T,S,P",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:boarhead-steel" },
+			"T": { type: "item", code: "worldofedges:boarhead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:spear-boar-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-boar-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,S,P",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:forkhead-steel" },
+			"T": { type: "item", code: "worldofedges:forkhead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:spear-fork-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-fork-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,S,P",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:voulgehead-steel" },
+			"T": { type: "item", code: "worldofedges:voulgehead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:spear-voulge-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-voulge-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,S,P",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:ranseurhead-steel" },
+			"T": { type: "item", code: "worldofedges:ranseurhead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:spear-ranseur-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-ranseur-{material}", quantity: 1  }
 	},
 
 
@@ -74,33 +74,33 @@
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:forkhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:forkhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:spear-fork-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-fork-{material}", quantity: 1  }
 	},
 
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:voulgehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:voulgehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:spear-voulge-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-voulge-{material}", quantity: 1  }
 	},
 
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:ranseurhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:ranseurhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:spear-ranseur-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:spear-ranseur-{material}", quantity: 1  }
 	},
 ]

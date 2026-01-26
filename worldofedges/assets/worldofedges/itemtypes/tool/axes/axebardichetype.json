@@ -87,8 +87,8 @@
 
 	],
 	shapeByType: {
-		"axe-bardiche-silver": { "base": "vanillaarmory:shapes/item/tool/axe/bardiche-ornate" },
-		"axe-bardiche-gold": { "base": "vanillaarmory:shapes/item/tool/axe/bardiche-ornate" },
+		"axe-bardiche-silver": { "base": "worldofedges:shapes/item/tool/axe/bardiche-ornate" },
+		"axe-bardiche-gold": { "base": "worldofedges:shapes/item/tool/axe/bardiche-ornate" },
 		"axe-bardiche-*": { "base": "game:item/tool/axe/bardiche" },
 	},
 
@@ -182,7 +182,7 @@
 		"axe-bardiche-steel": 7.42,
 		
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "worldofedges": ["*"], "clutterByType": { "*-ruined": ["*"] } },
 
 	fpHandTransform: {
 		translation: { x: -0.3, y: -0.5, z: 0.3 },

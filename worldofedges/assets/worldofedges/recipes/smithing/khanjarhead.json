@@ -13,5 +13,5 @@
 "_______#_______",
 	]],
 	name: "Khanjar blade",
-	output: { type: "item", code: "vanillaarmory:khanjarhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:khanjarhead-{metal}"  }
 }

@@ -6,7 +6,7 @@
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shapeByType: {
 				
-		"voulgehead-*": { base: "vanillaarmory:shapes/item/tool/spear/voulgehead" }
+		"voulgehead-*": { base: "worldofedges:shapes/item/tool/spear/voulgehead" }
 
 	},
 	texturesByType: {

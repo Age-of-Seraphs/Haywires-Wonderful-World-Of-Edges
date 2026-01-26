@@ -90,8 +90,8 @@
 		"knife-baselard-*",
 	],
 	shapeByType: {
-		"knife-baselard-silver": { "base": "vanillaarmory:shapes/item/tool/blade/baselard-ornate" },
-		"knife-baselard-gold": { "base": "vanillaarmory:shapes/item/tool/blade/baselard-ornate" },
+		"knife-baselard-silver": { "base": "worldofedges:shapes/item/tool/blade/baselard-ornate" },
+		"knife-baselard-gold": { "base": "worldofedges:shapes/item/tool/blade/baselard-ornate" },
 
 		"*": { base: "game:item/tool/knife/baselard" }
 	},
@@ -188,7 +188,7 @@
 
 		
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	fpHandTransformByType: {
 		"*-ruined": {
 			translation: { x: 0.2, y: 0, z: 0.5 },

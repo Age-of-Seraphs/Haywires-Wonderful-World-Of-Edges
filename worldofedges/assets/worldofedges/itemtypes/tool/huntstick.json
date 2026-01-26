@@ -1,6 +1,6 @@
 {
 	"code": "throwingstick",
-	"class": "vanillaarmory.throwingstick",
+	"class": "worldofedges.throwingstick",
 	"storageFlags": 513,
 	"tool": "spear",
 	"attributes": {
@@ -14,7 +14,7 @@
 		},
 
 		throwingStickEntityCodeByType: {
-	"*": "vanillaarmory:throwingstick-{material}",
+	"*": "worldofedges:throwingstick-{material}",
 		},
 
 		"__comment": "Thrown damage",
@@ -59,7 +59,7 @@
 		{ "code": "material", "states": ["wood", "bone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
 	],
 	"shapeByType": {
-		"*": { "base": "vanillaarmory:item/tool/huntingstick" }
+		"*": { "base": "worldofedges:item/tool/huntingstick" }
 	},
 	"texturesByType": {
 
@@ -91,7 +91,7 @@
 	"damageTypeByType": {
 		"*": "PiercingAttack"
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "worldofedges": ["*"] },
 
 
 

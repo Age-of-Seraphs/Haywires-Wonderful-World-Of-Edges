@@ -20,11 +20,11 @@
 		renderer: "Shape",
 		shapeByType: {
 			
-			"spear-boar-*": { base: "vanillaarmory:item/tool/spear/boarrelic", offsetX: -0.8125 },
+			"spear-boar-*": { base: "worldofedges:item/tool/spear/boarrelic", offsetX: -0.8125 },
 			
 		},
 		texturesByType: {
-			"spear-boar-*": { "blackbronze": { base: "vanillaarmory:{material}" }, 
+			"spear-boar-*": { "blackbronze": { base: "worldofedges:{material}" }, 
 				"handle": { base: "game:block/wood/debarked/veryaged"} 
 			},
 		},

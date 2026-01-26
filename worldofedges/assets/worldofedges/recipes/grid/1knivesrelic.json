@@ -8,36 +8,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic0" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -46,12 +46,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -60,36 +60,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -98,12 +98,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-baselard-relic4" },
+			"T": { type: "item", code: "worldofedges:knife-baselard-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -112,7 +112,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-baselard-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-baselard-relic4", quantity: 1  }
 	},
 
 
@@ -142,36 +142,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic0" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -180,12 +180,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -194,36 +194,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -232,12 +232,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-dagger-relic4" },
+			"T": { type: "item", code: "worldofedges:knife-dagger-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -246,7 +246,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-dagger-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-dagger-relic4", quantity: 1  }
 	},
 
 
@@ -269,36 +269,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic0" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -307,12 +307,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -321,36 +321,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -359,12 +359,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-stiletto-relic4" },
+			"T": { type: "item", code: "worldofedges:knife-stiletto-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -373,7 +373,7 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-stiletto-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-stiletto-relic4", quantity: 1  }
 	},
 
 
@@ -399,36 +399,36 @@
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic0", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic0", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic0" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic0" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic1" },
 			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic1", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic1", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic1" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic1" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
@@ -437,12 +437,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic2" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
 
@@ -451,36 +451,36 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic2", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic2", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic2" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic2" },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic3" },
 			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic3", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic3", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H_,GM,T_",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic3" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic3" },
 			"G": { type: "item", code: "game:gear-temporal" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
@@ -489,12 +489,12 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-khanjar-relic4" },
+			"T": { type: "item", code: "worldofedges:knife-khanjar-relic4" },
 
 "M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
 
@@ -503,24 +503,24 @@
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-khanjar-relic4", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-khanjar-relic4", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H,M,T",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-*-relic5", name: "knife", allowedVariants: ["khanjar", "stiletto", "dagger", "baselard"] },
+			"T": { type: "item", code: "worldofedges:knife-*-relic5", name: "knife", allowedVariants: ["khanjar", "stiletto", "dagger", "baselard"] },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
 		},
 		width: 1,
 		height: 3,
 		averageDurability: false,
-		output: { type: "item", code: "vanillaarmory:knife-{knife}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-{knife}-relic5", quantity: 1  }
 	},
 	{
 		ingredientPattern: "H__,GMD,T__",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:knife-*-relic4", name: "knife", allowedVariants: ["khanjar", "stiletto", "dagger", "baselard"] },
+			"T": { type: "item", code: "worldofedges:knife-*-relic4", name: "knife", allowedVariants: ["khanjar", "stiletto", "dagger", "baselard"] },
 			"G": { type: "item", code: "game:gear-temporal" },
 			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
 			"D": { type: "item", code: "game:gem-diamond-rough"},
@@ -528,7 +528,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:knife-{knife}-relic5", quantity: 1  }
+		output: { type: "item", code: "worldofedges:knife-{knife}-relic5", quantity: 1  }
 	}
 
 

@@ -5,7 +5,7 @@
 	],
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shapeByType: {
-		"*": { "base": "vanillaarmory:shapes/item/tool/club/spikedhead" },
+		"*": { "base": "worldofedges:shapes/item/tool/club/spikedhead" },
 		
 	},
 	texturesByType: {

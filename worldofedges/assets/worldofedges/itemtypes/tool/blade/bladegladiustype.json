@@ -96,8 +96,8 @@
 		
 	],
 	shapeByType: {
-		"blade-gladius-gold": { base: "vanillaarmory:shapes/item/tool/blade/gladius-ornate" },
-		"blade-gladius-silver": { base: "vanillaarmory:shapes/item/tool/blade/gladius-ornate" },
+		"blade-gladius-gold": { base: "worldofedges:shapes/item/tool/blade/gladius-ornate" },
+		"blade-gladius-silver": { base: "worldofedges:shapes/item/tool/blade/gladius-ornate" },
 
 		"blade-gladius-*": { base: "game:item/tool/blade/gladius" },
 		
@@ -197,7 +197,7 @@ attributesByType: {
 		
 	},
 	creativeinventoryByType: {
-		"*": { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+		"*": { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
 	},
 	guiTransformByType: {
 		"*": 

@@ -20,8 +20,8 @@
 		renderer: "Shape",
 		shapeByType: {
 
-			"spear-ranseur-silver": { base: "vanillaarmory:item/tool/spear/ranseur-ornate", offsetX: -0.8125 },
-			"spear-ranseur-gold": { base: "vanillaarmory:item/tool/spear/ranseur-ornate", offsetX: -0.8125 },
+			"spear-ranseur-silver": { base: "worldofedges:item/tool/spear/ranseur-ornate", offsetX: -0.8125 },
+			"spear-ranseur-gold": { base: "worldofedges:item/tool/spear/ranseur-ornate", offsetX: -0.8125 },
 			"spear-ranseur-*": { base: "game:item/tool/spear/ranseur", offsetX: -0.8125 },
 			
 		},

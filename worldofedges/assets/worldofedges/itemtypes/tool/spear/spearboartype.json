@@ -112,7 +112,7 @@
 		},
 		spearEntityCodeByType: {
 
-			"*": "vanillaarmory:spear-{type}-{material}",
+			"*": "worldofedges:spear-{type}-{material}",
 
 		},
 		handbook: {
@@ -143,7 +143,7 @@
 		"spear-boar-ornatesilver": 320,
 		
 	},
-	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"] },
 	guiTransformByType: {
 		
 		"*": {

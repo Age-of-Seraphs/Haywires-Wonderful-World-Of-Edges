@@ -39,5 +39,5 @@
 ]
 		],
 	name: "Claymore blade",
-	output: { type: "item", code: "vanillaarmory:claymorehead-{metal}"  }
+	output: { type: "item", code: "worldofedges:claymorehead-{metal}"  }
 }

@@ -11,5 +11,5 @@
 "__###__",
 	]],
 	name: "Spear head",
-	output: { type: "item", code: "vanillaarmory:betterspearhead-{metal}"  }
+	output: { type: "item", code: "worldofedges:betterspearhead-{metal}"  }
 }

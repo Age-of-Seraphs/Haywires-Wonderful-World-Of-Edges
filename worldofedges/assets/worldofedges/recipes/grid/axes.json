@@ -2,12 +2,12 @@
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:bardichehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:bardichehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:axe-bardiche-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-bardiche-{material}", quantity: 1  }
 	},
 
 
@@ -15,64 +15,64 @@
 	{
 		ingredientPattern: "T,P,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:bardichehead-steel" },
+			"T": { type: "item", code: "worldofedges:bardichehead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",] }
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:axe-bardiche-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-bardiche-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,P,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:battlehead-steel" },
+			"T": { type: "item", code: "worldofedges:battlehead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",] }
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:axe-battle-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-battle-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,P,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:beardedhead-steel" },
+			"T": { type: "item", code: "worldofedges:beardedhead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",] }
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:axe-bearded-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-bearded-{material}", quantity: 1  }
 	},
 	{
 		ingredientPattern: "T,P,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:doublehead-steel" },
+			"T": { type: "item", code: "worldofedges:doublehead-steel" },
 			"S": { type: "item", code: "game:stick" },
 			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",] }
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "vanillaarmory:axe-double-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-double-{material}", quantity: 1  }
 	},
 
 
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:battlehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:battlehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:axe-battle-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-battle-{material}", quantity: 1  }
 	},
 
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:beardedhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:beardedhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
@@ -83,11 +83,11 @@
 	{
 		ingredientPattern: "T,S",
 		ingredients: {
-			"T": { type: "item", code: "vanillaarmory:doublehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"T": { type: "item", code: "worldofedges:doublehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "vanillaarmory:axe-double-{material}", quantity: 1  }
+		output: { type: "item", code: "worldofedges:axe-double-{material}", quantity: 1  }
 	},
 ]
