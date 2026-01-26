@@ -306,6 +306,8 @@
 "worldofedges:item-blade-sabre-gold": "Gold sabre",
 "worldofedges:item-blade-sabre-silver": "Silver sabre",
 
+"worldofedges:item-blade-spatha-steel": "Steel spatha blade",
+
 
 "worldofedges:item-spear-generic-iron": "Iron spear",
 "worldofedges:item-spear-generic-meteoriciron": "Meteoric iron spear",
@@ -916,6 +918,12 @@
 	"worldofedges:item-bonearmor-head": "Improvised helmet (bone)",
 "worldofedges:item-bonearmor-legs": "Improvised leg armor (bone)",
 "worldofedges:item-bonearmor-body": "Improvised body armor (bone)",
+
+	"worldofedges:item-spatha": "Steel spatha",
+	"worldofedges:itemdesc-spatha": "<font color=\"#99c9f9\">A versatile steel sword, perfect for both cutting and thrusting.</font>",
+
+	"worldofedges:item-spatha-steel": "Steel spatha",
+	"worldofedges:itemdesc-spatha-steel": "<font color=\"#99c9f9\">A versatile steel sword, perfect for both cutting and thrusting.</font>",
 
 
 

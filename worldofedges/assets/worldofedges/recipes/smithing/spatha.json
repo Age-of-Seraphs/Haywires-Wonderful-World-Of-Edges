@@ -8,5 +8,5 @@
 		"________________",
 	]],
 	name: "Spatha Blade",
-	output: { type: "item", code: "spathablade-steel-blunt"  }
+	output: { type: "item", code: "worldofedges:blade-spatha-steel"  }
 }

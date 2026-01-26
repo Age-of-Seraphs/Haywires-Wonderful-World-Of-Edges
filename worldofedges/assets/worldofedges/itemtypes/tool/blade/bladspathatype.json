@@ -1,0 +1,64 @@
+{
+	code: "blade",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	attributes: {
+		sharpenable: true,
+		onGrindstoneTransform: {
+			translation: { x: -0.2, y: 0.3, z: 0.4 },
+			rotation: { x: 50, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1
+		},
+		handbook: {
+			groupBy: ["blades"],
+			createdInWorkbench: true
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["spatha"] },
+		{ code: "metal", states: ["steel"] }
+	],
+	skipVariants: [],
+	allowedVariants: [
+		"blade-spatha-steel",
+	],
+	shapeByType: {
+		"blade-spatha-*": { base: "worldofedges:swords/spatha" }
+	},
+	textures: {
+		"metal": { base: "game:block/metal/plate/steel" },
+		"brass": { base: "game:block/transparent" },
+		"handle": { base: "game:block/transparent" }
+	},
+	tooltierbytype: {
+		"*": 1
+	},
+	durabilitybytype: {
+		"*": 100
+	},
+	creativeinventory: { "general": ["*"], "worldofedges": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.6, z: 0 },
+		rotation: { x: -18, y: 15, z: 90 },
+		scale: 2.3
+	},
+	guiTransform: {
+		translation: { x: -2, y: -11, z: -5 },
+		rotation: { x: -93, y: 131, z: 37 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scale: 1.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.03, y: 0.05, z: -0.73 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.67
+	}
+}

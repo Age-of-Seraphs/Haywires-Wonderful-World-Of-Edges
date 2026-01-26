@@ -25,9 +25,8 @@
 			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
 		}
 	}, { name: "AnimationAuthoritative" }],
-	variantgroups: [ 
+	variantgroups: [
 	{ code: "metal", states: ["steel"]},
-	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
 	],
 	shape: { base: "worldofedges:swords/spatha" },
 	heldTpHitAnimation: "falx",
@@ -39,30 +38,18 @@
 	},
 	attackRange: 2.7,
 	allowedVariants: [
-	//"spatha-steel-blunt",
-	//"spatha-steel-dull",
 	"spatha-steel",
-	//"spatha-steel-honed",
 	],
 	tooltierbytype: {
-		"spatha-steel-blunt": 3,
-		"spatha-steel-dull": 4,
-		"spatha-steel-sharp": 5,
-		"spatha-steel-honed": 6,
+		"spatha-steel": 5,
 	},
 	durabilitybytype: {
-		"spatha-steel-blunt": 625,
-		"spatha-steel-dull": 1850,
-		"spatha-steel-sharp": 3500,
-		"spatha-steel-honed": 3800
+		"spatha-steel": 3500,
 	},
 	attackpowerbytype: {
-		"spatha-steel-blunt": 2.3,
-		"spatha-steel-dull": 4.8,
-		"spatha-steel-sharp": 5.9,
-		"spatha-steel-honed": 6.2
+		"spatha-steel": 5.9,
 	},
-	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	creativeinventory: { "general": ["*"], "worldofedges": ["*"]},
 	fpHandTransform: {
 		translation: { x: -0.2, y: -0.6, z: 0 },
 		rotation: { x: -18, y: 15, z: 90 },

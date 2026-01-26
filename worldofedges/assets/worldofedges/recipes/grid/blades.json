@@ -87,4 +87,15 @@
 		height: 2,
 		output: { type: "item", code: "worldofedges:blade-sabre-{metal}", quantity: 1  }
 	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "worldofedges:blade-spatha-steel" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "tinbronze"]},
+			"S": { type: "item", code: "game:rod-iron" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "worldofedges:spatha-steel", quantity: 1  }
+	},
 ]
