@@ -1,0 +1,922 @@
+{
+	"game:tabname-vanillaarmory": "Vanilla Armory",
+	"vanillaarmory:item-forlorn-shield": "Forlorn Tower Shield",
+	"vanillaarmory:itemdesc-forlorn-shield":"<font color=\"#99c9f9\">A symbol of an ancient order's promise to defend those who couldn't defend themselves. The light it gives off is reminiscent of a bygone age. <i>With this shield, we defend humanity.</i> </font>",
+
+	"vanillaarmory:item-throwingstick-wood": "Thowing stick (Wooden head)",
+	"vanillaarmory:itemdesc-throwingstick-wood":"<font color=\"#99c9f9\">A throwing stick made with a wooden head. </font>",
+	"vanillaarmory:item-throwingstick-bone": "Thowing stick (Bone head)",
+	"vanillaarmory:itemdesc-throwingstick-bone":"<font color=\"#99c9f9\">A throwing stick made with a bone head. </font>",
+	"vanillaarmory:item-throwingstick-copper": "Thowing stick (Copper head)",
+	"vanillaarmory:itemdesc-throwingstick-copper":"<font color=\"#99c9f9\">A throwing stick made with a copper head. </font>",
+	"vanillaarmory:item-throwingstick-tinbronze": "Thowing stick (Tin Bronze head)",
+	"vanillaarmory:itemdesc-throwingstick-tinbronze":"<font color=\"#99c9f9\">A throwing stick made with a tin bronze head. </font>",
+	"vanillaarmory:item-throwingstick-blackbronze": "Thowing stick (Black Bronze head)",
+	"vanillaarmory:itemdesc-throwingstick-blackbronze":"<font color=\"#99c9f9\">A throwing stick made with a black bronze head. </font>",
+	"vanillaarmory:item-throwingstick-bismuthbronze": "Thowing stick (Bismuth Bronze head)",
+	"vanillaarmory:itemdesc-throwingstick-bismuthbronze":"<font color=\"#99c9f9\">A throwing stick made with a bismith bronze head. </font>",
+	"vanillaarmory:item-throwingstick-iron": "Thowing stick (Iron head)",
+	"vanillaarmory:itemdesc-throwingstick-iron":"<font color=\"#99c9f9\">A throwing stick made with a iron head. <i> I call this the bonk stick.</i></font>",
+	"vanillaarmory:item-throwingstick-meteoriciron": "Thowing stick (Meteoric Iron head)",
+	"vanillaarmory:itemdesc-throwingstick-meteoriciron":"<font color=\"#99c9f9\">A throwing stick made with a meteoric iron head. <i>Violence with a stellar twist.</i></font>",
+	"vanillaarmory:item-throwingstick-steel": "Thowing stick (Steel head)",
+	"vanillaarmory:itemdesc-throwingstick-steel":"<font color=\"#99c9f9\">A throwing stick made with a steel head. <i>Did you really have to go that far? </i></font>",
+
+	"vanillaarmory:item-bardichehead-copper": "Copper bardiche head",
+"vanillaarmory:item-bardichehead-tinbronze": "Tin bronze bardiche head",
+"vanillaarmory:item-bardichehead-bismuthbronze": "Bismuth bronze bardiche head",
+"vanillaarmory:item-bardichehead-blackbronze": "Black bronze bardiche head",
+"vanillaarmory:item-bardichehead-iron": "Iron bardiche head",
+"vanillaarmory:item-bardichehead-meteoriciron": "Meteoric iron bardiche head",
+"vanillaarmory:item-bardichehead-steel": "steel bardiche head",
+
+
+	"vanillaarmory:item-arminghead-copper": "Copper arming blade",
+"vanillaarmory:item-arminghead-tinbronze": "Tin bronze arming blade",
+"vanillaarmory:item-arminghead-bismuthbronze": "Bismuth bronze arming blade",
+"vanillaarmory:item-arminghead-blackbronze": "Black bronze arming blade",
+"vanillaarmory:item-arminghead-iron": "Iron arming blade",
+"vanillaarmory:item-arminghead-meteoriciron": "Meteoric iron arming blade",
+"vanillaarmory:item-arminghead-steel": "steel arming blade",
+
+
+	"vanillaarmory:item-baselardhead-copper": "Copper baselard blade",
+"vanillaarmory:item-baselardhead-tinbronze": "Tin bronze baselard blade",
+"vanillaarmory:item-baselardhead-bismuthbronze": "Bismuth bronze baselard blade",
+"vanillaarmory:item-baselardhead-blackbronze": "Black bronze baselard blade",
+"vanillaarmory:item-baselardhead-iron": "Iron baselard blade",
+"vanillaarmory:item-baselardhead-meteoriciron": "Meteoric iron baselard blade",
+"vanillaarmory:item-baselardhead-steel": "steel baselard blade",
+
+
+	"vanillaarmory:item-battlehead-copper": "Copper battleaxe head",
+"vanillaarmory:item-battlehead-tinbronze": "Tin bronze battleaxe head",
+"vanillaarmory:item-battlehead-bismuthbronze": "Bismuth bronze battleaxe head",
+"vanillaarmory:item-battlehead-blackbronze": "Black bronze battleaxe head",
+"vanillaarmory:item-battlehead-iron": "Iron battleaxe head",
+"vanillaarmory:item-battlehead-meteoriciron": "Meteoric iron battleaxe head",
+"vanillaarmory:item-battlehead-steel": "steel battleaxe head",
+
+
+	"vanillaarmory:item-beardedhead-copper": "Copper bearded axe head",
+"vanillaarmory:item-beardedhead-tinbronze": "Tin bronze bearded axe head",
+"vanillaarmory:item-beardedhead-bismuthbronze": "Bismuth bronze bearded axe head",
+"vanillaarmory:item-beardedhead-blackbronze": "Black bronze bearded axe head",
+"vanillaarmory:item-beardedhead-iron": "Iron bearded axe head",
+"vanillaarmory:item-beardedhead-meteoriciron": "Meteoric iron bearded axe head",
+"vanillaarmory:item-beardedhead-steel": "steel bearded axe head",
+
+
+	"vanillaarmory:item-betterspearhead-iron": "Iron spear head",
+"vanillaarmory:item-betterspearhead-meteoriciron": "Meteoric iron spear head",
+"vanillaarmory:item-betterspearhead-steel": "Steel spear head",
+
+
+	"vanillaarmory:item-claymorehead-copper": "Copper claymore blade",
+"vanillaarmory:item-claymorehead-tinbronze": "Tin bronze claymore blade",
+"vanillaarmory:item-claymorehead-bismuthbronze": "Bismuth bronze claymore blade",
+"vanillaarmory:item-claymorehead-blackbronze": "Black bronze claymore blade",
+"vanillaarmory:item-claymorehead-iron": "Iron claymore blade",
+"vanillaarmory:item-claymorehead-meteoriciron": "Meteoric iron claymore blade",
+"vanillaarmory:item-claymorehead-steel": "steel claymore blade",
+
+
+	"vanillaarmory:item-daggerhead-copper": "Copper dagger blade",
+"vanillaarmory:item-daggerhead-tinbronze": "Tin bronze dagger blade",
+"vanillaarmory:item-daggerhead-bismuthbronze": "Bismuth bronze dagger blade",
+"vanillaarmory:item-daggerhead-blackbronze": "Black bronze dagger blade",
+"vanillaarmory:item-daggerhead-iron": "Iron dagger blade",
+"vanillaarmory:item-daggerhead-meteoriciron": "Meteoric iron dagger blade",
+"vanillaarmory:item-daggerhead-steel": "steel dagger blade",
+
+
+	"vanillaarmory:item-doublehead-copper": "Copper double axe head",
+"vanillaarmory:item-doublehead-tinbronze": "Tin bronze double axe head",
+"vanillaarmory:item-doublehead-bismuthbronze": "Bismuth bronze double axe head",
+"vanillaarmory:item-doublehead-blackbronze": "Black bronze double axe head",
+"vanillaarmory:item-doublehead-iron": "Iron double axe head",
+"vanillaarmory:item-doublehead-meteoriciron": "Meteoric iron double axe head",
+"vanillaarmory:item-doublehead-steel": "steel double axe head",
+
+
+	"vanillaarmory:item-gladiushead-copper": "Copper gladius blade",
+"vanillaarmory:item-gladiushead-tinbronze": "Tin bronze gladius blade",
+"vanillaarmory:item-gladiushead-bismuthbronze": "Bismuth bronze gladius blade",
+"vanillaarmory:item-gladiushead-blackbronze": "Black bronze gladius blade",
+"vanillaarmory:item-gladiushead-iron": "Iron gladius blade",
+"vanillaarmory:item-gladiushead-meteoriciron": "Meteoric iron gladius blade",
+"vanillaarmory:item-gladiushead-steel": "steel gladius blade",
+
+
+	"vanillaarmory:item-khanjarhead-copper": "Copper khanjar blade",
+"vanillaarmory:item-khanjarhead-tinbronze": "Tin bronze khanjar blade",
+"vanillaarmory:item-khanjarhead-bismuthbronze": "Bismuth bronze khanjar blade",
+"vanillaarmory:item-khanjarhead-blackbronze": "Black bronze khanjar blade",
+"vanillaarmory:item-khanjarhead-iron": "Iron khanjar blade",
+"vanillaarmory:item-khanjarhead-meteoriciron": "Meteoric iron khanjar blade",
+"vanillaarmory:item-khanjarhead-steel": "steel khanjar blade",
+
+
+	"vanillaarmory:item-sabrehead-copper": "Copper sabre blade",
+"vanillaarmory:item-sabrehead-tinbronze": "Tin bronze sabre blade",
+"vanillaarmory:item-sabrehead-bismuthbronze": "Bismuth bronze sabre blade",
+"vanillaarmory:item-sabrehead-blackbronze": "Black bronze sabre blade",
+"vanillaarmory:item-sabrehead-iron": "Iron sabre blade",
+"vanillaarmory:item-sabrehead-meteoriciron": "Meteoric iron sabre blade",
+"vanillaarmory:item-sabrehead-steel": "steel sabre blade",
+
+
+	"vanillaarmory:item-stilettohead-copper": "Copper stiletto blade",
+"vanillaarmory:item-stilettohead-tinbronze": "Tin bronze stiletto blade",
+"vanillaarmory:item-stilettohead-bismuthbronze": "Bismuth bronze stiletto blade",
+"vanillaarmory:item-stilettohead-blackbronze": "Black bronze stiletto blade",
+"vanillaarmory:item-stilettohead-iron": "Iron stiletto blade",
+"vanillaarmory:item-stilettohead-meteoriciron": "Meteoric iron stiletto blade",
+"vanillaarmory:item-stilettohead-steel": "steel stiletto blade",
+
+
+	"vanillaarmory:item-spikedhead-copper": "Copper spiked mace head",
+"vanillaarmory:item-spikedhead-tinbronze": "Tin bronze spiked mace head",
+"vanillaarmory:item-spikedhead-bismuthbronze": "Bismuth bronze spiked mace head",
+"vanillaarmory:item-spikedhead-blackbronze": "Black bronze spiked mace head",
+"vanillaarmory:item-spikedhead-iron": "Iron spiked mace head",
+"vanillaarmory:item-spikedhead-meteoriciron": "Meteoric iron spiked mace head",
+"vanillaarmory:item-spikedhead-steel": "steel spiked mace head",
+
+
+	"vanillaarmory:item-flangedhead-copper": "Copper flanged mace head",
+"vanillaarmory:item-flangedhead-tinbronze": "Tin bronze flanged mace head",
+"vanillaarmory:item-flangedhead-bismuthbronze": "Bismuth bronze flanged mace head",
+"vanillaarmory:item-flangedhead-blackbronze": "Black bronze flanged mace head",
+"vanillaarmory:item-flangedhead-iron": "Iron flanged mace head",
+"vanillaarmory:item-flangedhead-meteoriciron": "Meteoric iron flanged mace head",
+"vanillaarmory:item-flangedhead-steel": "steel flanged mace head",
+
+
+	"vanillaarmory:item-warhammerhead-copper": "Copper warhammer head",
+"vanillaarmory:item-warhammerhead-tinbronze": "Tin bronze warhammer head",
+"vanillaarmory:item-warhammerhead-bismuthbronze": "Bismuth bronze warhammer head",
+"vanillaarmory:item-warhammerhead-blackbronze": "Black bronze warhammer head",
+"vanillaarmory:item-warhammerhead-iron": "Iron warhammer head",
+"vanillaarmory:item-warhammerhead-meteoriciron": "Meteoric iron warhammer head",
+"vanillaarmory:item-warhammerhead-steel": "steel warhammer head",
+
+
+	"vanillaarmory:item-morningstarhead-copper": "Copper morningstar head",
+"vanillaarmory:item-morningstarhead-tinbronze": "Tin bronze morningstar head",
+"vanillaarmory:item-morningstarhead-bismuthbronze": "Bismuth bronze morningstar head",
+"vanillaarmory:item-morningstarhead-blackbronze": "Black bronze morningstar head",
+"vanillaarmory:item-morningstarhead-iron": "Iron morningstar head",
+"vanillaarmory:item-morningstarhead-meteoriciron": "Meteoric iron morningstar head",
+"vanillaarmory:item-morningstarhead-steel": "steel morningstar head",
+
+
+
+
+
+	"vanillaarmory:item-knife-baselard-copper": "Copper baselard",
+"vanillaarmory:item-knife-baselard-tinbronze": "Tin bronze baselard",
+"vanillaarmory:item-knife-baselard-bismuthbronze": "Bismuth bronze baselard",
+"vanillaarmory:item-knife-baselard-blackbronze": "Black bronze baselard",
+"vanillaarmory:item-knife-baselard-iron": "Iron baselard",
+"vanillaarmory:item-knife-baselard-meteoriciron": "Meteoric iron baselard",
+"vanillaarmory:item-knife-baselard-steel": "Steel baselard",
+"vanillaarmory:item-knife-baselard-gold": "Gold baselard",
+"vanillaarmory:item-knife-baselard-silver": "Silver baselard",
+
+
+	"vanillaarmory:item-knife-dagger-copper": "Copper dagger",
+"vanillaarmory:item-knife-dagger-tinbronze": "Tin bronze dagger",
+"vanillaarmory:item-knife-dagger-bismuthbronze": "Bismuth bronze dagger",
+"vanillaarmory:item-knife-dagger-blackbronze": "Black bronze dagger",
+"vanillaarmory:item-knife-dagger-iron": "Iron dagger",
+"vanillaarmory:item-knife-dagger-meteoriciron": "Meteoric iron dagger",
+"vanillaarmory:item-knife-dagger-steel": "Steel dagger",
+"vanillaarmory:item-knife-dagger-gold": "Gold dagger",
+"vanillaarmory:item-knife-dagger-silver": "Silver dagger",
+
+
+	"vanillaarmory:item-knife-khanjar-copper": "Copper khanjar",
+"vanillaarmory:item-knife-khanjar-tinbronze": "Tin bronze khanjar",
+"vanillaarmory:item-knife-khanjar-bismuthbronze": "Bismuth bronze khanjar",
+"vanillaarmory:item-knife-khanjar-blackbronze": "Black bronze khanjar",
+"vanillaarmory:item-knife-khanjar-iron": "Iron khanjar",
+"vanillaarmory:item-knife-khanjar-meteoriciron": "Meteoric iron khanjar",
+"vanillaarmory:item-knife-khanjar-steel": "Steel khanjar",
+"vanillaarmory:item-knife-khanjar-gold": "Gold khanjar",
+"vanillaarmory:item-knife-khanjar-silver": "Silver khanjar",
+
+
+	"vanillaarmory:item-knife-stiletto-copper": "Copper stiletto",
+"vanillaarmory:item-knife-stiletto-tinbronze": "Tin bronze stiletto",
+"vanillaarmory:item-knife-stiletto-bismuthbronze": "Bismuth bronze stiletto",
+"vanillaarmory:item-knife-stiletto-blackbronze": "Black bronze stiletto",
+"vanillaarmory:item-knife-stiletto-iron": "Iron stiletto",
+"vanillaarmory:item-knife-stiletto-meteoriciron": "Meteoric iron stiletto",
+"vanillaarmory:item-knife-stiletto-steel": "Steel stiletto",
+"vanillaarmory:item-knife-stiletto-gold": "Gold stiletto",
+"vanillaarmory:item-knife-stiletto-silver": "Silver stiletto",
+
+
+	"vanillaarmory:item-axe-double-copper": "Copper double-headed axe",
+"vanillaarmory:item-axe-double-tinbronze": "Tin bronze double-headed axe",
+"vanillaarmory:item-axe-double-bismuthbronze": "Bismuth bronze double-headed axe",
+"vanillaarmory:item-axe-double-blackbronze": "Black bronze double-headed axe",
+"vanillaarmory:item-axe-double-iron": "Iron double-headed axe",
+"vanillaarmory:item-axe-double-meteoriciron": "Meteoric iron double-headed axe",
+"vanillaarmory:item-axe-double-steel": "Steel double-headed axe",
+"vanillaarmory:item-axe-double-gold": "Gold double-headed axe",
+"vanillaarmory:item-axe-double-silver": "Silver double-headed axe",
+
+
+	"vanillaarmory:item-axe-bearded-copper": "Copper bearded axe",
+"vanillaarmory:item-axe-bearded-tinbronze": "Tin bronze bearded axe",
+"vanillaarmory:item-axe-bearded-bismuthbronze": "Bismuth bronze bearded axe",
+"vanillaarmory:item-axe-bearded-blackbronze": "Black bronze bearded axe",
+"vanillaarmory:item-axe-bearded-iron": "Iron bearded axe",
+"vanillaarmory:item-axe-bearded-meteoriciron": "Meteoric iron bearded axe",
+"vanillaarmory:item-axe-bearded-steel": "Steel bearded axe",
+"vanillaarmory:item-axe-bearded-gold": "Gold bearded axe",
+"vanillaarmory:item-axe-bearded-silver": "Silver bearded axe",
+
+
+	"vanillaarmory:item-axe-battle-copper": "Copper battleaxe",
+"vanillaarmory:item-axe-battle-tinbronze": "Tin bronze battleaxe",
+"vanillaarmory:item-axe-battle-bismuthbronze": "Bismuth bronze battleaxe",
+"vanillaarmory:item-axe-battle-blackbronze": "Black bronze battleaxe",
+"vanillaarmory:item-axe-battle-iron": "Iron battleaxe",
+"vanillaarmory:item-axe-battle-meteoriciron": "Meteoric iron battleaxe",
+"vanillaarmory:item-axe-battle-steel": "Steel battleaxe",
+"vanillaarmory:item-axe-battle-gold": "Gold battleaxe",
+"vanillaarmory:item-axe-battle-silver": "Silver battleaxe",
+
+
+	"vanillaarmory:item-axe-bardiche-copper": "Copper bardiche",
+"vanillaarmory:item-axe-bardiche-tinbronze": "Tin bronze bardiche",
+"vanillaarmory:item-axe-bardiche-bismuthbronze": "Bismuth bronze bardiche",
+"vanillaarmory:item-axe-bardiche-blackbronze": "Black bronze bardiche",
+"vanillaarmory:item-axe-bardiche-iron": "Iron bardiche",
+"vanillaarmory:item-axe-bardiche-meteoriciron": "Meteoric iron bardiche",
+"vanillaarmory:item-axe-bardiche-steel": "Steel bardiche",
+"vanillaarmory:item-axe-bardiche-gold": "Gold bardiche",
+"vanillaarmory:item-axe-bardiche-silver": "Silver bardiche",
+
+
+	"vanillaarmory:item-blade-arming-copper": "Copper arming sword",
+"vanillaarmory:item-blade-arming-tinbronze": "Tin bronze arming sword",
+"vanillaarmory:item-blade-arming-bismuthbronze": "Bismuth bronze arming sword",
+"vanillaarmory:item-blade-arming-blackbronze": "Black bronze arming sword",
+"vanillaarmory:item-blade-arming-iron": "Iron arming sword",
+"vanillaarmory:item-blade-arming-meteoriciron": "Meteoric iron arming sword",
+"vanillaarmory:item-blade-arming-steel": "Steel arming sword",
+"vanillaarmory:item-blade-arming-gold": "Gold arming sword",
+"vanillaarmory:item-blade-arming-silver": "Silver arming sword",
+
+
+	"vanillaarmory:item-blade-gladius-copper": "Copper gladius",
+"vanillaarmory:item-blade-gladius-tinbronze": "Tin bronze gladius",
+"vanillaarmory:item-blade-gladius-bismuthbronze": "Bismuth bronze gladius",
+"vanillaarmory:item-blade-gladius-blackbronze": "Black bronze gladius",
+"vanillaarmory:item-blade-gladius-iron": "Iron gladius",
+"vanillaarmory:item-blade-gladius-meteoriciron": "Meteoric iron gladius",
+"vanillaarmory:item-blade-gladius-steel": "Steel gladius",
+"vanillaarmory:item-blade-gladius-gold": "Gold gladius",
+"vanillaarmory:item-blade-gladius-silver": "Silver gladius",
+
+
+	"vanillaarmory:item-blade-claymore-copper": "Copper claymore",
+"vanillaarmory:item-blade-claymore-tinbronze": "Tin bronze claymore",
+"vanillaarmory:item-blade-claymore-bismuthbronze": "Bismuth bronze claymore",
+"vanillaarmory:item-blade-claymore-blackbronze": "Black bronze claymore",
+"vanillaarmory:item-blade-claymore-iron": "Iron claymore",
+"vanillaarmory:item-blade-claymore-meteoriciron": "Meteoric iron claymore",
+"vanillaarmory:item-blade-claymore-steel": "Steel claymore",
+"vanillaarmory:item-blade-claymore-gold": "Gold claymore",
+"vanillaarmory:item-blade-claymore-silver": "Silver claymore",
+
+
+	"vanillaarmory:item-blade-sabre-copper": "Copper sabre",
+"vanillaarmory:item-blade-sabre-tinbronze": "Tin bronze sabre",
+"vanillaarmory:item-blade-sabre-bismuthbronze": "Bismuth bronze sabre",
+"vanillaarmory:item-blade-sabre-blackbronze": "Black bronze sabre",
+"vanillaarmory:item-blade-sabre-iron": "Iron sabre",
+"vanillaarmory:item-blade-sabre-meteoriciron": "Meteoric iron sabre",
+"vanillaarmory:item-blade-sabre-steel": "Steel sabre",
+"vanillaarmory:item-blade-sabre-gold": "Gold sabre",
+"vanillaarmory:item-blade-sabre-silver": "Silver sabre",
+
+
+"vanillaarmory:item-spear-generic-iron": "Iron spear",
+"vanillaarmory:item-spear-generic-meteoriciron": "Meteoric iron spear",
+"vanillaarmory:item-spear-generic-steel": "Steel spear",
+
+
+	"vanillaarmory:item-club-spiked-copper": "Copper spiked mace",
+"vanillaarmory:item-club-spiked-tinbronze": "Tin bronze spiked mace",
+"vanillaarmory:item-club-spiked-bismuthbronze": "Bismuth bronze spiked mace",
+"vanillaarmory:item-club-spiked-blackbronze": "Black bronze spiked mace",
+"vanillaarmory:item-club-spiked-iron": "Iron spiked mace",
+"vanillaarmory:item-club-spiked-meteoriciron": "Meteoric iron spiked mace",
+"vanillaarmory:item-club-spiked-steel": "Steel spiked mace",
+"vanillaarmory:item-club-spiked-gold": "Gold spiked mace",
+"vanillaarmory:item-club-spiked-silver": "Silver spiked mace",
+
+
+	"vanillaarmory:item-club-flanged-copper": "Copper flanged mace",
+"vanillaarmory:item-club-flanged-tinbronze": "Tin bronze flanged mace",
+"vanillaarmory:item-club-flanged-bismuthbronze": "Bismuth bronze flanged mace",
+"vanillaarmory:item-club-flanged-blackbronze": "Black bronze flanged mace",
+"vanillaarmory:item-club-flanged-iron": "Iron flanged mace",
+"vanillaarmory:item-club-flanged-meteoriciron": "Meteoric iron flanged mace",
+"vanillaarmory:item-club-flanged-steel": "Steel flanged mace",
+"vanillaarmory:item-club-flanged-gold": "Gold flanged mace",
+"vanillaarmory:item-club-flanged-silver": "Silver flanged mace",
+
+
+	"vanillaarmory:item-club-morningstar-copper": "Copper morningstar",
+"vanillaarmory:item-club-morningstar-tinbronze": "Tin bronze morningstar",
+"vanillaarmory:item-club-morningstar-bismuthbronze": "Bismuth bronze morningstar",
+"vanillaarmory:item-club-morningstar-blackbronze": "Black bronze morningstar",
+"vanillaarmory:item-club-morningstar-iron": "Iron morningstar",
+"vanillaarmory:item-club-morningstar-meteoriciron": "Meteoric iron morningstar",
+"vanillaarmory:item-club-morningstar-steel": "Steel morningstar",
+"vanillaarmory:item-club-morningstar-gold": "Gold morningstar",
+"vanillaarmory:item-club-morningstar-silver": "Silver morningstar",
+
+
+	"vanillaarmory:item-club-warhammer-copper": "Copper warhammer",
+"vanillaarmory:item-club-warhammer-tinbronze": "Tin bronze warhammer",
+"vanillaarmory:item-club-warhammer-bismuthbronze": "Bismuth bronze warhammer",
+"vanillaarmory:item-club-warhammer-blackbronze": "Black bronze warhammer",
+"vanillaarmory:item-club-warhammer-iron": "Iron warhammer",
+"vanillaarmory:item-club-warhammer-meteoriciron": "Meteoric iron warhammer",
+"vanillaarmory:item-club-warhammer-steel": "Steel warhammer",
+"vanillaarmory:item-club-warhammer-gold": "Gold warhammer",
+"vanillaarmory:item-club-warhammer-silver": "Silver warhammer",
+
+
+
+
+	"vanillaarmory:item-quiver-crude": "Crude quiver",
+"vanillaarmory:item-quiver-hide": "Hide quiver",
+"vanillaarmory:item-quiver-leather": "Leather quiver",
+"vanillaarmory:item-quiver-sturdy": "Sturdy leather quiver",
+
+
+	"vanillaarmory:item-sturdyleatherarmor-head": "Sturdy leather helmet",
+"vanillaarmory:item-sturdyleatherarmor-body": "Sturdy leather body armor",
+"vanillaarmory:item-sturdyleatherarmor-legs": "Sturdy leather leg armor",
+
+
+	"vanillaarmory:itemdesc-buckler-*": "<font color=\"#99c9f9\"><i>A small shield, less protective but easier to produce and use.</i></font>",
+
+
+	"vanillaarmory:item-spear-boar-copper": "Copper boar spear",
+"vanillaarmory:item-spear-boar-tinbronze": "Tin bronze boar spear",
+"vanillaarmory:item-spear-boar-bismuthbronze": "Bismuth bronze boar spear",
+"vanillaarmory:item-spear-boar-blackbronze": "Black bronze boar spear",
+"vanillaarmory:item-spear-boar-iron": "Iron boar spear",
+"vanillaarmory:item-spear-boar-meteoriciron": "Meteoric iron boar spear",
+"vanillaarmory:item-spear-boar-steel": "Steel boar spear",
+"vanillaarmory:item-spear-boar-gold": "Gold boar spear",
+"vanillaarmory:item-spear-boar-silver": "Silver boar spear",
+
+
+	"vanillaarmory:item-boarhead-copper": "Copper boar spear head",
+"vanillaarmory:item-boarhead-tinbronze": "Tin bronze boar spear head",
+"vanillaarmory:item-boarhead-bismuthbronze": "Bismuth bronze boar spear head",
+"vanillaarmory:item-boarhead-blackbronze": "Black bronze boar spear head",
+"vanillaarmory:item-boarhead-iron": "Iron boar spear head",
+"vanillaarmory:item-boarhead-meteoriciron": "Meteoric iron boar spear head",
+"vanillaarmory:item-boarhead-steel": "Steel boar spear head",
+
+	"vanillaarmory:item-spear-fork-copper": "Copper war fork",
+"vanillaarmory:item-spear-fork-tinbronze": "Tin bronze war fork",
+"vanillaarmory:item-spear-fork-bismuthbronze": "Bismuth bronze war fork",
+"vanillaarmory:item-spear-fork-blackbronze": "Black bronze war fork",
+"vanillaarmory:item-spear-fork-iron": "Iron war fork",
+"vanillaarmory:item-spear-fork-meteoriciron": "Meteoric iron war fork",
+"vanillaarmory:item-spear-fork-steel": "Steel war fork",
+"vanillaarmory:item-spear-fork-gold": "Gold war fork",
+"vanillaarmory:item-spear-fork-silver": "Silver war fork",
+
+
+
+	"vanillaarmory:item-forkhead-copper": "Copper war fork head",
+"vanillaarmory:item-forkhead-tinbronze": "Tin bronze war fork head",
+"vanillaarmory:item-forkhead-bismuthbronze": "Bismuth bronze war fork head",
+"vanillaarmory:item-forkhead-blackbronze": "Black bronze war fork head",
+"vanillaarmory:item-forkhead-iron": "Iron war fork head",
+"vanillaarmory:item-forkhead-meteoriciron": "Meteoric iron war fork head",
+"vanillaarmory:item-forkhead-steel": "Steel war fork head",
+
+
+
+	"vanillaarmory:item-spear-voulge-copper": "Copper voulge",
+"vanillaarmory:item-spear-voulge-tinbronze": "Tin bronze voulge",
+"vanillaarmory:item-spear-voulge-bismuthbronze": "Bismuth bronze voulge",
+"vanillaarmory:item-spear-voulge-blackbronze": "Black bronze voulge",
+"vanillaarmory:item-spear-voulge-iron": "Iron voulge",
+"vanillaarmory:item-spear-voulge-meteoriciron": "Meteoric iron voulge",
+"vanillaarmory:item-spear-voulge-steel": "Steel voulge",
+"vanillaarmory:item-spear-voulge-gold": "Gold voulge",
+"vanillaarmory:item-spear-voulge-silver": "Silver voulge",
+
+
+
+	"vanillaarmory:item-voulgehead-copper": "Copper voulge head",
+"vanillaarmory:item-voulgehead-tinbronze": "Tin bronze voulge head",
+"vanillaarmory:item-voulgehead-bismuthbronze": "Bismuth bronze voulge head",
+"vanillaarmory:item-voulgehead-blackbronze": "Black bronze voulge head",
+"vanillaarmory:item-voulgehead-iron": "Iron voulge head",
+"vanillaarmory:item-voulgehead-meteoriciron": "Meteoric iron voulge head",
+"vanillaarmory:item-voulgehead-steel": "Steel voulge head",
+
+
+	"vanillaarmory:item-spear-ranseur-copper": "Copper ranseur",
+"vanillaarmory:item-spear-ranseur-tinbronze": "Tin bronze ranseur",
+"vanillaarmory:item-spear-ranseur-bismuthbronze": "Bismuth bronze ranseur",
+"vanillaarmory:item-spear-ranseur-blackbronze": "Black bronze ranseur",
+"vanillaarmory:item-spear-ranseur-iron": "Iron ranseur",
+"vanillaarmory:item-spear-ranseur-meteoriciron": "Meteoric iron ranseur",
+"vanillaarmory:item-spear-ranseur-steel": "Steel ranseur",
+"vanillaarmory:item-spear-ranseur-gold": "Gold ranseur",
+"vanillaarmory:item-spear-ranseur-silver": "Silver ranseur",
+
+
+
+
+
+	"vanillaarmory:item-ranseurhead-copper": "Copper ranseur head",
+"vanillaarmory:item-ranseurhead-tinbronze": "Tin bronze ranseur head",
+"vanillaarmory:item-ranseurhead-bismuthbronze": "Bismuth bronze ranseur head",
+"vanillaarmory:item-ranseurhead-blackbronze": "Black bronze ranseur head",
+"vanillaarmory:item-ranseurhead-iron": "Iron ranseur head",
+"vanillaarmory:item-ranseurhead-meteoriciron": "Meteoric iron ranseur head",
+"vanillaarmory:item-ranseurhead-steel": "Steel ranseur head",
+
+
+
+
+
+	"vanillaarmory:item-axe-double-relic0": "Reborn relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-axe-double-relic1": "Reforged relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-axe-double-relic2": "Twice reforged relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-axe-double-relic3": "Thrice reforged relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+
+"vanillaarmory:item-axe-double-relic4": "perfected relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-axe-double-relic5": "Ascended relic (double-headed axe)",
+"vanillaarmory:itemdesc-axe-double-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-axe-bearded-relic0": "Reborn relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-axe-bearded-relic1": "Reforged relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-axe-bearded-relic2": "Twice reforged relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-axe-bearded-relic3": "Thrice reforged relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-axe-bearded-relic4": "perfected relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-axe-bearded-relic5": "Ascended relic (bearded axe)",
+"vanillaarmory:itemdesc-axe-bearded-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-axe-battle-relic0": "Reborn relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-axe-battle-relic1": "Reforged relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-axe-battle-relic2": "Twice reforged relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-axe-battle-relic3": "Thrice reforged relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-axe-battle-relic4": "perfected relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-axe-battle-relic5": "Ascended relic (battleaxe)",
+"vanillaarmory:itemdesc-axe-battle-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-axe-bardiche-relic0": "Reborn relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-axe-bardiche-relic1": "Reforged relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-axe-bardiche-relic2": "Twice reforged relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-axe-bardiche-relic3": "Thrice reforged relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-axe-bardiche-relic4": "perfected relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-axe-bardiche-relic5": "Ascended relic (bardiche)",
+"vanillaarmory:itemdesc-axe-bardiche-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-blade-arming-relic0": "Reborn relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-blade-arming-relic1": "Reforged relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-blade-arming-relic2": "Twice reforged relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-blade-arming-relic3": "Thrice reforged relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-blade-arming-relic4": "perfected relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-blade-arming-relic5": "Ascended relic (arming sword)",
+"vanillaarmory:itemdesc-blade-arming-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-blade-claymore-relic0": "Reborn relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-blade-claymore-relic1": "Reforged relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-blade-claymore-relic2": "Twice reforged relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-blade-claymore-relic3": "Thrice reforged relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-blade-claymore-relic4": "perfected relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-blade-claymore-relic5": "Ascended relic (claymore)",
+"vanillaarmory:itemdesc-blade-claymore-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+	"vanillaarmory:item-blade-gladius-relic0": "Reborn relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-blade-gladius-relic1": "Reforged relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-blade-gladius-relic2": "Twice reforged relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-blade-gladius-relic3": "Thrice reforged relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-blade-gladius-relic4": "perfected relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-blade-gladius-relic5": "Ascended relic (gladius)",
+"vanillaarmory:itemdesc-blade-gladius-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+	"vanillaarmory:item-blade-sabre-relic0": "Reborn relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-blade-sabre-relic1": "Reforged relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-blade-sabre-relic2": "Twice reforged relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-blade-sabre-relic3": "Thrice reforged relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-blade-sabre-relic4": "perfected relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-blade-sabre-relic5": "Ascended relic (sabre)",
+"vanillaarmory:itemdesc-blade-sabre-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+
+	"vanillaarmory:item-knife-baselard-relic0": "Reborn relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-knife-baselard-relic1": "Reforged relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-knife-baselard-relic2": "Twice reforged relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-knife-baselard-relic3": "Thrice reforged relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-knife-baselard-relic4": "perfected relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-knife-baselard-relic5": "Ascended relic (baselard)",
+"vanillaarmory:itemdesc-knife-baselard-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+
+
+	"vanillaarmory:item-knife-dagger-relic0": "Reborn relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-knife-dagger-relic1": "Reforged relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-knife-dagger-relic2": "Twice reforged relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-knife-dagger-relic3": "Thrice reforged relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-knife-dagger-relic4": "perfected relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-knife-dagger-relic5": "Ascended relic (dagger)",
+"vanillaarmory:itemdesc-knife-dagger-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+	"vanillaarmory:item-knife-khanjar-relic0": "Reborn relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-knife-khanjar-relic1": "Reforged relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-knife-khanjar-relic2": "Twice reforged relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-knife-khanjar-relic3": "Thrice reforged relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-knife-khanjar-relic4": "perfected relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-knife-khanjar-relic5": "Ascended relic (khanjar)",
+"vanillaarmory:itemdesc-knife-khanjar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+	"vanillaarmory:item-knife-stiletto-relic0": "Reborn relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-knife-stiletto-relic1": "Reforged relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-knife-stiletto-relic2": "Twice reforged relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-knife-stiletto-relic3": "Thrice reforged relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-knife-stiletto-relic4": "perfected relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-knife-stiletto-relic5": "Ascended relic (stiletto)",
+"vanillaarmory:itemdesc-knife-stiletto-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+	"vanillaarmory:item-club-flanged-relic0": "Reborn relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-club-flanged-relic1": "Reforged relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-club-flanged-relic2": "Twice reforged relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-club-flanged-relic3": "Thrice reforged relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-club-flanged-relic4": "perfected relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-club-flanged-relic5": "Ascended relic (flanged mace)",
+"vanillaarmory:itemdesc-club-flanged-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+	"vanillaarmory:item-club-spiked-relic0": "Reborn relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-club-spiked-relic1": "Reforged relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-club-spiked-relic2": "Twice reforged relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-club-spiked-relic3": "Thrice reforged relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-club-spiked-relic4": "perfected relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-club-spiked-relic5": "Ascended relic (spiked mace)",
+"vanillaarmory:itemdesc-club-spiked-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+	"vanillaarmory:item-club-morningstar-relic0": "Reborn relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-club-morningstar-relic1": "Reforged relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-club-morningstar-relic2": "Twice reforged relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-club-morningstar-relic3": "Thrice reforged relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-club-morningstar-relic4": "perfected relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-club-morningstar-relic5": "Ascended relic (morningstar)",
+"vanillaarmory:itemdesc-club-morningstar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-club-warhammer-relic0": "Reborn relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-club-warhammer-relic1": "Reforged relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-club-warhammer-relic2": "Twice reforged relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-club-warhammer-relic3": "Thrice reforged relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-club-warhammer-relic4": "perfected relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-club-warhammer-relic5": "Ascended relic (warhammer)",
+"vanillaarmory:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+
+
+
+	"vanillaarmory:item-spear-boar-relic0": "Reborn relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-spear-boar-relic1": "Reforged relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-spear-boar-relic2": "Twice reforged relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-spear-boar-relic3": "Thrice reforged relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-spear-boar-relic4": "perfected relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-spear-boar-relic5": "Ascended relic (boar spear)",
+"vanillaarmory:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+	"vanillaarmory:item-spear-fork-relic0": "Reborn relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-spear-fork-relic1": "Reforged relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-spear-fork-relic2": "Twice reforged relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-spear-fork-relic3": "Thrice reforged relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-spear-fork-relic4": "perfected relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-spear-fork-relic5": "Ascended relic (war fork)",
+"vanillaarmory:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+	"vanillaarmory:item-spear-voulge-relic0": "Reborn relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-spear-voulge-relic1": "Reforged relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-spear-voulge-relic2": "Twice reforged relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-spear-voulge-relic3": "Thrice reforged relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-spear-voulge-relic4": "perfected relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-spear-voulge-relic5": "Ascended relic (voulge)",
+"vanillaarmory:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+	"vanillaarmory:item-spear-ranseur-relic0": "Reborn relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+
+"vanillaarmory:item-spear-ranseur-relic1": "Reforged relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+
+"vanillaarmory:item-spear-ranseur-relic2": "Twice reforged relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+
+"vanillaarmory:item-spear-ranseur-relic3": "Thrice reforged relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+
+"vanillaarmory:item-spear-ranseur-relic4": "perfected relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+
+"vanillaarmory:item-spear-ranseur-relic5": "Ascended relic (ranseur)",
+"vanillaarmory:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+
+
+
+
+
+
+
+	"vanillaarmory:item-bow-ranger": "Compound longbow",
+"vanillaarmory:itemdesc-bow-ranger": "-20% ranged weapon speed.",
+
+	"vanillaarmory:item-bow-yager": "Compound recurve bow",
+"vanillaarmory:itemdesc-bow-yager": "-20% ranged weapon speed.",
+
+
+
+
+
+
+
+	"vanillaarmory:item-woodarmor-head": "Improvised helmet (wood)",
+"vanillaarmory:item-woodarmor-legs": "Improvised leg armor (wood)",
+
+	
+	"vanillaarmory:item-bonearmor-head": "Improvised helmet (bone)",
+"vanillaarmory:item-bonearmor-legs": "Improvised leg armor (bone)",
+"vanillaarmory:item-bonearmor-body": "Improvised body armor (bone)",
+
+
+
+
+}

@@ -1,0 +1,157 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin/blademiddle1,Root/origin/handle/pommel,Root/origin/handle/hilt/blademiddle1,Root/origin/handle/hilt",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"blackbronze": [16,16],
+		"metal": [16,16],
+		"wood": [16,16],
+		"handle": [16,16]
+	},
+	"textures": {
+		"blackbronze": "game:block/metal/ingot/tinbronze"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "blademiddle1",
+					"from": [ -1.0, 0.0, -0.75 ],
+					"to": [ 15.0, 0.5, 0.75 ],
+					"rotationOrigin": [ -1.0, 0.75, 0.75 ],
+					"faces": {
+						"north": { "texture": "#blackbronze", "uv": [ 2.5, 2.5, 12.5, 3.0 ], "autoUv": false },
+						"east": { "texture": "#blackbronze", "uv": [ 11.5, 1.5, 13.0, 2.0 ] },
+						"south": { "texture": "#blackbronze", "uv": [ 0.0, 4.0, 16.0, 4.5 ] },
+						"up": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 16.0, 1.5 ] },
+						"down": { "texture": "#blackbronze", "uv": [ 0.0, 0.5, 16.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "blademiddle2",
+							"from": [ 16.0, 0.0, 0.25 ],
+							"to": [ 18.0, 0.5, 1.25 ],
+							"rotationOrigin": [ 16.0, 0.0, 0.75 ],
+							"faces": {
+								"north": { "texture": "#blackbronze", "uv": [ 12.5, 10.0, 14.5, 10.5 ] },
+								"east": { "texture": "#blackbronze", "uv": [ 4.5, 3.5, 5.5, 4.0 ] },
+								"south": { "texture": "#blackbronze", "uv": [ 4.0, 2.5, 6.0, 3.0 ] },
+								"up": { "texture": "#blackbronze", "uv": [ 6.5, 9.0, 8.5, 10.0 ] },
+								"down": { "texture": "#blackbronze", "uv": [ 8.5, 9.5, 10.5, 10.5 ] }
+							}
+						},
+						{
+							"name": "blade-middle3",
+							"from": [ 18.0, 0.0, 0.5 ],
+							"to": [ 19.0, 0.5, 1.0 ],
+							"rotationOrigin": [ 18.0, 0.0, 0.75 ],
+							"faces": {
+								"north": { "texture": "#blackbronze", "uv": [ 13.5, 6.5, 14.5, 7.0 ] },
+								"east": { "texture": "#blackbronze", "uv": [ 14.5, 6.0, 15.0, 6.5 ] },
+								"south": { "texture": "#blackbronze", "uv": [ 4.0, 3.0, 5.0, 3.5 ] },
+								"up": { "texture": "#blackbronze", "uv": [ 1.5, 2.5, 2.5, 3.0 ] },
+								"down": { "texture": "#blackbronze", "uv": [ 14.5, 6.5, 15.5, 7.0 ] }
+							},
+							"children": [
+								{
+									"name": "tip",
+									"from": [ 1.1, 0.15, 0.0 ],
+									"to": [ 1.6, 0.35, 0.5 ],
+									"rotationOrigin": [ 1.35, 0.3, 0.25 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#blackbronze", "uv": [ 6.5, 13.5, 7.0, 14.0 ] },
+										"east": { "texture": "#blackbronze", "uv": [ 11.0, 13.0, 11.5, 13.5 ] },
+										"south": { "texture": "#blackbronze", "uv": [ 9.5, 7.0, 10.0, 7.5 ] },
+										"west": { "texture": "#blackbronze", "uv": [ 7.5, 2.0, 8.0, 2.5 ] },
+										"up": { "texture": "#blackbronze", "uv": [ 8.5, 1.0, 9.0, 1.5 ] },
+										"down": { "texture": "#blackbronze", "uv": [ 1.0, 4.5, 1.5, 5.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "blade-edge1",
+							"from": [ 0.0, 0.15, -0.5 ],
+							"to": [ 16.0, 0.35, 2.0 ],
+							"rotationOrigin": [ 0.0, 0.25, 0.7 ],
+							"faces": {
+								"north": { "texture": "#blackbronze", "uv": [ 0.0, 8.5, 16.0, 9.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#blackbronze", "uv": [ 0.5, 7.5, 3.0, 8.0 ] },
+								"south": { "texture": "#blackbronze", "uv": [ 0.0, 13.0, 16.0, 13.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#blackbronze", "uv": [ 0.0, 2.5, 16.0, 5.0 ] },
+								"down": { "texture": "#blackbronze", "uv": [ 0.0, 5.0, 16.0, 7.5 ], "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "blade-edge2N",
+									"from": [ 16.0, 0.01, 0.0 ],
+									"to": [ 19.5, 0.21, 0.7 ],
+									"rotationOrigin": [ 16.0, 0.2, 0.0 ],
+									"rotationY": -15.0,
+									"faces": {
+										"north": { "texture": "#blackbronze", "uv": [ 1.5, 9.0, 5.0, 9.5 ] },
+										"east": { "texture": "#blackbronze", "uv": [ 4.5, 13.0, 5.0, 13.5 ] },
+										"up": { "texture": "#blackbronze", "uv": [ 6.5, 6.0, 10.0, 6.5 ] },
+										"down": { "texture": "#blackbronze", "uv": [ 4.0, 2.5, 7.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "blade-edge2S",
+									"from": [ 16.0, -0.01, 1.8 ],
+									"to": [ 19.5, 0.19, 2.5 ],
+									"rotationOrigin": [ 16.0, 0.0, 2.5 ],
+									"rotationY": 15.0,
+									"faces": {
+										"east": { "texture": "#blackbronze", "uv": [ 8.5, 5.0, 9.0, 5.5 ] },
+										"south": { "texture": "#blackbronze", "uv": [ 7.0, 14.5, 10.5, 15.0 ] },
+										"up": { "texture": "#blackbronze", "uv": [ 6.0, 2.0, 9.5, 2.5 ] },
+										"down": { "texture": "#blackbronze", "uv": [ 9.5, 3.5, 13.0, 4.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "ridge",
+							"from": [ 0.0, -0.05, 0.4 ],
+							"to": [ 12.0, 0.55, 1.0 ],
+							"rotationOrigin": [ 0.0, 0.25, 0.7 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#blackbronze", "uv": [ 2.0, 0.0, 14.0, 0.5 ] },
+								"east": { "texture": "#blackbronze", "uv": [ 14.0, 7.0, 14.5, 7.5 ] },
+								"south": { "texture": "#blackbronze", "uv": [ 0.0, 9.0, 12.0, 9.5 ] },
+								"west": { "texture": "#blackbronze", "uv": [ 3.5, 12.0, 4.0, 12.5 ] },
+								"up": { "texture": "#blackbronze", "uv": [ 2.5, 15.0, 14.5, 15.5 ] },
+								"down": { "texture": "#blackbronze", "uv": [ 1.5, 13.0, 13.5, 13.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube2",
+					"from": [ -6.0, 0.0, -0.5 ],
+					"to": [ -1.0, 0.5, 0.5 ],
+					"rotationOrigin": [ -6.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"east": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"west": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+						"down": { "texture": "#blackbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

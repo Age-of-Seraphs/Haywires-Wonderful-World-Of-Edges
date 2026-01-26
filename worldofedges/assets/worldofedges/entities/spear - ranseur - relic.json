@@ -1,0 +1,54 @@
+{
+	code: "spear",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.125, y: 0.125 },
+	variantgroups: [
+		{ code: "type", states: ["ranseur",] },
+		{ code: "material", states: ["relic0", "relic1", "relic2", "relic3", "relic4", "relic5" ] }
+	],
+	skipVariants: [
+		"spear-ranseur-ornategold",
+		"spear-ranseur-ornatesilver",
+	],
+	allowedVariants: [
+		"spear-ranseur-*",
+	],
+	attributes: {
+		isProjectile: true
+	},
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+			
+			"spear-ranseur-*": { base: "vanillaarmory:item/tool/spear/ranseurrelic", offsetX: -0.8125 },
+			
+		},
+		texturesByType: {
+			"spear-ranseur-*": { 
+				"metal": { base: "vanillaarmory:{material}" }, 
+				"wood": { base: "game:block/wood/debarked/veryaged"} 
+			},
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		]
+	},
+	sounds: { }
+}

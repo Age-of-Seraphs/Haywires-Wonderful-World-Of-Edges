@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern:"MPM,LBG,MPM",
+		ingredients: {
+			"M": { type: "item", code: "game:metalplate-meteoriciron" },
+			"P": { type: "item", code: "game:plank-*", skipVariants: ["aged"], quantity: 4},
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 2 },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"B": { type: "item", code: "game:boss-meteoriciron" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:forlorn-shield", quantity: 1  }
+	}
+]

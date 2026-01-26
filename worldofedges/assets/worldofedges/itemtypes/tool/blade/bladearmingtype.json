@@ -1,0 +1,221 @@
+{
+	code: "blade",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	attributes: {
+
+
+
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+					"passive": 0.05,
+					"active": 0.5
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 75,
+				"horizProtectionRange": 75
+			},
+
+
+
+
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["blade-*"]
+		},
+		toolrackTransformByType: {
+			"*":
+		  	    {
+		    	     translation: { x: 0.32, y: 0.66, z: 0 },
+		             rotation: { x: 0, y: 180, z: 1 },
+ 			     scale: 1.15
+			    }
+					},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.63, z: 0.08 },
+				rotation: { x: 24, y: 90, z: -87 },
+				scale: 0.63
+			},
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2,
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		},
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "type", states: ["arming"] },
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] }
+	],
+	skipVariants: [
+		"blade-arming-scrap",
+	],
+	allowedVariants: [
+		"blade-arming-*",
+
+	],
+	shapeByType: {
+		"blade-arming-gold": { base: "vanillaarmory:shapes/item/tool/blade/arming-ornate" },
+		"blade-arming-silver": { base: "vanillaarmory:shapes/item/tool/blade/arming-ornate" },
+		"blade-arming-*": { base: "game:item/tool/blade/arming" },
+		
+	},
+	heldTpHitAnimationByType: {
+		"blade-forlorn-iron": "spearhit",
+		"blade-blackguard-iron": "spearhit",
+		"blade-gladius-ruined": "spearhit",
+		"*": "falx"
+	},
+	texturesByType: {
+
+		"blade-arming-silver": { "blackbronze": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"blade-arming-gold": { "blackbronze": { base: "game:block/metal/ingot/steel" } },
+
+		"blade-arming-*": { "blackbronze":  { base: "game:block/metal/ingot/{metal}"  } },
+	},
+	attackRangebytype: {	
+		"*": 3.5
+	},
+	attributesByType: {
+		"blade-arming-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-armingsword-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-armingsword-ornate" }
+				}
+			}				
+		},
+		"blade-arming-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-armingsword-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-armingsword-ornate" }
+				}
+			}				
+		},
+		"blade-arming-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-armingsword" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-armingsword" }
+				}
+			}				
+		}
+	},
+	tooltierbytype: {
+		"*-copper": 1,
+		"*-gold": 4,
+		"*-silver": 4,
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2,
+		"*-iron": 3,
+		"*-meteoriciron": 3,
+		"*-steel": 4,
+	},
+	attackpowerbytype: {
+
+		"*-copper": 4.18,
+		"*-gold": 5.83,
+		"*-silver": 5.83,
+		"*-bismuthbronze": 4.73,
+		"*-tinbronze": 4.95,
+		"*-blackbronze": 5.28,
+		"*-iron": 5.5,
+		"*-meteoriciron": 5.83,
+		"*-steel": 5.83,
+	},
+	durabilitybytype: {
+
+		"*-copper": 400,
+		"*-gold": 3392,
+		"*-silver": 3392,
+		"*-bismuthbronze": 848,
+		"*-tinbronze": 720,
+		"*-blackbronze": 960,
+		"*-iron": 1360,
+		"*-meteoriciron": 1760,
+		"*-steel": 3392,
+
+			  },
+	creativeinventoryByType: {
+		"*": { "general": ["*"],  "worldofedges": ["*"], "items": ["*"], "tools": ["*"], }
+	},
+	guiTransformByType: {
+		"*": 
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -53, y: 118, z: 8 },
+				origin: { x: 1.15, y: 0.2, z: 0.57 },
+				scale: 1.76
+			},
+		
+	},
+	fpHandTransformByType: {
+		"*": {
+				translation: { x: -0.2, y: -0.4, z: 0 },
+				rotation: { x: -18, y: 15, z: 90 },
+				scale: 1.97
+					},
+				},
+	groundTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0.04, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			},
+		
+				},
+	tpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -1.08, y: 0.055, z: -0.78 },
+				rotation: { x: 85, y: 0, z: 2 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.63
+			},
+				}
+}

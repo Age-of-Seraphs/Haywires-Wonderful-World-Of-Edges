@@ -1,0 +1,145 @@
+{
+	code: "spear",
+	class: "ItemSpear",
+	damagedby: ["attacking"],
+	tool: "spear",
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'WallHalves', wallOffY: 2, ctrlKey: true, selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 }, collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 } } },
+		{ name: "AnimationAuthoritative" }
+	],
+	variantgroups: [
+		{ code: "type", states: ["boar", ] },
+		{ code: "material", states: ["silver", "gold", ] },
+	],
+	skipVariants: [
+		"spear-boar-ornategold",
+		"spear-boar-ornatesilver"
+	],
+	allowedVariants: [
+		"spear-boar-*",
+	],
+	shapeByType: {
+		"*": { base: "vanillaarmory:shapes/item/tool/spear/boar-ornate" }
+	},
+	heldTpIdleAnimation: "spearidle",
+	heldRightReadyAnimation: "spearidle",
+	heldTpHitAnimation: "spearhit",
+	texturesByType: {
+		
+		"spear-boar-silver": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"gold1": { base: "game:block/metal/ingot/silver" },
+			"ornaments": { base: "game:block/cloth/linen/blue" },
+		},
+
+		"spear-boar-gold": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"ornaments": { base: "game:block/cloth/linen/black" },
+		},
+		
+	},
+	attackRange: 3.5,
+
+
+	tooltierbytype:{
+
+		"spear-boar-silver": 5,
+		"spear-boar-gold": 5,
+		
+	},
+
+
+	attackpowerbytype: {
+		
+		"spear-boar-silver": 4.3,
+		"spear-boar-gold": 4.3,
+		
+	},
+	attributes: {
+		heldItemPitchFollow: 1,
+		groundStorageTransformByType: {
+
+			"spear-boar-*": {
+				translation: { x: 0, y: 0.65, z: 0.61 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			},
+			
+		},
+		
+		"__comment": "Thrown damage",
+		damageByType: {
+			
+			
+			"*-silver": 7.44,
+			"*-gold": 7.44,
+
+		},
+		damageTierByType: {
+			
+			"*-silver": 5,
+			"*-gold": 5,
+
+		},
+		spearEntityCodeByType: {
+
+			"*": "vanillaarmory:spear-{type}-{material}",
+
+		},
+		handbook: {
+			groupBy: ["spear-*"]
+		},
+		toolrackTransformByType: {
+			
+			"spear-boar-*": {
+				translation: { x: -0.35, y: 0.05, z: 0.5 },
+				rotation: { x: 89, y: 1, z: -1 }
+			},
+			
+		}
+	},
+	durabilitybytype: {
+		
+		"spear-boar-gold": 456,
+		"spear-boar-silver": 456,
+			
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 33, y: 0, z: -127 },
+			origin: { x: 1.29, y: 0.05, z: 0.52 },
+			scale: 2.26
+		}
+	},
+	fpHandTransformByType: {
+		
+		"*": {
+			translation: { x: 0.1, y: 0.4, z: 0.16 },
+			rotation: { x: -82, y: 180, z: 96 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.45
+		}
+	},
+	groundTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0.05, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		}
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -1.24, y: 0.03, z: -0.61 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+		},
+		
+	}
+}

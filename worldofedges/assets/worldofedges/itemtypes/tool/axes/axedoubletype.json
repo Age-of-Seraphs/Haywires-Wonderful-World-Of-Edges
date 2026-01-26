@@ -1,0 +1,227 @@
+{
+	code: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "axe",
+	class: "ItemAxe",
+	attributes: {
+
+
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+						"passive": 0.1,
+						"active": 1
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 60,
+				"horizProtectionRange": 60
+			},
+
+
+
+
+
+
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["axe-*"]
+		},
+		toolrackTransformByType: {
+			
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: 0.1, y: 0.6 },
+				scale: 1.25,
+			}
+		},
+		groundStorageTransformByType: {
+			
+			"*": {
+				translation: { x: 0, y: 0.19, z: -0.125 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 0.88
+			}
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				
+				"axe-double-*": 2,
+				
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative", properties: { onlyOnEntity: true } }],
+	variantgroups: [
+		{ code: "type", states: [ "double" ] },
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", ] }
+	],
+	skipVariants: [
+		"axe-double-scrap",
+	],
+	allowedVariants: [
+		"axe-double-*",
+
+	],
+	shapeByType: {
+		"axe-double-silver": { "base": "vanillaarmory:shapes/item/tool/axe/double-ornate" },
+		"axe-double-gold": { "base": "vanillaarmory:shapes/item/tool/axe/double-ornate" },
+		"axe-double-*": { "base": "game:item/tool/axe/double" },
+		
+	},
+
+	heldRightReadyAnimationByType: {
+		
+		"axe-double-*": "axeready",
+		
+	},
+	heldTpHitAnimationByType: {
+		
+		"axe-double-*": "axechop",
+		
+	},
+	texturesByType: {
+		"axe-double-silver": { "blackbronze": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"axe-double-gold": { "blackbronze": { base: "game:block/metal/ingot/steel" } },
+		"axe-double-*": {"blackbronze": { base: "game:block/metal/ingot/{material}" } }
+	},
+	attackRangebytype: {	
+		"*": 2.5
+	},
+	attributesByType: {
+		"axe-double-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-double-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-double-ornate" }
+				}
+			}				
+		},
+		"axe-double-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-double-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-double-ornate" }
+				}
+			}				
+		},
+		"axe-double-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-double" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-double" }
+				}
+			}				
+		}
+	},
+	tooltierbytype: {
+		"*-scrap": 2,
+		"*-copper": 2,
+		"*-gold": 5,
+		"*-silver": 5,
+		"*-ruined": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	
+	durabilitybytype: {
+		
+		"axe-double-gold": 2968,
+		"axe-double-silver": 2968,
+		"axe-double-copper": 350,
+		"axe-double-blackbronze": 840,
+		"axe-double-bismuthbronze": 742,
+		"axe-double-tinbronze": 630,
+		"axe-double-iron": 1190,
+		"axe-double-meteoriciron": 1540,
+		"axe-double-steel": 2968
+	},
+	attackpowerbytype: {
+		
+		"axe-double-copper": 4.94,
+		"axe-double-bismuthbronze": 5.59,
+		"axe-double-gold": 6.89,
+		"axe-double-silver": 6.89,
+		"axe-double-tinbronze": 5.85,
+		"axe-double-blackbronze": 6.24,
+		"axe-double-iron": 6.5,
+		"axe-double-meteoriciron": 6.89,
+		"axe-double-steel": 6.89,
+		
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -0.43, y: -0.52, z: -0.07 },
+			rotation: { x: 90, y: 0, z: 0 },
+			scale: 0.95
+		}
+	}
+}

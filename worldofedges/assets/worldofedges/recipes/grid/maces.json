@@ -1,0 +1,102 @@
+[
+{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:flangedhead-steel" },
+			"S": { type: "item", code: "game:game:rod-steel" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:club-flanged-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:morningstarhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:club-morningstar-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spikedhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:club-spiked-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:warhammerhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:club-warhammer-{material}", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:flangedhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:rod-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:club-flanged-{material}", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:morningstarhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:club-morningstar-{material}", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spikedhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:club-spiked-{material}", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:warhammerhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:club-warhammer-{material}", quantity: 1  }
+	},
+]

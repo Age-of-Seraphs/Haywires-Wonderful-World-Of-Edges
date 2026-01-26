@@ -1,0 +1,224 @@
+{
+	code: "knife",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+
+"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+						"passive": 0.5,
+						"active": 1
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 30,
+				"horizProtectionRange": 30
+			},
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 1,
+		knifeHitBlockAnimation: "knifecut",
+		knifeHitEntityAnimation: "knifestab",
+		handbook: {
+			groupBy: ["knife-*"]
+		},
+		toolrackTransformByType: {
+			
+			"knife-dagger-*": {
+				translation: { x: -0.3, y: 0.6, z: -0.1 },
+				rotation: { x: 97, y: 180, z: 3 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 1.8
+			},
+			
+		},
+		groundStorageTransformByType: {
+			
+			"knife-dagger-*": {
+				translation: { x: 0, y: 0.18, z: -0.147 },
+				rotation: { x: 26, y: 88, z: -101 },
+				scale: 1
+			},
+			
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		},
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "type", states: ["dagger"] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", ] },
+	],
+	skipVariants: [
+		"knife-dagger-scrap",
+	],
+	allowedVariants: [
+		"knife-dagger-*",
+	],
+	shapeByType: {
+		"knife-dagger-silver": { "base": "vanillaarmory:shapes/item/tool/blade/dagger-ornate" },
+		"knife-dagger-gold": { "base": "vanillaarmory:shapes/item/tool/blade/dagger-ornate" },
+
+
+		"*": { base: "game:item/tool/knife/dagger" }
+	},
+	heldTpHitAnimation: "knifestab",
+	texturesByType: {
+		"knife-dagger-silver": { "ingot-silver": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"knife-dagger-gold": { "ingot-silver": { base: "game:block/metal/ingot/steel" } },
+
+
+		"knife-dagger-*": {
+			"ingot-silver": { base: "game:block/metal/ingot/{material}" }
+		},
+	},
+	durabilitybytype: {
+				
+		"knife-dagger-gold": 2544,
+		"knife-dagger-silver": 2544,
+
+		"knife-dagger-copper": 300,
+		"knife-dagger-tinbronze": 540,
+		"knife-dagger-bismuthbronze": 636,
+		"knife-dagger-blackbronze": 720,
+		"knife-dagger-iron": 1020,
+		"knife-dagger-meteoriciron": 1320,
+		"knife-dagger-steel": 2544,
+
+	},
+	miningspeedbytype: {
+		
+		"knife-*": {
+			"plant": 1,
+		},
+		
+	},
+	
+	tooltierbytype: {
+		"*-copper": 4,
+		"*-gold": 7,
+		"*-silver": 7,
+		"*-bismuthbronze": 5,
+		"*-tinbronze": 5,
+		"*-blackbronze": 5,
+		"*-iron": 6,
+		"*-meteoriciron": 6,
+		"*-steel": 7
+	},
+	attackRange: 1.2,
+	attributesByType: {
+		"knife-dagger-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-dagger-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-dagger-ornate" }
+				}
+			}				
+		},
+		"knife-dagger-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-dagger-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-dagger-ornate" }
+				}
+			}				
+		},
+		"knife-dagger-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-dagger" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-dagger" }
+				}
+			}				
+		}
+	},
+	attackpowerbytype: {
+		
+		"knife-dagger-copper": 3.8,
+		"knife-dagger-bismuthbronze": 4.3,
+		"knife-dagger-tinbronze": 4.5,
+		"knife-dagger-gold": 5.3,
+		"knife-dagger-silver": 5.3,
+		"knife-dagger-blackbronze": 4.8,
+		"knife-dagger-iron": 5,
+		"knife-dagger-meteoriciron": 5.3,
+		"knife-dagger-steel": 5.3,
+
+		
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransformByType: {
+		"*-ruined": {
+			translation: { x: 0.2, y: 0, z: 0.5 },
+			rotation: { x: 140, y: 93, z: -75 },
+			scale: 2.5
+		},
+		"*": {
+			translation: { x: 0.2, y: 0.1, z: 0.5 },
+			rotation: { x: 140, y: 93, z: -75 },
+			scale: 2.5
+		}
+	},
+	guiTransformByType: {
+		
+		"knife-dagger-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -168, y: 0, z: 43 },
+			origin: { x: 0.48, y: 0.1, z: 0.5 },
+			scale: 1.84
+		},
+		
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransformByType: {
+		
+		"knife-dagger-*": {
+			translation: { x: -0.82, y: -0.04, z: -0.55 },
+			rotation: { x: 0, y: 0, z: -3 },
+			scale: 0.9
+		},
+		
+	}
+}

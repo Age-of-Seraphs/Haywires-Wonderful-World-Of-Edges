@@ -1,0 +1,18 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"____*____",
+"____*____",
+"____*____",
+"____*____",
+"*___*___*",
+"**__*__**",
+"_**_*_**_",
+"__*****__",
+	]],
+	name: "Ranseur spear blade",
+	output: { type: "item", code: "vanillaarmory:ranseurhead-{metal}"  }
+}
+
+
+

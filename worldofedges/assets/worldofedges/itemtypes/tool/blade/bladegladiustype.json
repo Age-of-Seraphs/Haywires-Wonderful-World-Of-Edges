@@ -1,0 +1,242 @@
+{
+	code: "blade",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	attributes: {
+
+
+
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+					"passive": 0.1,
+					"active": 1
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 60,
+				"horizProtectionRange": 60
+			},
+
+
+
+
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["blade-*"]
+		},
+		toolrackTransformByType: {
+			
+			"*":
+				{
+					translation: { x: 0.16, y: 0.7, z: 0 },
+					rotation: { x: 0, y: 180, z: 1 },
+					scale: 1.25
+				},
+			
+		},
+		groundStorageTransformByType: {
+			
+			"blade-gladius-*": {
+				translation: { x: 0, y: 0.33, z: 0.07 },
+				rotation: { x: 24, y: 90, z: -87 },
+				scale: 0.63
+			},
+			
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 1
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		},
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "type", states: ["gladius", ] },
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", ] }
+	],
+	skipVariants: [
+		"blade-gladius-scrap",
+
+	],
+	allowedVariants: [
+		
+		"blade-gladius-*",
+		
+	],
+	shapeByType: {
+		"blade-gladius-gold": { base: "vanillaarmory:shapes/item/tool/blade/gladius-ornate" },
+		"blade-gladius-silver": { base: "vanillaarmory:shapes/item/tool/blade/gladius-ornate" },
+
+		"blade-gladius-*": { base: "game:item/tool/blade/gladius" },
+		
+		
+	},
+	heldTpHitAnimationByType: {
+		
+		"blade-gladius-*": "spearhit",
+		
+	},
+	texturesByType: {
+		
+		"blade-gladius-silver": { "blackbronze": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"blade-gladius-gold": { "blackbronze": { base: "game:block/metal/ingot/steel" } },
+
+"blade-gladius-copper": { "blackbronze":  { base: "game:block/metal/ingot/copper" } },
+"blade-gladius-tinbronze": { "blackbronze":  { base: "game:block/metal/ingot/tinbronze" } },
+"blade-gladius-bismuthbronze": { "blackbronze":  { base: "game:block/metal/ingot/bismuthbronze" } },
+"blade-gladius-blackbronze": { "blackbronze":  { base: "game:block/metal/ingot/blackbronze" } },
+"blade-gladius-iron": { "blackbronze":  { base: "game:block/metal/ingot/iron" } },
+"blade-gladius-meteoriciron": { "blackbronze":  { base: "game:block/metal/ingot/meteoriciron" } },
+"blade-gladius-steel": { "blackbronze":  { base: "game:block/metal/ingot/steel" } },
+
+	},
+	attackRangebytype: {
+		
+		"*": 2.5
+	},
+attributesByType: {
+		"blade-gladius-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-gladius-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-gladius-ornate" }
+				}
+			}				
+		},
+		"blade-gladius-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-gladius-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-gladius-ornate" }
+				}
+			}				
+		},
+		"blade-gladius-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-gladius" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-gladius" }
+				}
+			}				
+		}
+	},
+	tooltierbytype: {
+		"*-copper": 1,
+		"*-gold": 4,
+		"*-silver": 4,
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2,
+		"*-iron": 3,
+		"*-meteoriciron": 3,
+		"*-steel": 4,
+
+	},
+	attackpowerbytype: {
+		
+		"blade-gladius-copper": 4.56,
+		"blade-gladius-bismuthbronze": 5.16,
+		"blade-gladius-tinbronze": 5.4,
+		"blade-gladius-blackbronze": 5.76,
+		"blade-gladius-iron": 6,
+		"blade-gladius-meteoriciron": 6.36,
+		"blade-gladius-steel": 6.63,
+		"blade-gladius-gold": 6.63,
+		"blade-gladius-silver": 6.63,
+		
+	},
+	durabilitybytype: {
+		
+		"blade-gladius-copper": 275,
+		"blade-gladius-tinbronze": 495,
+		"blade-gladius-bismuthbronze": 583,
+		"blade-gladius-blackbronze": 660,
+		"blade-gladius-iron": 935,
+		"blade-gladius-meteoriciron": 1210,
+		"blade-gladius-steel": 2332,
+		"blade-gladius-gold": 2332,
+		"blade-gladius-silver": 2332,
+		
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+	},
+	guiTransformByType: {
+		"*": 
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -53, y: 118, z: 8 },
+				origin: { x: 1.15, y: 0.2, z: 0.57 },
+				scale: 1.76
+			},
+		
+	},
+	fpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -0.2, y: -0.6, z: 0 },
+				rotation: { x: -18, y: 15, z: 90 },
+				scale: 2.27
+			},
+	},
+	groundTransformByType: {
+
+		"*":
+			{
+				translation: { x: 0, y: 0.04, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			},
+		
+	},
+	tpHandTransformByType: {
+		
+		"*":
+			{
+				translation: { x: -0.98, y: 0.055, z: -0.78 },
+				rotation: { x: 85, y: 0, z: 2 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.63
+			},
+		
+	}
+}

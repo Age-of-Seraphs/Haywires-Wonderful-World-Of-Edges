@@ -1,0 +1,160 @@
+[
+	{
+		"ingredientPattern": "GSG,SKS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 3
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				isTool: true,
+				toolDurabilityCost: 6
+			},
+
+		},
+		"width": 3,
+		"height": 2,
+		"name": "wood helmet",
+		"output": {
+			"type": "item",
+			"code": "vanillaarmory:woodarmor-head"
+		}
+	},
+
+
+	{
+		"ingredientPattern": "GSG,SKS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 3
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				isTool: true,
+				toolDurabilityCost: 6
+			},
+
+		},
+		"width": 3,
+		"height": 2,
+		"name": "wood helmet",
+		"output": {
+			"type": "item",
+			"code": "vanillaarmory:woodarmor-head"
+		}
+	},
+
+
+
+	{
+		"ingredientPattern": "SKS,SGS,SSS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 9
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				isTool: true,
+				toolDurabilityCost: 9
+			},
+		},
+		"width": 3,
+		"height": 3,
+		"name": "wood body armor",
+		"output": {
+			"type": "item",
+			"code": "game:armor-body-improvised-wood"
+		}
+	},
+	{
+		ingredientPattern: "SGS,SKS",
+		recipeGroup: 1,
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 3
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				isTool: true,
+				toolDurabilityCost: 3
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "wood leg armor",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:woodarmor-legs"
+		}
+	},
+
+	{
+		ingredientPattern: "SGS,SKS",
+		recipeGroup: 1,
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 3
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				isTool: true,
+				toolDurabilityCost: 3
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "wood leg armor",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:woodarmor-legs"
+		}
+	},
+
+
+
+
+
+]

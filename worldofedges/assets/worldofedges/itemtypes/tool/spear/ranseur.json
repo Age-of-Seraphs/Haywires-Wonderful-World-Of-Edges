@@ -1,0 +1,183 @@
+{
+	code: "spear",
+	class: "ItemSpear",
+	damagedby: ["attacking"],
+	tool: "spear",
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'WallHalves', wallOffY: 2, ctrlKey: true, selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 }, collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 } } },
+		{ name: "AnimationAuthoritative" }
+	],
+	variantgroups: [
+		{ code: "type", states: ["ranseur", ] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "ornategold", "ornatesilver", "iron", "meteoriciron", "steel", ] },
+	],
+	skipVariants: [
+		"spear-ranseur-ornategold",
+		"spear-ranseur-ornatesilver"
+	],
+	allowedVariants: [
+		"spear-ranseur-*",
+	],
+	shapeByType: {
+		"*": { base: "game:item/tool/spear/ranseur" }
+	},
+	heldTpIdleAnimation: "spearidle",
+	heldRightReadyAnimation: "spearidle",
+	heldTpHitAnimation: "spearhit",
+	texturesByType: {
+		
+		"spear-ranseur-*": { 
+			"metal": { base: "game:block/metal/ingot/{material}" } 
+		},
+		
+	},
+	attackRange: 3.5,
+
+
+	tooltierbytype:{
+		"spear-ranseur-copper": 3,
+
+		"spear-ranseur-bismuthbronze": 4,
+		"spear-ranseur-tinbronze": 4,
+		"spear-ranseur-blackbronze": 4,
+
+		"spear-ranseur-iron": 5,
+		"spear-ranseur-meteoriciron": 5,
+		"spear-ranseur-steel": 6,
+
+		"spear-ranseur-ornategold": 4,
+		"spear-ranseur-ornatesilver": 4,
+	},
+
+	attackpowerbytype: {
+		
+		"spear-ranseur-copper": 2.25,
+
+		"spear-ranseur-bismuthbronze": 2.7,
+		"spear-ranseur-tinbronze": 3.06,
+		"spear-ranseur-blackbronze": 3.24,
+
+		"spear-ranseur-iron": 3.51,
+		"spear-ranseur-meteoriciron": 3.87,
+		"spear-ranseur-steel": 3.87,
+
+
+		"spear-ranseur-ornategold": 4.25,
+		"spear-ranseur-ornatesilver": 4.25,
+		
+	},
+	attributes: {
+		heldItemPitchFollow: 1,
+		groundStorageTransformByType: {
+
+			"spear-ranseur-*": {
+				translation: { x: -0.25, y: 0.65, z: 0.11 },
+				rotation: { x: 16, y: 0, z: 90 },
+				scale: 0.85
+			},
+			
+		},
+		
+		"__comment": "Thrown damage",
+		damageByType: {
+			
+			"*-copper": 4.68,
+			"*-bismuthbronze": 5.31,
+			"*-tinbronze": 6.12,
+			"*-blackbronze": 6.57,
+
+			"*-iron": 6.75,
+			"*-meteoriciron": 8.37,
+			"*-steel": 8.37,
+			
+			"*-ornategold": 8.25,
+			"*-ornatesilver": 8.25
+		},
+		damageTierByType: {
+			
+			"*-copper": 3,
+			
+			"*-bismuthbronze": 4,
+			"*-tinbronze": 4,
+			"*-blackbronze": 4,
+			
+			"*-iron": 5,
+			"*-meteoriciron": 5,
+			"*-steel": 6,
+
+
+			"*-ornategold": 0,
+			"*-ornatesilver": 0
+		},
+		spearEntityCodeByType: {
+
+			"*": "vanillaarmory:spear-{type}-{material}",
+
+		},
+		handbook: {
+			groupBy: ["spear-*"]
+		},
+		toolrackTransformByType: {
+			
+			"spear-ranseur-*": {
+				translation: { x: -0.35, y: 0.05, z: 0.5 },
+				rotation: { x: 89, y: 1, z: -1 }
+			},
+			
+		}
+	},
+	durabilitybytype: {
+		
+		"spear-ranseur-copper": 117,
+
+		"spear-ranseur-tinbronze": 180,
+		"spear-ranseur-bismuthbronze": 216,
+		"spear-ranseur-blackbronze": 243,
+
+		"spear-ranseur-iron": 261,
+		"spear-ranseur-meteoriciron": 297,
+		"spear-ranseur-steel": 342,
+	
+		"spear-ranseur-ornategold": 320,
+		"spear-ranseur-ornatesilver": 320,
+		
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 33, y: 0, z: -127 },
+			origin: { x: 1.29, y: 0.05, z: 0.52 },
+			scale: 2.26
+		}
+	},
+	fpHandTransformByType: {
+		
+		"*": {
+			translation: { x: 0.1, y: 0.4, z: 0.16 },
+			rotation: { x: -82, y: 180, z: 96 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.45
+		}
+	},
+	groundTransformByType: {
+		
+		"spear-ranseur-*": {
+			translation: { x: 0, y: 0.05, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		},
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -1.24, y: 0.03, z: -0.61 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+		},
+		
+	}
+}

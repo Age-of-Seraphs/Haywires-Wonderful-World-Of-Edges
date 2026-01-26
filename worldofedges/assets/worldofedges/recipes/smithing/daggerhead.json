@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"_______#_______",
+"______##_______",
+"______##_______",
+"______##_______",
+"______##_______",
+"______##_______",
+"_____####______",
+"______##_______",
+"______##_______",
+"______##_______",
+	]],
+	name: "Dagger blade",
+	output: { type: "item", code: "vanillaarmory:daggerhead-{metal}"  }
+}

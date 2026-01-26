@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"__________#____",
+"________###____",
+"_______###_____",
+"_______###_____",
+"______###______",
+"______###______",
+"______###______",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+	]],
+	name: "Khanjar blade",
+	output: { type: "item", code: "vanillaarmory:khanjarhead-{metal}"  }
+}

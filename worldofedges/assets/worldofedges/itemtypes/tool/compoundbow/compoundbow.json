@@ -1,0 +1,161 @@
+{
+	code: "bow",
+	variantgroups: [
+		{ code: "type", states: ["ranger", "yager" ] },
+	],
+	class: "ItemBow",
+	maxstacksize: 1,
+	durabilityByType: {
+		"bow-ranger": 750,
+		"bow-yager": 800
+	},
+	shape: {
+		base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}",
+		alternates: [
+			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge1" },
+			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge2" },
+			{ base: "vanillaarmory:shapes/item/tool/bow/compoundbow/{type}-charge3" }
+		]
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	attributes: {
+		heldItemPitchFollow: 1,
+		aimAnimationByType: {
+			"bow-ranger": "bowaimlong",
+			"bow-yager": "bowaimrecurve",
+			"*": "bowaim",
+		},
+		damageByType: {
+			"bow-ranger": 4.75,
+			"bow-yager": 5
+		},
+		damageTierByType: {
+			"bow-ranger": 0,
+			"bow-yager": 0
+		},
+		statModifierByType: {
+			"bow-ranger": { 
+				"rangedWeaponsAcc": 0.2,
+				"rangedWeaponsSpeed": -0.2
+			},
+
+			"bow-yager": { 
+				"rangedWeaponsAcc": 0.3,
+				"rangedWeaponsSpeed": -0.2
+			}
+		},
+		toolrackTransformByType: {
+			"*-ranger": {
+				rotation: { x: 2, y: 5, z: 0 },
+				translation: { x: 0.2, y: 0.95 },
+				scale: 1.76
+			},
+			"*-yager": {
+				rotation: { x: 2, y: 5, z: 0 },
+				translation: { y: 0.63 },
+				scale: 1.25
+			}
+		},
+			groundStorageTransformByType: {
+				"*-ranger": {
+			translation: { x: -0.45, y: 0.51, z: -0.3 },
+			rotation: { x: 28, y: 125, z: -90 },
+			scale: 1.12
+				},
+				"*-yager":{
+			translation: { x: -0.2, y: -0, z: 0.44 },
+			rotation: { x: 9, y: -117, z: -111 },
+			scale: 0.83
+				}
+		}
+	},
+	attributesByType: {
+		"bow-yager": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponr-bow-yager" },
+					"frontleftside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponl-bow-yager" }
+				}
+			}				
+		},
+		"bow-ranger": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponr-bow-ranger" },
+					"frontleftside": { base: "vanillaarmory:item/wearable/hooved/elk/weaponl-bow-ranger" }
+				}
+			}				
+		}
+},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2,
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	fpHandTransformByType: {
+		"*-yager": {
+			translation: { x: 0, y: 0.5, z: 0 },
+			rotation: { x: 4, y: 1, z: 84 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.42
+		},
+		"*-ranger": {
+			translation: { x: 0, y: 0.5, z: 0 },
+			rotation: { x: 4, y: 1, z: 84 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.41
+		},
+	},
+	guiTransformByType: {
+		"*-ranger": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -135, y: 25, z: 41 },
+			origin: { x: 0.47, y: 0, z: 0.59 },
+			scale: 1.35
+		},
+		"*-yager": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -129, y: 25, z: 41 },
+			origin: { x: 0.47, y: 0, z: 0.55 },
+			scale: 1.36
+		},
+	},
+	groundTransformByType: {
+		"*-ranger": {
+			translation: { x: 0, y: 0.04, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 7
+		},
+		"*-yager":{
+			translation: { x: 0, y: 0.03, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4.8
+		}
+	},
+	tpHandTransformByType: {
+		"*-yager": {
+			translation: { x: -0.56, y: 0.01, z: -0.54 },
+			rotation: { x: 107, y: 11, z: 10 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.93
+		},
+		"*-ranger": {
+			translation: { x: -0.4199, y: -0, z: -0.39 },
+			rotation: { x: 107, y: 11, z: 10 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.29
+		}
+	}
+}

@@ -1,0 +1,222 @@
+{
+	code: "blade",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	attributes: {
+
+
+
+
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+					"passive": 0.05,
+					"active": 0.5
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 75,
+				"horizProtectionRange": 75
+			},
+
+
+
+
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["blade-*"]
+		},
+		toolrackTransformByType: {
+			"blade-claymore-*": 
+				{
+					translation: { x: 0.56, y: 0.6, z: -0.2 },
+					rotation: { x: -16, y: 180, z: 1 },
+					scale: 1.25
+				},
+			
+
+		},
+		groundStorageTransformByType: {
+			
+			"blade-claymore-*": {
+				translation: { x: 0, y: 1.05, z: 0.065 },
+				rotation: { x: 24, y: 90, z: -87 },
+				scale: 0.63
+			},
+			
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				
+				"blade-claymore-*": 2,
+				
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		},
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "type", states: ["claymore", ] },
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", ] }
+	],
+	skipVariants: [
+		"blade-claymore-scrap",
+	],
+	allowedVariants: [
+	
+		"blade-claymore-*",
+		
+	],
+	shapeByType: {
+		"blade-claymore-gold": { base: "vanillaarmory:shapes/item/tool/blade/claymore-ornate" },
+		"blade-claymore-silver": { base: "vanillaarmory:shapes/item/tool/blade/claymore-ornate" },
+
+		"blade-claymore-*": { base: "game:item/tool/blade/claymore" },
+
+	},
+	heldTpHitAnimationByType: {
+		
+		"*": "falx"
+	},
+	texturesByType: {
+		
+		"blade-claymore-silver": { "blackbronze": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"blade-claymore-gold": { "blackbronze": { base: "game:block/metal/ingot/steel" } },
+
+
+		"blade-claymore-*": { "blackbronze":  { base: "game:block/metal/ingot/{metal}"  } },
+
+	},
+	attackRangebytype: {
+			
+		"*": 3.5
+	},
+	tooltierbytype: {
+		
+		"*-copper": 1,
+		
+		"*-gold": 4,
+		"*-silver": 4,
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2,
+		"*-iron": 3,
+		"*-meteoriciron": 3,
+		"*-steel": 4,
+		
+		
+		
+	},
+	attackpowerbytype: {
+		
+		"blade-claymore-copper": 4.94,
+
+		"blade-claymore-bismuthbronze": 5.59,
+		"blade-claymore-tinbronze": 5.85,
+		"blade-claymore-blackbronze": 6.24,
+
+		"blade-claymore-iron": 6.5,
+		"blade-claymore-meteoriciron": 6.89,
+		"blade-claymore-steel": 6.89,
+
+		"blade-claymore-gold": 6.89,
+		"blade-claymore-silver": 6.89,
+		
+		
+		
+	},
+	durabilitybytype: {
+		
+		
+		"blade-claymore-copper": 450,
+		"blade-claymore-tinbronze": 810,
+		"blade-claymore-bismuthbronze": 954,
+		"blade-claymore-blackbronze": 1080,
+		"blade-claymore-iron": 1530,
+		"blade-claymore-meteoriciron": 1980,
+		"blade-claymore-steel": 3816,
+
+
+		"blade-claymore-gold": 3816,
+		"blade-claymore-silver": 3816,
+		
+		
+		
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+	},
+	guiTransformByType: {
+		"blade-claymore-*": 
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -87, y: 119, z: 30 },
+				origin: { x: 1.15, y: -0.1, z: 0.57 },
+				scale: 1.95
+			},
+		
+	},
+	fpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -0.2, y: -0.6, z: 0 },
+				rotation: { x: -18, y: 15, z: 90 },
+				scale: 2.27
+			},
+		
+	},
+	groundTransformByType: {
+		"blade-claymore-*": 
+			{
+				translation: { x: 0, y: 0.05, z: 0 },
+				rotation: { x: 14, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			},
+		
+	},
+	tpHandTransformByType: {
+		
+		
+		"blade-claymore-*":
+			{
+				translation: { x: -0.68, y: 0.055, z: -0.78 },
+				rotation: { x: 85, y: 0, z: 2 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.67
+			},
+	}
+}

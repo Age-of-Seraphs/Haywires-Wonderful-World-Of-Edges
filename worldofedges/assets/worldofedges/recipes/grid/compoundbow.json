@@ -1,0 +1,113 @@
+[
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
+			"F": { type: "item", code: "game:fat" },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"F": { type: "item", code: "game:resin" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"F": { type: "item", code: "game:beeswax" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["small", "medium"] },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"F": { type: "item", code: "game:fat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["small", "medium"] },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"F": { type: "item", code: "game:resin" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FST,BBT,FLT",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["small", "medium"] },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"F": { type: "item", code: "game:beeswax" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:bow-ranger", quantity: 1  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern:     "MFT,	
+					SBR,	
+					MFT,",
+		requiresTrait: "bowyer",
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-recurve-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"F": { type: "item", code: "game:bone" },
+			"R": { type: "item", code: "game:bow-recurve" },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 2 },
+			"M": { type: "item", code: "game:bushmeat-raw" }
+		},
+		width: 3,
+		height: 3,
+		copyAttributesFrom: 'R',
+		output: { type: "item", code: "vanillaarmory:bow-yager", quantity: 1  }
+	}
+
+
+]

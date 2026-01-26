@@ -1,0 +1,537 @@
+[
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:spear-fork-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-fork-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-fork-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:spear-voulge-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-voulge-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:spear-boar-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-boar-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-boar-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:spear-ranseur-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,		
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-ranseur-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-*-relic5", name: "spear", allowedVariants: ["voulge", "boar", "forked", "ranseur"] },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:spear-{spear}-relic5", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,GMD,T__",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:spear-*-relic4", name: "spear", allowedVariants: ["voulge", "boar", "forked", "ranseur"] },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
+			"D": { type: "item", code: "game:gem-diamond-rough"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-{spear}-relic5", quantity: 1  }
+	},
+
+
+
+
+]

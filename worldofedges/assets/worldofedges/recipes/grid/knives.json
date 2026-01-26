@@ -1,0 +1,95 @@
+[
+{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:baselardhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:knife-baselard-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:daggerhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:knife-dagger-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:khanjarhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:knife-khanjar-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:stilettohead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver",]},
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:knife-stiletto-{material}", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:baselardhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:knife-baselard-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:daggerhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:knife-dagger-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:khanjarhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:knife-khanjar-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:stilettohead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:knife-stiletto-{material}", quantity: 1  }
+	},
+]

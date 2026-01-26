@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "H,C,P",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+		"P": { "type": "item", "name": "plate", skipVariants: ["electrum"], "code": "game:metalplate-*", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 1,
+	"copyAttributesFrom": 'P',
+	"output": { "type": "item", "code": "game:metallamellae-{plate}", "quantity": 2 }
+	}
+]

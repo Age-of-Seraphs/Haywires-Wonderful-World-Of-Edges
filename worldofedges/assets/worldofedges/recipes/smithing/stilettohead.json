@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"_______#_______",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+"______###______",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+	]],
+	name: "Stiletto blade",
+	output: { type: "item", code: "vanillaarmory:stilettohead-{metal}"  }
+}

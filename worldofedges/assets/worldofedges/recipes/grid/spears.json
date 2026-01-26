@@ -1,0 +1,106 @@
+[
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:boarhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:spear-boar-{material}", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "T,S,P",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:boarhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-boar-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,P",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:forkhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-fork-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,P",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:voulgehead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,P",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:ranseurhead-steel" },
+			"S": { type: "item", code: "game:stick" },
+			"P": { type: "item", code: "game:metalplate-*", name: "material", allowedVariants: [ "gold", "silver" ] },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-{material}", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:forkhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:spear-fork-{material}", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:voulgehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:spear-voulge-{material}", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "T,S",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:ranseurhead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "vanillaarmory:spear-ranseur-{material}", quantity: 1  }
+	},
+]

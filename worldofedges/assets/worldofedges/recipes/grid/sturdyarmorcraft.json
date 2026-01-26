@@ -1,0 +1,69 @@
+[
+	{
+		"ingredientPattern": "LKL,K_K",
+		"recipeGroup": 1,
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 1
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"name": "sturdy helmet",
+		"output": {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-head"
+		}
+	},
+	{
+		"ingredientPattern": "LTL,MMM,MMM",
+		"recipeGroup": 1,
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 2
+			},
+			"M": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 3
+			},
+			"T": {
+				"type": "item",
+				"code": "game:flaxtwine",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sturdy body armor",
+		"output": {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-body"
+		}
+	},
+	{
+		ingredientPattern: "LKL,LTL,K_K",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:leather-sturdy-plain", quantity: 1 },
+			"L": { type: "item", code: "game:leather-sturdy-plain", quantity: 2 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		name: "sturdy leg armor",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-legs"
+		}
+	}
+]

@@ -1,0 +1,8 @@
+[
+{
+  "file": "game:itemtypes/resource/metallamellae",
+  "op": "addmerge",
+  "path": "/attributes",
+  "value": {"qualityType": 1}
+}
+]

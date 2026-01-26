@@ -1,0 +1,18 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"_*_____*_",
+"**_____**",
+"*_______*",
+"*_______*",
+"*_______*",
+"*********",
+"____*____",
+"____*____",
+	]],
+	name: "War fork blade",
+	output: { type: "item", code: "vanillaarmory:forkhead-{metal}"  }
+}
+
+
+

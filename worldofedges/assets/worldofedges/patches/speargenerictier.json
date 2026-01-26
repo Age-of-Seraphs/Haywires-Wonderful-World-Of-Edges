@@ -1,0 +1,105 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-bismuthbronze",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-blackbronze",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-copper",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-erel",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-hacking",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-obsidian",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-ornategold",
+    "value": 3,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-ornatesilver",
+    "value": 3,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-scrap",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageTierByType/*-tinbronze",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },	
+
+
+
+
+
+{
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/tooltierbytype",
+		"value": {
+			"*-chert": 0,
+			"*-granite": 0,
+			"*-andesite": 0,
+			"*-peridotite": 0,
+			"*-basalt": 0,
+			"*-flint": 0,
+			"*-obsidian": 1,
+			"*-scrap": 1,
+			"*-copper": 1,
+			"*-erel": 1,
+			"*-bismuthbronze": 2,
+			"*-tinbronze": 2,
+			"*-blackbronze": 2,
+			"*-ruined": 0,
+			"*-hacking": 1,
+			"*-ornategold": 3,
+			"*-ornatesilver": 3
+		},
+	},
+
+
+
+	
+]

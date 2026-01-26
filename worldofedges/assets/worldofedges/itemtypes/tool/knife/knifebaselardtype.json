@@ -1,0 +1,229 @@
+{
+	code: "knife",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+
+
+
+"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+						"passive": 0.5,
+						"active": 1
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 30,
+				"horizProtectionRange": 30
+			},
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 1,
+		knifeHitBlockAnimation: "knifecut",
+		knifeHitEntityAnimation: "knifestab",
+		handbook: {
+			groupBy: ["knife-*"]
+		},
+		toolrackTransformByType: {
+			
+			"knife-baselard-*": {
+				translation: { x: 0.1, y: 0.6, z: -0.1 },
+				rotation: { x: 69, y: 180, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 1.72
+			},
+			
+		},
+		groundStorageTransformByType: {
+			
+			"knife-baselard-*": {
+				translation: { x: 0, y: 0.3, z: -0.09 },
+				rotation: { x: 26, y: 90, z: -87 },
+				scale: 1
+			},
+			
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		},
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "type", states: ["baselard"] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", ] },
+	],
+	skipVariants: [
+		"knife-baselard-scrap",
+	],
+	allowedVariants: [
+		"knife-baselard-*",
+	],
+	shapeByType: {
+		"knife-baselard-silver": { "base": "vanillaarmory:shapes/item/tool/blade/baselard-ornate" },
+		"knife-baselard-gold": { "base": "vanillaarmory:shapes/item/tool/blade/baselard-ornate" },
+
+		"*": { base: "game:item/tool/knife/baselard" }
+	},
+	heldTpHitAnimation: "knifestab",
+	texturesByType: {
+		
+		"knife-baselard-silver": { "meteoriciron": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"knife-baselard-gold": { "meteoriciron": { base: "game:block/metal/ingot/steel" } },
+
+
+
+		"knife-baselard-*": {
+			"meteoriciron": { base: "game:block/metal/ingot/{material}" }
+		},
+	},
+	durabilitybytype: {
+				
+		"knife-baselard-gold": 3816,
+		"knife-baselard-silver": 3816,
+		"knife-baselard-copper": 450,
+		"knife-baselard-tinbronze": 810,
+		"knife-baselard-bismuthbronze": 954,
+		"knife-baselard-blackbronze": 1080,
+		"knife-baselard-iron": 1530,
+		"knife-baselard-meteoriciron": 1980,
+		"knife-baselard-steel": 3816,
+
+	},
+	miningspeedbytype: {
+		
+		"knife-*": {
+			"plant": 1,
+		},
+		
+	},
+	
+	tooltierbytype: {
+		
+		"*-copper": 2,
+		"*-gold": 5,
+		"*-silver": 5,
+		"*-ruined": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	attackRange: 1.2,
+	attributesByType: {
+		"knife-baselard-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-baselard-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-baselard-ornate" }
+				}
+			}				
+		},
+		"knife-baselard-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-baselard-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-baselard-ornate" }
+				}
+			}				
+		},
+		"knife-baselard-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-baselard" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-baselard" }
+				}
+			}				
+		}
+	},
+	attackpowerbytype: {
+		
+		"knife-baselard-copper": 3.8,
+		"knife-baselard-bismuthbronze": 4.3,
+		"knife-baselard-tinbronze": 4.5,
+		"knife-baselard-gold": 5.3,
+		"knife-baselard-silver": 5.3,
+		"knife-baselard-blackbronze": 4.8,
+		"knife-baselard-iron": 5,
+		"knife-baselard-meteoriciron": 5.3,
+		"knife-baselard-steel": 5.3,
+
+		
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransformByType: {
+		"*-ruined": {
+			translation: { x: 0.2, y: 0, z: 0.5 },
+			rotation: { x: 140, y: 93, z: -75 },
+			scale: 2.5
+		},
+		"*": {
+			translation: { x: 0.2, y: 0.1, z: 0.5 },
+			rotation: { x: 140, y: 93, z: -75 },
+			scale: 2.5
+		}
+	},
+	guiTransformByType: {
+		
+		"knife-baselard-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -158, y: 0, z: 48 },
+			origin: { x: 0.78, y: 0.2, z: 0.9 },
+			scale: 2.09
+		},
+		
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransformByType: {
+		
+		"knife-baselard-*": {
+			translation: { x: -0.66, y: -0.01, z: -0.66 },
+			rotation: { x: -19, y: 0, z: 0 },
+			scale: 1
+		},
+		
+	}
+}

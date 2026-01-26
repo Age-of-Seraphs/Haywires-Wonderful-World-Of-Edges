@@ -1,0 +1,67 @@
+{
+	code: "spear",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.125, y: 0.125 },
+	variantgroups: [
+		{ code: "type", states: ["voulge",] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "ornategold", "ornatesilver", "iron", "meteoriciron", "steel", "gold", "silver", ] }
+	],
+	skipVariants: [
+		"spear-voulge-ornategold",
+		"spear-voulge-ornatesilver",
+	],
+	allowedVariants: [
+		"spear-voulge-*",
+	],
+	attributes: {
+		isProjectile: true
+	},
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+		
+			"spear-voulge-silver": { base: "vanillaarmory:item/tool/spear/voulge-ornate", offsetX: -0.8125 },
+			"spear-voulge-gold": { base: "vanillaarmory:item/tool/spear/voulge-ornate", offsetX: -0.8125 },
+			"spear-voulge-*": { base: "game:item/tool/spear/voulge", offsetX: -0.8125 },
+			
+		},
+		texturesByType: {
+
+			"spear-voulge-silver": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"gold1": { base: "game:block/metal/ingot/silver" },
+			"ornaments": { base: "game:block/cloth/linen/blue" },
+			},
+
+			"spear-voulge-gold": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"ornaments": { base: "game:block/cloth/linen/black" },
+			},
+			
+			"spear-voulge-*": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" },
+			},
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		]
+	},
+	sounds: { }
+}

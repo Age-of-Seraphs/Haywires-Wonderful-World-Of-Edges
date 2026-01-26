@@ -1,0 +1,587 @@
+[
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:blade-arming-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-arming-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-arming-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:blade-gladius-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-gladius-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 1  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-gladius-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:blade-claymore-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 3 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 3 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 3  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 3  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,		
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 3 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 3 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 3  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-claymore-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 3  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-claymore-relic4", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "H,G,T",
+		ingredients: {
+			"T": { type: "item", code: "game:blade-sabre-ruined" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic0" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic1" },
+			"M": { type: "item", code: "game:ingot-copper", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic1" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic2" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic2" },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic3" },
+			"M": { type: "item", code: "game:ingot-iron", "quantity": 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic3", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,GM,T_",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic3" },
+			"G": { type: "item", code: "game:gear-temporal" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-sabre-relic4" },
+
+"M": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel", "meteoriciron", ], "quantity": 2  },
+
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-sabre-relic4", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic5", name: "blade", allowedVariants: ["arming", "sabre"] },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 2  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,GMD,T__",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic4", name: "blade", allowedVariants: ["arming", "sabre"] },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 2  },
+			"D": { type: "item", code: "game:gem-diamond-rough"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic5", name: "blade", allowedVariants: ["claymore"] },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 3  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,GMD,T__",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic4", name: "blade", allowedVariants: ["claymore"] },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 3  },
+			"D": { type: "item", code: "game:gem-diamond-rough"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	},
+{
+		ingredientPattern: "H,M,T",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic5", name: "blade", allowedVariants: ["gladius"] },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 1,
+		height: 3,
+		averageDurability: false,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,GMD,T__",
+		ingredients: {
+			"T": { type: "item", code: "vanillaarmory:blade-*-relic4", name: "blade", allowedVariants: ["gladius"] },
+			"G": { type: "item", code: "game:gear-temporal" },
+			"M": { type: "item", code: "game:crushed-ilmenite", "quantity": 1  },
+			"D": { type: "item", code: "game:gem-diamond-rough"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:blade-{blade}-relic5", quantity: 1  }
+	}
+
+
+
+
+]

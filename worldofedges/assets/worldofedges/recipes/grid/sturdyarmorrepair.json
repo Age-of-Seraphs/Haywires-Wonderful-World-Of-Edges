@@ -1,0 +1,65 @@
+[
+	{
+		ingredientPattern: "A,L",
+		recipeGroup: 2,
+		ingredients: {
+			"A": {
+				"type": "item",
+				"code": "vanillaarmory:sturdyleatherarmor-head"
+			},
+			"L": { type: "item", code: "game:leather-sturdy-plain" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "leather helmet repair",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-head"
+		}
+	},
+	{
+		ingredientPattern: "A,L",
+		recipeGroup: 2,
+		ingredients: {
+			"A": {
+				"type": "item",
+				"code": "vanillaarmory:sturdyleatherarmor-body"
+			},
+			"L": { type: "item", code: "game:leather-sturdy-plain" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "leather body armor repair",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-body"
+		}
+	},
+	{
+		ingredientPattern: "A,L",
+		recipeGroup: 2,
+		ingredients: {
+			"A": {
+				"type": "item",
+				"code": "vanillaarmory:sturdyleatherarmor-legs"
+			},
+			"L": { type: "item", code: "game:leather-sturdy-plain" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "leather leg armor repair",
+		output: {
+			"type": "item",
+			"code": "vanillaarmory:sturdyleatherarmor-legs"
+		}
+	}
+]

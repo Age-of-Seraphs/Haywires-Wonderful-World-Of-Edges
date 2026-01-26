@@ -1,0 +1,220 @@
+{
+	code: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "axe",
+	class: "ItemAxe",
+	attributes: {
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+						"passive": 0.075,
+						"active": 0.75
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 67.5,
+				"horizProtectionRange": 67.5
+			},
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["axe-*"]
+		},
+		toolrackTransformByType: {
+			
+			"axe-bardiche-*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.1, y: 0.6 },
+				scale: 1.25,
+			},
+			
+		},
+		groundStorageTransformByType: {
+			
+			"axe-bardiche-*": {
+				translation: { x: 0.45, y: -0.1, z: -0.02 },
+				rotation: { x: 26, y: 0, z: -87 },
+				scale: 0.88
+			},
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"axe-bardiche-*": 2,
+				
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative", properties: { onlyOnEntity: true } }],
+	variantgroups: [
+		{ code: "type", states: ["bardiche", ] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel",
+		  ] }
+	],
+	skipVariants: [
+		"axe-bardiche-scrap",
+	],
+	allowedVariants: [
+		"axe-bardiche-*",
+
+	],
+	shapeByType: {
+		"axe-bardiche-silver": { "base": "vanillaarmory:shapes/item/tool/axe/bardiche-ornate" },
+		"axe-bardiche-gold": { "base": "vanillaarmory:shapes/item/tool/axe/bardiche-ornate" },
+		"axe-bardiche-*": { "base": "game:item/tool/axe/bardiche" },
+	},
+
+	heldRightReadyAnimationByType: {
+
+		"axe-bardiche-*": "axeready",
+
+	},
+	heldTpHitAnimationByType: {
+
+		"axe-bardiche-*": "axechop",
+
+	},
+	texturesByType: {
+		"axe-bardiche-silver": { "blackbronze2": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"axe-bardiche-gold": { "blackbronze2": { base: "game:block/metal/ingot/steel" } },
+		"axe-bardiche-*": { "blackbronze2": { base: "game:block/metal/ingot/{material}" } },
+	},
+	attackRangebytype: {	
+		"*": 3.0
+	},
+	attributesByType: {
+		"axe-bardiche-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-bardiche-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-bardiche-ornate" }
+				}
+			}				
+		},
+		"axe-bardiche-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-bardiche-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-bardiche-ornate" }
+				}
+			}				
+		},
+		"axe-bardiche-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-bardiche" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-bardiche" }
+				}
+			}				
+		}
+	},
+
+	tooltierbytype: {
+		"*-scrap": 2,
+		"*-copper": 2,
+		"*-gold": 5,
+		"*-silver": 5,
+		"*-ruined": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	
+	durabilitybytype: {
+		
+		"axe-bardiche-gold": 1696,
+		"axe-bardiche-silver": 1696,
+		"axe-bardiche-copper": 200,
+		"axe-bardiche-blackbronze": 480,
+		"axe-bardiche-bismuthbronze": 424,
+		"axe-bardiche-tinbronze": 360,
+		"axe-bardiche-iron": 680,
+		"axe-bardiche-meteoriciron": 880,
+		"axe-bardiche-steel": 1696
+	},
+	attackpowerbytype: {
+		
+		"axe-bardiche-copper": 5.32,
+		"axe-bardiche-bismuthbronze": 6.02,
+		"axe-bardiche-gold": 7.42,
+		"axe-bardiche-silver": 7.42,
+		"axe-bardiche-tinbronze": 6.3,
+		"axe-bardiche-blackbronze": 6.72,
+		"axe-bardiche-iron": 7,
+		"axe-bardiche-meteoriciron": 7.42,
+		"axe-bardiche-steel": 7.42,
+		
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0.03, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		},
+		
+	},
+	tpHandTransformByType: {
+		
+		"axe-bardiche-*": {
+			translation: { x: -1.09, y: -0.5, z: -0.03 },
+			rotation: { x: 90, y: 0, z: -2 },
+			scale: 0.95
+		},
+		
+	}
+}

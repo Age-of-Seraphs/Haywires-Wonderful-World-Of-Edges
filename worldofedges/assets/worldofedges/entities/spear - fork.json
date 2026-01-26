@@ -1,0 +1,68 @@
+{
+	code: "spear",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.125, y: 0.125 },
+	variantgroups: [
+		{ code: "type", states: ["fork",] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "ornategold", "ornatesilver", "iron", "meteoriciron", "steel", "gold", "silver", ] }
+	],
+	skipVariants: [
+		"spear-fork-ornategold",
+		"spear-fork-ornatesilver",
+	],
+	allowedVariants: [
+		"spear-fork-*",
+	],
+	attributes: {
+		isProjectile: true
+	},
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+
+			"spear-fork-gold": { base: "vanillaarmory:item/tool/spear/fork-ornate", offsetX: -0.8125 },
+			"spear-fork-silver": { base: "vanillaarmory:item/tool/spear/fork-ornate", offsetX: -0.8125 },
+			"spear-fork-*": { base: "game:item/tool/spear/fork", offsetX: -0.8125 },
+			
+		},
+		texturesByType: {
+
+			"spear-fork-silver": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"gold1": { base: "game:block/metal/ingot/silver" },
+			"ornaments": { base: "game:block/cloth/linen/blue" },
+			},
+
+			"spear-fork-gold": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"ornaments": { base: "game:block/cloth/linen/black" },
+			},
+
+			"spear-fork-*": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" },
+			},
+
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		]
+	},
+	sounds: { }
+}

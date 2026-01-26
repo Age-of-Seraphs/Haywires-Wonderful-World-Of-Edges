@@ -1,0 +1,127 @@
+{
+	"code": "throwingstick",
+	"class": "vanillaarmory.throwingstick",
+	"storageFlags": 513,
+	"tool": "spear",
+	"attributes": {
+		"handbook": { "groupBy": ["boomerang-*"] },
+		"groundStorageTransformByType": {
+			"*": {
+				"translation": { "x": 0, "y": 0.22, "z": 0.68 },
+				"rotation": { "x": 16, "y": 90, "z": 90 },
+				"scale": 0.85
+			}
+		},
+
+		throwingStickEntityCodeByType: {
+	"*": "vanillaarmory:throwingstick-{material}",
+		},
+
+		"__comment": "Thrown damage",
+		"damageByType": {
+			"throwingstick-wood": 4,
+			"throwingstick-bone": 4.5,
+			"throwingstick-copper": 5,
+			"throwingstick-tinbronze": 6,
+			"throwingstick-bismuthbronze": 5.5,
+			"throwingstick-blackbronze": 6.2,
+			"throwingstick-iron": 6.5,
+			"throwingstick-meteoriciron": 7,
+			"throwingstick-steel": 7,
+		},
+		"breakChanceOnImpactByType": {
+			"throwingstick-wood": 0.28,
+			"throwingstick-bone": 0.23,
+			"throwingstick-copper": 0.13,
+			"throwingstick-tinbronze": 0.10,
+			"throwingstick-bismuthbronze": 0.10,
+			"throwingstick-blackbronze": 0.08,
+			"throwingstick-iron": 0.08,
+			"throwingstick-meteoriciron": 0.08,
+			"throwingstick-steel": 0.05,
+		}
+	},
+	"behaviors": [
+		{ 
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "WallHalves",
+				"wallOffY": 2,
+				"sprintKey": true,
+				"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+			}
+		},
+		{ "name": "AnimationAuthoritative" }
+	],
+	"maxstacksize": 5,
+	"variantgroups": [
+		{ "code": "material", "states": ["wood", "bone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
+	],
+	"shapeByType": {
+		"*": { "base": "vanillaarmory:item/tool/huntingstick" }
+	},
+	"texturesByType": {
+
+		"throwingstick-wood": { 
+			"copper": { "base": "game:block/wood/debarked/aged" } 
+		},
+		"throwingstick-bone": { 
+			"copper": { "base": "game:block/creature/bone" } 
+		},
+		"throwingstick-*": { 
+			"copper": { "base": "game:block/metal/ingot/{material}" } 
+		},
+
+
+	},
+	"heldTpHitAnimation": "idle",
+	"heldTpUseAnimation": "interactstatic",
+	"tooltierbytype": {
+		"*-wood": 0,
+		"*-bone": 0,
+		"*-copper": 1,
+		"*-tinbronze": 2,
+		"*-bismuthbronze": 2,
+		"*-blackbronze": 2,
+		"*-iron": 3,
+		"*-meteoriciron": 3,
+		"*-steel": 4,
+	},
+	"damageTypeByType": {
+		"*": "PiercingAttack"
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"] },
+
+
+
+	"guiTransform": {
+		translation: { x: -51.3, y: -20, z: 19 },
+		rotation: { x: -140, y: 6, z: 103 },
+		origin: { x: 1.1, y: 0.5, z: 0.27 },
+		scale: 3.39
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -85, "y": 70, "z": 90 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.3 },
+		"scale": 3.5
+	},
+	"tpHandTransform": {
+		translation: { x: -1, y: -0.01, z: -0.53 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.6, y: 0, z: 0.5 },
+		scale: 1
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.4
+	},
+	tpOffHandTransform: {
+		translation: { x: -0.51, y: -0.54, z: -0.55 },
+		rotation: { x: 90, y: 1, z: 0 },
+		scale: 1
+	}
+}

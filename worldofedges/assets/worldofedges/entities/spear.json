@@ -1,0 +1,54 @@
+{
+	code: "spear",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.125, y: 0.125 },
+	variantgroups: [
+		{ code: "type", states: ["generic",] },
+		{ code: "material", states: ["iron", "meteoriciron", "steel",] }
+	],
+	skipVariants: [
+		"spear-generic-ruined",
+	],
+	allowedVariants: [
+		"spear-generic-*",
+	],
+	attributes: {
+		isProjectile: true
+	},
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+			
+			"spear-generic-*": { base: "game:item/tool/spear/ornatesilver", offsetX: -0.8125 },
+			
+		},
+		texturesByType: {
+			"spear-generic-*": {
+			"iron4": { base: "game:block/metal/ingot/{material}" },
+			"silver4": { base: "game:block/cloth/linen/plain"},
+			"silver": { base: "game:block/cloth/linen/plain"},
+			},
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		]
+	},
+	sounds: { }
+}

@@ -1,0 +1,270 @@
+{
+	code: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "axe",
+	class: "ItemAxe",
+	attributes: {
+
+
+
+			"bloodshed-defense": {
+				"blockSoundLight": "game:tool/slash",
+				"blockSoundHeavy": "game:effect/anvilmergehit",
+				"protectionChanceByType": {
+					"*": {
+						"passive": 0.2,
+						"active": 1
+					},
+				},
+				"damageAbsorptionByType": {
+					"*-ruined": 2,
+					"*-copper": 3,
+					"*-tinbronze": 4,
+					"*-bismuthbronze": 4.5,
+					"*-blackbronze": 5,
+					"*-iron": 5.5,
+					"*-meteoriciron": 6,
+					"*-steel": 6.5,
+					"*-gold": 6.5,
+					"*-silver": 6.5
+				},
+				"vertProtectionRange": 52.5,
+				"horizProtectionRange": 52.5
+			},
+
+
+
+
+"sharpenable": true,
+"onGrindstoneTransform": {
+		translation: { x: -0.2, y: 0.3, z: 0.4 },
+		rotation: { x: 50, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+},
+
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["axe-*"]
+		},
+		toolrackTransformByType: {
+			
+			"axe-bearded-*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: 0.2, y: 0.6 },
+				scale: 1.25,
+			},
+			
+		},
+		groundStorageTransformByType: {
+			
+			"axe-bearded-*": {
+				translation: { x: 0, y: 0.19, z: -0.125 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 0.88
+			},
+			
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				
+				"*": 1
+			},
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative", properties: { onlyOnEntity: true } }],
+	variantgroups: [
+		{ code: "type", states: ["bearded"] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] }
+	],
+	skipVariants: [
+		"axe-bearded-scrap",
+	],
+	allowedVariants: [
+		"axe-bearded-*",
+	],
+	shapeByType: {
+		"axe-bearded-silver": { "base": "vanillaarmory:shapes/item/tool/axe/bearded-ornate" },
+		"axe-bearded-gold": { "base": "vanillaarmory:shapes/item/tool/axe/bearded-ornate" },
+		"axe-bearded-*": { "base": "game:item/tool/axe/bearded" },
+		
+	},
+
+	heldRightReadyAnimationByType: {
+		
+		"*": "beginholditem"
+	},
+	heldTpHitAnimationByType: {
+	
+		"*": "breaktool"
+	},
+	texturesByType: {
+		"axe-bearded-silver": { "iron": { base: "game:block/metal/ingot/steel" }, 
+					 "handguard": { base: "game:block/metal/ingot/silver" },
+					 "cloth": { base: "game:block/cloth/linen/blue" },
+		},
+		"axe-bearded-gold": { "iron": { base: "game:block/metal/ingot/steel" } },
+
+		"axe-bearded-*": { "iron": { base: "game:block/metal/ingot/{material}" } }
+	},
+	attackRangebytype: {	
+		"*": 2
+	},
+	attributesByType: {
+		"axe-bearded-silver": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-beardedaxe-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-beardedaxe-ornate" }
+				}
+			}				
+		},
+		"axe-bearded-gold": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-beardedaxe-ornate" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-beardedaxe-ornate" }
+				}
+			}				
+		},
+		"axe-bearded-*": {
+			attachableToEntity: {
+				categoryCode: "utilities",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "item/wearable/hooved/elk/weaponr-beardedaxe" },
+					"frontleftside": { base: "item/wearable/hooved/elk/weaponl-beardedaxe" }
+				}
+			}				
+		}
+	},
+	tooltierbytype: {
+		"*-scrap": 2,
+		"*-copper": 2,
+		"*-gold": 5,
+		"*-silver": 5,
+		"*-ruined": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	miningspeedbytype: {		
+		"axe-bearded-copper": {
+			"wood": 5.2,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"axe-bearded-silver": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"axe-bearded-gold": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"axe-bearded-bismuthbronze": {
+			"wood": 5.8,
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"axe-bearded-tinbronze": {
+			"wood": 6.3,
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"axe-bearded-blackbronze": {
+			"wood": 6.6,
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"axe-bearded-iron": {
+			"wood": 8.4,
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"axe-bearded-meteoriciron": {
+			"wood": 9.6,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"axe-bearded-steel": {
+			"wood": 11,
+			"plant": 6,
+			"leaves": 4
+		}
+	},
+	
+	durabilitybytype: {
+	
+		"axe-bearded-gold": 1800,
+		"axe-bearded-silver": 1800,
+		"axe-bearded-copper": 250,
+		"axe-bearded-blackbronze": 600,
+		"axe-bearded-bismuthbronze": 500,
+		"axe-bearded-tinbronze": 400,
+		"axe-bearded-iron": 900,
+		"axe-bearded-meteoriciron": 1200,
+		"axe-bearded-steel": 1800
+	},
+	attackpowerbytype: {
+		
+		"axe-bearded-copper": 4.56,
+		"axe-bearded-bismuthbronze": 5.16,
+		"axe-bearded-gold": 6.36,
+		"axe-bearded-silver": 6.36,
+		"axe-bearded-tinbronze": 5.4,
+		"axe-bearded-blackbronze": 5.76,
+		"axe-bearded-iron": 6,
+		"axe-bearded-meteoriciron": 6.36,
+		"axe-bearded-steel": 6.36,
+
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "vanillaarmory": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0.03, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		},
+		
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -0.89, y: -0.5, z: -0.03 },
+			rotation: { x: 90, y: 0, z: -2 },
+			scale: 0.95
+		},
+		
+	}
+}

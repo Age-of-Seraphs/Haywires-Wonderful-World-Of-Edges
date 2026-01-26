@@ -1,0 +1,15 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"_#________",
+"########__",
+"##########",
+"###_####__",
+"###_______",
+"###_______",
+"###_______",
+"_##_______",
+	]],
+	name: "Battleaxe blade",
+	output: { type: "item", code: "vanillaarmory:battlehead-{metal}"  }
+}

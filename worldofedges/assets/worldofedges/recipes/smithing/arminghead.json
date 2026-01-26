@@ -1,0 +1,23 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"______#________",
+"______##_______",
+"______##_______",
+"______##_______",
+"______###______",
+"______###______",
+"______###______",
+"______###______",
+"______###______",
+"______###______",
+"___#__###__#___",
+"___##_###_##___",
+"____#######____",
+"_______#_______",
+"_______#_______",
+"_______#_______",
+	]],
+	name: "Arming blade",
+	output: { type: "item", code: "vanillaarmory:arminghead-{metal}"  }
+}

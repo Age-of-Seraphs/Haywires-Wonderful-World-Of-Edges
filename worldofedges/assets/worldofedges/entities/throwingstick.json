@@ -1,0 +1,46 @@
+{
+	"code": "throwingstick",
+	"class": "vanillaarmory.entitythrowingstick",
+	"hitboxSize": { "x": 0.125, "y": 0.125 },
+	"variantgroups": [
+		{ "code": "material", "states": ["wood", "bone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
+	],
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+			"*": { "base": "vanillaarmory:item/tool/huntingstick", "offsetX": -0.08125 }
+		},
+		"texturesByType": {
+			"throwingstick-wood": { 
+				"copper": { "base": "game:block/wood/debarked/aged" } 
+			},
+			"throwingstick-bone": { 
+				"copper": { "base": "game:block/creature/bone" } 
+			},
+			"throwingstick-*": { 
+				"copper": { "base": "game:block/metal/ingot/{material}" } 
+			},
+		},
+		"behaviors": [
+			{ 
+				"code": "passivephysics", 
+				"groundDragFactor": 1,
+				"airDragFactor": 0.25,
+				"gravityFactor": 0.75
+			}, 
+			{ "code": "interpolateposition" }
+		]
+	},
+	"server": {
+		"behaviors": [
+			{ 
+				"code": "passivephysics", 
+				"groundDragFactor": 1,
+				"airDragFactor": 0.25,
+				"gravityFactor": 0.75
+			}, 
+			{ "code": "despawn", "minSeconds": 600 }
+		]
+	},
+	"sounds": { }
+}

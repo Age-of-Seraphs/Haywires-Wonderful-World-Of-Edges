@@ -1,0 +1,97 @@
+[
+	{
+		ingredientPattern: "TTT,STS,TTT",
+		ingredients: {
+			"T": { type: "item", code: "game:cattailtops" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TTT,STS,TTT",
+		ingredients: {
+			"T": { type: "item", code: "game:papyrustops" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TTT,STS,TTT",
+		ingredients: {
+			"T": { type: "item", code: "game:bamboostakes" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "vanillaarmory:quiver-crude", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+	},
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-large" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+	},
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 3 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "vanillaarmory:quiver-hide", quantity: 1  }
+	},
+
+
+
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+			"H": { type: "item", code: "game:leather-normal-plain", quantity: 3 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "vanillaarmory:quiver-leather", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+			"H": { type: "item", code: "game:leather-sturdy-plain", quantity: 3 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "vanillaarmory:quiver-sturdy", quantity: 1  }
+	},
+
+
+
+
+
+	
+]

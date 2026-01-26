@@ -1,0 +1,23 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"___________##__",
+"__________##___",
+"_________###___",
+"________###____",
+"________###____",
+"_______###_____",
+"_______###_____",
+"______###______",
+"______###______",
+"______###__#___",
+"______###_##___",
+"____#######____",
+"___##__#_______",
+"___#___#_______",
+"______#________",
+"_____#_________",
+	]],
+	name: "Sabre blade",
+	output: { type: "item", code: "vanillaarmory:sabrehead-{metal}"  }
+}

@@ -1,0 +1,23 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+"__##___________",
+"_###___________",
+"###____________",
+"#######________",
+"#######________",
+"#######________",
+"###____________",
+"###____________",
+"###____________",
+"###____________",
+"###____________",
+"_###___________",
+"__#####________",
+"__#####________",
+"___####________",
+"_______________",
+	]],
+	name: "Bardiche blade",
+	output: { type: "item", code: "vanillaarmory:bardichehead-{metal}"  }
+}

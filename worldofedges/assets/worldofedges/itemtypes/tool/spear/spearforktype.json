@@ -1,0 +1,183 @@
+{
+	code: "spear",
+	class: "ItemSpear",
+	damagedby: ["attacking"],
+	tool: "spear",
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'WallHalves', wallOffY: 2, ctrlKey: true, selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 }, collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 } } },
+		{ name: "AnimationAuthoritative" }
+	],
+	variantgroups: [
+		{ code: "type", states: ["fork", ] },
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "ornategold", "ornatesilver", "iron", "meteoriciron", "steel", ] },
+	],
+	skipVariants: [
+		"spear-fork-ornategold",
+		"spear-fork-ornatesilver"
+	],
+	allowedVariants: [
+		"spear-fork-*",
+	],
+	shapeByType: {
+		"*": { base: "game:item/tool/spear/fork" }
+	},
+	heldTpIdleAnimation: "spearidle",
+	heldRightReadyAnimation: "spearidle",
+	heldTpHitAnimation: "spearhit",
+	texturesByType: {
+		
+		"spear-fork-*": { 
+			"blackbronze": { base: "game:block/metal/ingot/{material}" } 
+		},
+		
+	},
+	attackRange: 3.5,
+
+
+	tooltierbytype:{
+		"spear-fork-copper": 2,
+
+		"spear-fork-bismuthbronze": 3,
+		"spear-fork-tinbronze": 3,
+		"spear-fork-blackbronze": 3,
+
+		"spear-fork-iron": 4,
+		"spear-fork-meteoriciron": 4,
+		"spear-fork-steel": 5,
+
+		"spear-fork-ornategold": 4,
+		"spear-fork-ornatesilver": 4,
+	},
+
+	attackpowerbytype: {
+		
+		"spear-fork-copper": 3,
+
+		"spear-fork-bismuthbronze": 3.6,
+		"spear-fork-tinbronze": 4.08,
+		"spear-fork-blackbronze": 4.32,
+
+		"spear-fork-iron": 4.68,
+		"spear-fork-meteoriciron": 5.16,
+		"spear-fork-steel": 5.16,
+
+
+		"spear-fork-ornategold": 4.25,
+		"spear-fork-ornatesilver": 4.25,
+		
+	},
+	attributes: {
+		heldItemPitchFollow: 1,
+		groundStorageTransformByType: {
+
+			"spear-fork-*": {
+				translation: { x: -0.25, y: 0.65, z: 0.11 },
+				rotation: { x: 16, y: 0, z: 90 },
+				scale: 0.85
+			},
+			
+		},
+		
+		"__comment": "Thrown damage",
+		damageByType: {
+			
+			"*-copper": 6.24,
+			"*-bismuthbronze": 7.08,
+			"*-tinbronze": 8.16,
+			"*-blackbronze": 8.76,
+
+			"*-iron": 9,
+			"*-meteoriciron": 11.16,
+			"*-steel": 11.16,
+			
+			"*-ornategold": 8.25,
+			"*-ornatesilver": 8.25
+		},
+		damageTierByType: {
+			
+			"*-copper": 2,
+			
+			"*-bismuthbronze": 3,
+			"*-tinbronze": 3,
+			"*-blackbronze": 3,
+			
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5,
+
+
+			"*-ornategold": 0,
+			"*-ornatesilver": 0
+		},
+		spearEntityCodeByType: {
+
+			"*": "vanillaarmory:spear-{type}-{material}",
+
+		},
+		handbook: {
+			groupBy: ["spear-*"]
+		},
+		toolrackTransformByType: {
+			
+			"spear-fork-*": {
+				translation: { x: -0.35, y: 0.05, z: 0.5 },
+				rotation: { x: 89, y: 1, z: -1 }
+			},
+			
+		}
+	},
+	durabilitybytype: {
+		
+		"spear-fork-copper": 78,
+
+		"spear-fork-tinbronze": 120,
+		"spear-fork-bismuthbronze": 144,
+		"spear-fork-blackbronze": 162,
+
+		"spear-fork-iron": 174,
+		"spear-fork-meteoriciron": 198,
+		"spear-fork-steel": 228,
+	
+		"spear-fork-ornategold": 320,
+		"spear-fork-ornatesilver": 320,
+		
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 33, y: 0, z: -127 },
+			origin: { x: 1.29, y: 0.05, z: 0.52 },
+			scale: 2.26
+		}
+	},
+	fpHandTransformByType: {
+		
+		"*": {
+			translation: { x: 0.1, y: 0.4, z: 0.16 },
+			rotation: { x: -82, y: 180, z: 96 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.45
+		}
+	},
+	groundTransformByType: {
+		
+		"spear-fork-*": {
+			translation: { x: 0, y: 0.05, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		},
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -1.24, y: 0.03, z: -0.61 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+		},
+		
+	}
+}

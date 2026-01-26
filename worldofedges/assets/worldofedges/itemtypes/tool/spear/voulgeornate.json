@@ -1,0 +1,138 @@
+{
+	code: "spear",
+	class: "ItemSpear",
+	damagedby: ["attacking"],
+	tool: "spear",
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'WallHalves', wallOffY: 2, ctrlKey: true, selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 }, collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 } } },
+		{ name: "AnimationAuthoritative" }
+	],
+	variantgroups: [
+		{ code: "type", states: ["voulge", ] },
+		{ code: "material", states: ["gold", "silver", ] },
+	],
+	skipVariants: [
+		"spear-voulge-scrap",
+	],
+	allowedVariants: [
+		"spear-voulge-*",
+	],
+	shapeByType: {
+		"*": { base: "vanillaarmory:shapes/item/tool/spear/voulge-ornate" }
+	},
+	heldTpIdleAnimation: "spearidle",
+	heldRightReadyAnimation: "spearidle",
+	heldTpHitAnimation: "spearhit",
+	texturesByType: {
+		
+		"spear-voulge-silver": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"gold1": { base: "game:block/metal/ingot/silver" },
+			"ornaments": { base: "game:block/cloth/linen/blue" },
+		},
+
+		"spear-voulge-gold": { 
+			"blackbronze": { base: "game:block/metal/ingot/steel" }, 
+			"ornaments": { base: "game:block/cloth/linen/black" },
+		},
+		
+	},
+	attackRange: 3.5,
+
+
+	tooltierbytype:{
+
+		"spear-voulge-gold": 5,
+		"spear-voulge-silver": 5,
+	},
+
+	attackpowerbytype: {
+		
+		"spear-voulge-gold": 5.16,
+		"spear-voulge-silver": 5.16,
+	},
+	attributes: {
+		heldItemPitchFollow: 1,
+		groundStorageTransformByType: {
+
+			"spear-voulge-*": {
+				translation: { x: -0.25, y: 0.65, z: 0.11 },
+				rotation: { x: 16, y: 0, z: 90 },
+				scale: 0.85
+			},
+			
+		},
+		
+		"__comment": "Thrown damage",
+		damageByType: {
+			
+			"*-gold": 4.65,
+			"*-silver": 4.65,
+		},
+		damageTierByType: {
+			
+			"*-gold": 5,
+			"*-silver": 5,
+
+		},
+		spearEntityCodeByType: {
+
+			"*": "vanillaarmory:spear-{type}-{material}",
+
+		},
+		handbook: {
+			groupBy: ["spear-*"]
+		},
+		toolrackTransformByType: {
+			
+			"spear-voulge-*": {
+				translation: { x: -0.35, y: 0.05, z: 0.5 },
+				rotation: { x: 89, y: 1, z: -1 }
+			},
+			
+		}
+	},
+	durabilitybytype: {
+		
+		"spear-voulge-gold": 494,
+		"spear-voulge-silver": 494,
+	},
+	creativeinventory: { "general": ["*"],  "vanillaarmory": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 33, y: 0, z: -127 },
+			origin: { x: 1.29, y: 0.05, z: 0.52 },
+			scale: 2.26
+		}
+	},
+	fpHandTransformByType: {
+		
+		"*": {
+			translation: { x: 0.1, y: 0.4, z: 0.16 },
+			rotation: { x: -82, y: 180, z: 96 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.45
+		}
+	},
+	groundTransformByType: {
+		
+		"spear-voulge-*": {
+			translation: { x: 0, y: 0.05, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		},
+	},
+	tpHandTransformByType: {
+		
+		"*": {
+			translation: { x: -1.24, y: 0.03, z: -0.61 },
+			rotation: { x: -0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+		},
+		
+	}
+}
