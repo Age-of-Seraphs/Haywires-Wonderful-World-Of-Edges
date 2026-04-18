@@ -7,9 +7,9 @@
       "HaywireV1",
       "Captanredbeard"
     ],
-    "description": "To be added",
+    "description": "It a super edgy Mod",
     "version": "1.0.0",
     "dependencies": {
-        "game": "1.21.0"
+        "game": "1.22.0-rc.8"
     }
 }
