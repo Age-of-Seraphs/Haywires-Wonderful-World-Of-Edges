@@ -16,7 +16,7 @@
 		"gold1": "game:block/metal/sheet/gold1",
 		"ornaments": "game:block/ornaments",
 		"handle": "game:block/wood/debarked/pine",
-		"string": "game:item/tool/material/string"
+		"string": "game:item/resource/string"
 	},
 	"elements": [
 		{

@@ -1,626 +1,626 @@
 {
-	"game:tabname-vanillaarmory": "Vanilla Armory",
+	"game:tabname-worldofedges": "World of Edges",
 	"worldofedges:item-forlorn-shield": "Forlorn Tower Shield",
-	"worldofedges:itemdesc-forlorn-shield":"<font color=\"#99c9f9\">A symbol of an ancient order's promise to defend those who couldn't defend themselves. The light it gives off is reminiscent of a bygone age. <i>With this shield, we defend humanity.</i> </font>",
+	"worldofedges:itemdesc-forlorn-shield": "<font color=\"#99c9f9\">A symbol of an ancient order's promise to defend those who couldn't defend themselves. The light it gives off is reminiscent of a bygone age. <i>With this shield, we defend humanity.</i> </font>",
 
 	"worldofedges:item-throwingstick-wood": "Thowing stick (Wooden head)",
-	"worldofedges:itemdesc-throwingstick-wood":"<font color=\"#99c9f9\">A throwing stick made with a wooden head. </font>",
+	"worldofedges:itemdesc-throwingstick-wood": "<font color=\"#99c9f9\">A throwing stick made with a wooden head. </font>",
 	"worldofedges:item-throwingstick-bone": "Thowing stick (Bone head)",
-	"worldofedges:itemdesc-throwingstick-bone":"<font color=\"#99c9f9\">A throwing stick made with a bone head. </font>",
+	"worldofedges:itemdesc-throwingstick-bone": "<font color=\"#99c9f9\">A throwing stick made with a bone head. </font>",
 	"worldofedges:item-throwingstick-copper": "Thowing stick (Copper head)",
-	"worldofedges:itemdesc-throwingstick-copper":"<font color=\"#99c9f9\">A throwing stick made with a copper head. </font>",
+	"worldofedges:itemdesc-throwingstick-copper": "<font color=\"#99c9f9\">A throwing stick made with a copper head. </font>",
 	"worldofedges:item-throwingstick-tinbronze": "Thowing stick (Tin Bronze head)",
-	"worldofedges:itemdesc-throwingstick-tinbronze":"<font color=\"#99c9f9\">A throwing stick made with a tin bronze head. </font>",
+	"worldofedges:itemdesc-throwingstick-tinbronze": "<font color=\"#99c9f9\">A throwing stick made with a tin bronze head. </font>",
 	"worldofedges:item-throwingstick-blackbronze": "Thowing stick (Black Bronze head)",
-	"worldofedges:itemdesc-throwingstick-blackbronze":"<font color=\"#99c9f9\">A throwing stick made with a black bronze head. </font>",
+	"worldofedges:itemdesc-throwingstick-blackbronze": "<font color=\"#99c9f9\">A throwing stick made with a black bronze head. </font>",
 	"worldofedges:item-throwingstick-bismuthbronze": "Thowing stick (Bismuth Bronze head)",
-	"worldofedges:itemdesc-throwingstick-bismuthbronze":"<font color=\"#99c9f9\">A throwing stick made with a bismith bronze head. </font>",
+	"worldofedges:itemdesc-throwingstick-bismuthbronze": "<font color=\"#99c9f9\">A throwing stick made with a bismith bronze head. </font>",
 	"worldofedges:item-throwingstick-iron": "Thowing stick (Iron head)",
-	"worldofedges:itemdesc-throwingstick-iron":"<font color=\"#99c9f9\">A throwing stick made with a iron head. <i> I call this the bonk stick.</i></font>",
+	"worldofedges:itemdesc-throwingstick-iron": "<font color=\"#99c9f9\">A throwing stick made with a iron head. <i> I call this the bonk stick.</i></font>",
 	"worldofedges:item-throwingstick-meteoriciron": "Thowing stick (Meteoric Iron head)",
-	"worldofedges:itemdesc-throwingstick-meteoriciron":"<font color=\"#99c9f9\">A throwing stick made with a meteoric iron head. <i>Violence with a stellar twist.</i></font>",
+	"worldofedges:itemdesc-throwingstick-meteoriciron": "<font color=\"#99c9f9\">A throwing stick made with a meteoric iron head. <i>Violence with a stellar twist.</i></font>",
 	"worldofedges:item-throwingstick-steel": "Thowing stick (Steel head)",
-	"worldofedges:itemdesc-throwingstick-steel":"<font color=\"#99c9f9\">A throwing stick made with a steel head. <i>Did you really have to go that far? </i></font>",
+	"worldofedges:itemdesc-throwingstick-steel": "<font color=\"#99c9f9\">A throwing stick made with a steel head. <i>Did you really have to go that far? </i></font>",
 
 	"worldofedges:item-bardichehead-copper": "Copper bardiche head",
-"worldofedges:item-bardichehead-tinbronze": "Tin bronze bardiche head",
-"worldofedges:item-bardichehead-bismuthbronze": "Bismuth bronze bardiche head",
-"worldofedges:item-bardichehead-blackbronze": "Black bronze bardiche head",
-"worldofedges:item-bardichehead-iron": "Iron bardiche head",
-"worldofedges:item-bardichehead-meteoriciron": "Meteoric iron bardiche head",
-"worldofedges:item-bardichehead-steel": "steel bardiche head",
+	"worldofedges:item-bardichehead-tinbronze": "Tin bronze bardiche head",
+	"worldofedges:item-bardichehead-bismuthbronze": "Bismuth bronze bardiche head",
+	"worldofedges:item-bardichehead-blackbronze": "Black bronze bardiche head",
+	"worldofedges:item-bardichehead-iron": "Iron bardiche head",
+	"worldofedges:item-bardichehead-meteoriciron": "Meteoric iron bardiche head",
+	"worldofedges:item-bardichehead-steel": "steel bardiche head",
 
 
 	"worldofedges:item-arminghead-copper": "Copper arming blade",
-"worldofedges:item-arminghead-tinbronze": "Tin bronze arming blade",
-"worldofedges:item-arminghead-bismuthbronze": "Bismuth bronze arming blade",
-"worldofedges:item-arminghead-blackbronze": "Black bronze arming blade",
-"worldofedges:item-arminghead-iron": "Iron arming blade",
-"worldofedges:item-arminghead-meteoriciron": "Meteoric iron arming blade",
-"worldofedges:item-arminghead-steel": "steel arming blade",
+	"worldofedges:item-arminghead-tinbronze": "Tin bronze arming blade",
+	"worldofedges:item-arminghead-bismuthbronze": "Bismuth bronze arming blade",
+	"worldofedges:item-arminghead-blackbronze": "Black bronze arming blade",
+	"worldofedges:item-arminghead-iron": "Iron arming blade",
+	"worldofedges:item-arminghead-meteoriciron": "Meteoric iron arming blade",
+	"worldofedges:item-arminghead-steel": "steel arming blade",
 
 
 	"worldofedges:item-baselardhead-copper": "Copper baselard blade",
-"worldofedges:item-baselardhead-tinbronze": "Tin bronze baselard blade",
-"worldofedges:item-baselardhead-bismuthbronze": "Bismuth bronze baselard blade",
-"worldofedges:item-baselardhead-blackbronze": "Black bronze baselard blade",
-"worldofedges:item-baselardhead-iron": "Iron baselard blade",
-"worldofedges:item-baselardhead-meteoriciron": "Meteoric iron baselard blade",
-"worldofedges:item-baselardhead-steel": "steel baselard blade",
+	"worldofedges:item-baselardhead-tinbronze": "Tin bronze baselard blade",
+	"worldofedges:item-baselardhead-bismuthbronze": "Bismuth bronze baselard blade",
+	"worldofedges:item-baselardhead-blackbronze": "Black bronze baselard blade",
+	"worldofedges:item-baselardhead-iron": "Iron baselard blade",
+	"worldofedges:item-baselardhead-meteoriciron": "Meteoric iron baselard blade",
+	"worldofedges:item-baselardhead-steel": "steel baselard blade",
 
 
 	"worldofedges:item-battlehead-copper": "Copper battleaxe head",
-"worldofedges:item-battlehead-tinbronze": "Tin bronze battleaxe head",
-"worldofedges:item-battlehead-bismuthbronze": "Bismuth bronze battleaxe head",
-"worldofedges:item-battlehead-blackbronze": "Black bronze battleaxe head",
-"worldofedges:item-battlehead-iron": "Iron battleaxe head",
-"worldofedges:item-battlehead-meteoriciron": "Meteoric iron battleaxe head",
-"worldofedges:item-battlehead-steel": "steel battleaxe head",
+	"worldofedges:item-battlehead-tinbronze": "Tin bronze battleaxe head",
+	"worldofedges:item-battlehead-bismuthbronze": "Bismuth bronze battleaxe head",
+	"worldofedges:item-battlehead-blackbronze": "Black bronze battleaxe head",
+	"worldofedges:item-battlehead-iron": "Iron battleaxe head",
+	"worldofedges:item-battlehead-meteoriciron": "Meteoric iron battleaxe head",
+	"worldofedges:item-battlehead-steel": "steel battleaxe head",
 
 
 	"worldofedges:item-beardedhead-copper": "Copper bearded axe head",
-"worldofedges:item-beardedhead-tinbronze": "Tin bronze bearded axe head",
-"worldofedges:item-beardedhead-bismuthbronze": "Bismuth bronze bearded axe head",
-"worldofedges:item-beardedhead-blackbronze": "Black bronze bearded axe head",
-"worldofedges:item-beardedhead-iron": "Iron bearded axe head",
-"worldofedges:item-beardedhead-meteoriciron": "Meteoric iron bearded axe head",
-"worldofedges:item-beardedhead-steel": "steel bearded axe head",
+	"worldofedges:item-beardedhead-tinbronze": "Tin bronze bearded axe head",
+	"worldofedges:item-beardedhead-bismuthbronze": "Bismuth bronze bearded axe head",
+	"worldofedges:item-beardedhead-blackbronze": "Black bronze bearded axe head",
+	"worldofedges:item-beardedhead-iron": "Iron bearded axe head",
+	"worldofedges:item-beardedhead-meteoriciron": "Meteoric iron bearded axe head",
+	"worldofedges:item-beardedhead-steel": "steel bearded axe head",
 
 
 	"worldofedges:item-betterspearhead-iron": "Iron spear head",
-"worldofedges:item-betterspearhead-meteoriciron": "Meteoric iron spear head",
-"worldofedges:item-betterspearhead-steel": "Steel spear head",
+	"worldofedges:item-betterspearhead-meteoriciron": "Meteoric iron spear head",
+	"worldofedges:item-betterspearhead-steel": "Steel spear head",
 
 
 	"worldofedges:item-claymorehead-copper": "Copper claymore blade",
-"worldofedges:item-claymorehead-tinbronze": "Tin bronze claymore blade",
-"worldofedges:item-claymorehead-bismuthbronze": "Bismuth bronze claymore blade",
-"worldofedges:item-claymorehead-blackbronze": "Black bronze claymore blade",
-"worldofedges:item-claymorehead-iron": "Iron claymore blade",
-"worldofedges:item-claymorehead-meteoriciron": "Meteoric iron claymore blade",
-"worldofedges:item-claymorehead-steel": "steel claymore blade",
+	"worldofedges:item-claymorehead-tinbronze": "Tin bronze claymore blade",
+	"worldofedges:item-claymorehead-bismuthbronze": "Bismuth bronze claymore blade",
+	"worldofedges:item-claymorehead-blackbronze": "Black bronze claymore blade",
+	"worldofedges:item-claymorehead-iron": "Iron claymore blade",
+	"worldofedges:item-claymorehead-meteoriciron": "Meteoric iron claymore blade",
+	"worldofedges:item-claymorehead-steel": "steel claymore blade",
 
 
 	"worldofedges:item-daggerhead-copper": "Copper dagger blade",
-"worldofedges:item-daggerhead-tinbronze": "Tin bronze dagger blade",
-"worldofedges:item-daggerhead-bismuthbronze": "Bismuth bronze dagger blade",
-"worldofedges:item-daggerhead-blackbronze": "Black bronze dagger blade",
-"worldofedges:item-daggerhead-iron": "Iron dagger blade",
-"worldofedges:item-daggerhead-meteoriciron": "Meteoric iron dagger blade",
-"worldofedges:item-daggerhead-steel": "steel dagger blade",
+	"worldofedges:item-daggerhead-tinbronze": "Tin bronze dagger blade",
+	"worldofedges:item-daggerhead-bismuthbronze": "Bismuth bronze dagger blade",
+	"worldofedges:item-daggerhead-blackbronze": "Black bronze dagger blade",
+	"worldofedges:item-daggerhead-iron": "Iron dagger blade",
+	"worldofedges:item-daggerhead-meteoriciron": "Meteoric iron dagger blade",
+	"worldofedges:item-daggerhead-steel": "steel dagger blade",
 
 
 	"worldofedges:item-doublehead-copper": "Copper double axe head",
-"worldofedges:item-doublehead-tinbronze": "Tin bronze double axe head",
-"worldofedges:item-doublehead-bismuthbronze": "Bismuth bronze double axe head",
-"worldofedges:item-doublehead-blackbronze": "Black bronze double axe head",
-"worldofedges:item-doublehead-iron": "Iron double axe head",
-"worldofedges:item-doublehead-meteoriciron": "Meteoric iron double axe head",
-"worldofedges:item-doublehead-steel": "steel double axe head",
+	"worldofedges:item-doublehead-tinbronze": "Tin bronze double axe head",
+	"worldofedges:item-doublehead-bismuthbronze": "Bismuth bronze double axe head",
+	"worldofedges:item-doublehead-blackbronze": "Black bronze double axe head",
+	"worldofedges:item-doublehead-iron": "Iron double axe head",
+	"worldofedges:item-doublehead-meteoriciron": "Meteoric iron double axe head",
+	"worldofedges:item-doublehead-steel": "steel double axe head",
 
 
 	"worldofedges:item-gladiushead-copper": "Copper gladius blade",
-"worldofedges:item-gladiushead-tinbronze": "Tin bronze gladius blade",
-"worldofedges:item-gladiushead-bismuthbronze": "Bismuth bronze gladius blade",
-"worldofedges:item-gladiushead-blackbronze": "Black bronze gladius blade",
-"worldofedges:item-gladiushead-iron": "Iron gladius blade",
-"worldofedges:item-gladiushead-meteoriciron": "Meteoric iron gladius blade",
-"worldofedges:item-gladiushead-steel": "steel gladius blade",
+	"worldofedges:item-gladiushead-tinbronze": "Tin bronze gladius blade",
+	"worldofedges:item-gladiushead-bismuthbronze": "Bismuth bronze gladius blade",
+	"worldofedges:item-gladiushead-blackbronze": "Black bronze gladius blade",
+	"worldofedges:item-gladiushead-iron": "Iron gladius blade",
+	"worldofedges:item-gladiushead-meteoriciron": "Meteoric iron gladius blade",
+	"worldofedges:item-gladiushead-steel": "steel gladius blade",
 
 
 	"worldofedges:item-khanjarhead-copper": "Copper khanjar blade",
-"worldofedges:item-khanjarhead-tinbronze": "Tin bronze khanjar blade",
-"worldofedges:item-khanjarhead-bismuthbronze": "Bismuth bronze khanjar blade",
-"worldofedges:item-khanjarhead-blackbronze": "Black bronze khanjar blade",
-"worldofedges:item-khanjarhead-iron": "Iron khanjar blade",
-"worldofedges:item-khanjarhead-meteoriciron": "Meteoric iron khanjar blade",
-"worldofedges:item-khanjarhead-steel": "steel khanjar blade",
+	"worldofedges:item-khanjarhead-tinbronze": "Tin bronze khanjar blade",
+	"worldofedges:item-khanjarhead-bismuthbronze": "Bismuth bronze khanjar blade",
+	"worldofedges:item-khanjarhead-blackbronze": "Black bronze khanjar blade",
+	"worldofedges:item-khanjarhead-iron": "Iron khanjar blade",
+	"worldofedges:item-khanjarhead-meteoriciron": "Meteoric iron khanjar blade",
+	"worldofedges:item-khanjarhead-steel": "steel khanjar blade",
 
 
 	"worldofedges:item-sabrehead-copper": "Copper sabre blade",
-"worldofedges:item-sabrehead-tinbronze": "Tin bronze sabre blade",
-"worldofedges:item-sabrehead-bismuthbronze": "Bismuth bronze sabre blade",
-"worldofedges:item-sabrehead-blackbronze": "Black bronze sabre blade",
-"worldofedges:item-sabrehead-iron": "Iron sabre blade",
-"worldofedges:item-sabrehead-meteoriciron": "Meteoric iron sabre blade",
-"worldofedges:item-sabrehead-steel": "steel sabre blade",
+	"worldofedges:item-sabrehead-tinbronze": "Tin bronze sabre blade",
+	"worldofedges:item-sabrehead-bismuthbronze": "Bismuth bronze sabre blade",
+	"worldofedges:item-sabrehead-blackbronze": "Black bronze sabre blade",
+	"worldofedges:item-sabrehead-iron": "Iron sabre blade",
+	"worldofedges:item-sabrehead-meteoriciron": "Meteoric iron sabre blade",
+	"worldofedges:item-sabrehead-steel": "steel sabre blade",
 
 
 	"worldofedges:item-stilettohead-copper": "Copper stiletto blade",
-"worldofedges:item-stilettohead-tinbronze": "Tin bronze stiletto blade",
-"worldofedges:item-stilettohead-bismuthbronze": "Bismuth bronze stiletto blade",
-"worldofedges:item-stilettohead-blackbronze": "Black bronze stiletto blade",
-"worldofedges:item-stilettohead-iron": "Iron stiletto blade",
-"worldofedges:item-stilettohead-meteoriciron": "Meteoric iron stiletto blade",
-"worldofedges:item-stilettohead-steel": "steel stiletto blade",
+	"worldofedges:item-stilettohead-tinbronze": "Tin bronze stiletto blade",
+	"worldofedges:item-stilettohead-bismuthbronze": "Bismuth bronze stiletto blade",
+	"worldofedges:item-stilettohead-blackbronze": "Black bronze stiletto blade",
+	"worldofedges:item-stilettohead-iron": "Iron stiletto blade",
+	"worldofedges:item-stilettohead-meteoriciron": "Meteoric iron stiletto blade",
+	"worldofedges:item-stilettohead-steel": "steel stiletto blade",
 
 
 	"worldofedges:item-spikedhead-copper": "Copper spiked mace head",
-"worldofedges:item-spikedhead-tinbronze": "Tin bronze spiked mace head",
-"worldofedges:item-spikedhead-bismuthbronze": "Bismuth bronze spiked mace head",
-"worldofedges:item-spikedhead-blackbronze": "Black bronze spiked mace head",
-"worldofedges:item-spikedhead-iron": "Iron spiked mace head",
-"worldofedges:item-spikedhead-meteoriciron": "Meteoric iron spiked mace head",
-"worldofedges:item-spikedhead-steel": "steel spiked mace head",
+	"worldofedges:item-spikedhead-tinbronze": "Tin bronze spiked mace head",
+	"worldofedges:item-spikedhead-bismuthbronze": "Bismuth bronze spiked mace head",
+	"worldofedges:item-spikedhead-blackbronze": "Black bronze spiked mace head",
+	"worldofedges:item-spikedhead-iron": "Iron spiked mace head",
+	"worldofedges:item-spikedhead-meteoriciron": "Meteoric iron spiked mace head",
+	"worldofedges:item-spikedhead-steel": "steel spiked mace head",
 
 
 	"worldofedges:item-flangedhead-copper": "Copper flanged mace head",
-"worldofedges:item-flangedhead-tinbronze": "Tin bronze flanged mace head",
-"worldofedges:item-flangedhead-bismuthbronze": "Bismuth bronze flanged mace head",
-"worldofedges:item-flangedhead-blackbronze": "Black bronze flanged mace head",
-"worldofedges:item-flangedhead-iron": "Iron flanged mace head",
-"worldofedges:item-flangedhead-meteoriciron": "Meteoric iron flanged mace head",
-"worldofedges:item-flangedhead-steel": "steel flanged mace head",
+	"worldofedges:item-flangedhead-tinbronze": "Tin bronze flanged mace head",
+	"worldofedges:item-flangedhead-bismuthbronze": "Bismuth bronze flanged mace head",
+	"worldofedges:item-flangedhead-blackbronze": "Black bronze flanged mace head",
+	"worldofedges:item-flangedhead-iron": "Iron flanged mace head",
+	"worldofedges:item-flangedhead-meteoriciron": "Meteoric iron flanged mace head",
+	"worldofedges:item-flangedhead-steel": "steel flanged mace head",
 
 
 	"worldofedges:item-warhammerhead-copper": "Copper warhammer head",
-"worldofedges:item-warhammerhead-tinbronze": "Tin bronze warhammer head",
-"worldofedges:item-warhammerhead-bismuthbronze": "Bismuth bronze warhammer head",
-"worldofedges:item-warhammerhead-blackbronze": "Black bronze warhammer head",
-"worldofedges:item-warhammerhead-iron": "Iron warhammer head",
-"worldofedges:item-warhammerhead-meteoriciron": "Meteoric iron warhammer head",
-"worldofedges:item-warhammerhead-steel": "steel warhammer head",
+	"worldofedges:item-warhammerhead-tinbronze": "Tin bronze warhammer head",
+	"worldofedges:item-warhammerhead-bismuthbronze": "Bismuth bronze warhammer head",
+	"worldofedges:item-warhammerhead-blackbronze": "Black bronze warhammer head",
+	"worldofedges:item-warhammerhead-iron": "Iron warhammer head",
+	"worldofedges:item-warhammerhead-meteoriciron": "Meteoric iron warhammer head",
+	"worldofedges:item-warhammerhead-steel": "steel warhammer head",
 
 
 	"worldofedges:item-morningstarhead-copper": "Copper morningstar head",
-"worldofedges:item-morningstarhead-tinbronze": "Tin bronze morningstar head",
-"worldofedges:item-morningstarhead-bismuthbronze": "Bismuth bronze morningstar head",
-"worldofedges:item-morningstarhead-blackbronze": "Black bronze morningstar head",
-"worldofedges:item-morningstarhead-iron": "Iron morningstar head",
-"worldofedges:item-morningstarhead-meteoriciron": "Meteoric iron morningstar head",
-"worldofedges:item-morningstarhead-steel": "steel morningstar head",
+	"worldofedges:item-morningstarhead-tinbronze": "Tin bronze morningstar head",
+	"worldofedges:item-morningstarhead-bismuthbronze": "Bismuth bronze morningstar head",
+	"worldofedges:item-morningstarhead-blackbronze": "Black bronze morningstar head",
+	"worldofedges:item-morningstarhead-iron": "Iron morningstar head",
+	"worldofedges:item-morningstarhead-meteoriciron": "Meteoric iron morningstar head",
+	"worldofedges:item-morningstarhead-steel": "steel morningstar head",
 
 
 
 
 
 	"worldofedges:item-knife-baselard-copper": "Copper baselard",
-"worldofedges:item-knife-baselard-tinbronze": "Tin bronze baselard",
-"worldofedges:item-knife-baselard-bismuthbronze": "Bismuth bronze baselard",
-"worldofedges:item-knife-baselard-blackbronze": "Black bronze baselard",
-"worldofedges:item-knife-baselard-iron": "Iron baselard",
-"worldofedges:item-knife-baselard-meteoriciron": "Meteoric iron baselard",
-"worldofedges:item-knife-baselard-steel": "Steel baselard",
-"worldofedges:item-knife-baselard-gold": "Gold baselard",
-"worldofedges:item-knife-baselard-silver": "Silver baselard",
+	"worldofedges:item-knife-baselard-tinbronze": "Tin bronze baselard",
+	"worldofedges:item-knife-baselard-bismuthbronze": "Bismuth bronze baselard",
+	"worldofedges:item-knife-baselard-blackbronze": "Black bronze baselard",
+	"worldofedges:item-knife-baselard-iron": "Iron baselard",
+	"worldofedges:item-knife-baselard-meteoriciron": "Meteoric iron baselard",
+	"worldofedges:item-knife-baselard-steel": "Steel baselard",
+	"worldofedges:item-knife-baselard-gold": "Gold baselard",
+	"worldofedges:item-knife-baselard-silver": "Silver baselard",
 
 	"worldofedges:item-knife-dagger-copper": "Copper dagger",
-"worldofedges:item-knife-dagger-tinbronze": "Tin bronze dagger",
-"worldofedges:item-knife-dagger-bismuthbronze": "Bismuth bronze dagger",
-"worldofedges:item-knife-dagger-blackbronze": "Black bronze dagger",
-"worldofedges:item-knife-dagger-iron": "Iron dagger",
-"worldofedges:item-knife-dagger-meteoriciron": "Meteoric iron dagger",
-"worldofedges:item-knife-dagger-steel": "Steel dagger",
-"worldofedges:item-knife-dagger-gold": "Gold dagger",
-"worldofedges:item-knife-dagger-silver": "Silver dagger",
+	"worldofedges:item-knife-dagger-tinbronze": "Tin bronze dagger",
+	"worldofedges:item-knife-dagger-bismuthbronze": "Bismuth bronze dagger",
+	"worldofedges:item-knife-dagger-blackbronze": "Black bronze dagger",
+	"worldofedges:item-knife-dagger-iron": "Iron dagger",
+	"worldofedges:item-knife-dagger-meteoriciron": "Meteoric iron dagger",
+	"worldofedges:item-knife-dagger-steel": "Steel dagger",
+	"worldofedges:item-knife-dagger-gold": "Gold dagger",
+	"worldofedges:item-knife-dagger-silver": "Silver dagger",
 
 
 	"worldofedges:item-knife-khanjar-copper": "Copper khanjar",
-"worldofedges:item-knife-khanjar-tinbronze": "Tin bronze khanjar",
-"worldofedges:item-knife-khanjar-bismuthbronze": "Bismuth bronze khanjar",
-"worldofedges:item-knife-khanjar-blackbronze": "Black bronze khanjar",
-"worldofedges:item-knife-khanjar-iron": "Iron khanjar",
-"worldofedges:item-knife-khanjar-meteoriciron": "Meteoric iron khanjar",
-"worldofedges:item-knife-khanjar-steel": "Steel khanjar",
-"worldofedges:item-knife-khanjar-gold": "Gold khanjar",
-"worldofedges:item-knife-khanjar-silver": "Silver khanjar",
+	"worldofedges:item-knife-khanjar-tinbronze": "Tin bronze khanjar",
+	"worldofedges:item-knife-khanjar-bismuthbronze": "Bismuth bronze khanjar",
+	"worldofedges:item-knife-khanjar-blackbronze": "Black bronze khanjar",
+	"worldofedges:item-knife-khanjar-iron": "Iron khanjar",
+	"worldofedges:item-knife-khanjar-meteoriciron": "Meteoric iron khanjar",
+	"worldofedges:item-knife-khanjar-steel": "Steel khanjar",
+	"worldofedges:item-knife-khanjar-gold": "Gold khanjar",
+	"worldofedges:item-knife-khanjar-silver": "Silver khanjar",
 
 
 	"worldofedges:item-knife-stiletto-copper": "Copper stiletto",
-"worldofedges:item-knife-stiletto-tinbronze": "Tin bronze stiletto",
-"worldofedges:item-knife-stiletto-bismuthbronze": "Bismuth bronze stiletto",
-"worldofedges:item-knife-stiletto-blackbronze": "Black bronze stiletto",
-"worldofedges:item-knife-stiletto-iron": "Iron stiletto",
-"worldofedges:item-knife-stiletto-meteoriciron": "Meteoric iron stiletto",
-"worldofedges:item-knife-stiletto-steel": "Steel stiletto",
-"worldofedges:item-knife-stiletto-gold": "Gold stiletto",
-"worldofedges:item-knife-stiletto-silver": "Silver stiletto",
+	"worldofedges:item-knife-stiletto-tinbronze": "Tin bronze stiletto",
+	"worldofedges:item-knife-stiletto-bismuthbronze": "Bismuth bronze stiletto",
+	"worldofedges:item-knife-stiletto-blackbronze": "Black bronze stiletto",
+	"worldofedges:item-knife-stiletto-iron": "Iron stiletto",
+	"worldofedges:item-knife-stiletto-meteoriciron": "Meteoric iron stiletto",
+	"worldofedges:item-knife-stiletto-steel": "Steel stiletto",
+	"worldofedges:item-knife-stiletto-gold": "Gold stiletto",
+	"worldofedges:item-knife-stiletto-silver": "Silver stiletto",
 
 	"worldofedges:item-knife-wood": "Wooden Knife",
 	"worldofedges:itemdesc-knife-wood": "<font color=\"#99c9f9\">A simple knife made from wood. Very useful for you flower lovers.</font>",
 
 	"worldofedges:item-axe-double-copper": "Copper double-headed axe",
-"worldofedges:item-axe-double-tinbronze": "Tin bronze double-headed axe",
-"worldofedges:item-axe-double-bismuthbronze": "Bismuth bronze double-headed axe",
-"worldofedges:item-axe-double-blackbronze": "Black bronze double-headed axe",
-"worldofedges:item-axe-double-iron": "Iron double-headed axe",
-"worldofedges:item-axe-double-meteoriciron": "Meteoric iron double-headed axe",
-"worldofedges:item-axe-double-steel": "Steel double-headed axe",
-"worldofedges:item-axe-double-gold": "Gold double-headed axe",
-"worldofedges:item-axe-double-silver": "Silver double-headed axe",
+	"worldofedges:item-axe-double-tinbronze": "Tin bronze double-headed axe",
+	"worldofedges:item-axe-double-bismuthbronze": "Bismuth bronze double-headed axe",
+	"worldofedges:item-axe-double-blackbronze": "Black bronze double-headed axe",
+	"worldofedges:item-axe-double-iron": "Iron double-headed axe",
+	"worldofedges:item-axe-double-meteoriciron": "Meteoric iron double-headed axe",
+	"worldofedges:item-axe-double-steel": "Steel double-headed axe",
+	"worldofedges:item-axe-double-gold": "Gold double-headed axe",
+	"worldofedges:item-axe-double-silver": "Silver double-headed axe",
 
 
 	"worldofedges:item-axe-bearded-copper": "Copper bearded axe",
-"worldofedges:item-axe-bearded-tinbronze": "Tin bronze bearded axe",
-"worldofedges:item-axe-bearded-bismuthbronze": "Bismuth bronze bearded axe",
-"worldofedges:item-axe-bearded-blackbronze": "Black bronze bearded axe",
-"worldofedges:item-axe-bearded-iron": "Iron bearded axe",
-"worldofedges:item-axe-bearded-meteoriciron": "Meteoric iron bearded axe",
-"worldofedges:item-axe-bearded-steel": "Steel bearded axe",
-"worldofedges:item-axe-bearded-gold": "Gold bearded axe",
-"worldofedges:item-axe-bearded-silver": "Silver bearded axe",
+	"worldofedges:item-axe-bearded-tinbronze": "Tin bronze bearded axe",
+	"worldofedges:item-axe-bearded-bismuthbronze": "Bismuth bronze bearded axe",
+	"worldofedges:item-axe-bearded-blackbronze": "Black bronze bearded axe",
+	"worldofedges:item-axe-bearded-iron": "Iron bearded axe",
+	"worldofedges:item-axe-bearded-meteoriciron": "Meteoric iron bearded axe",
+	"worldofedges:item-axe-bearded-steel": "Steel bearded axe",
+	"worldofedges:item-axe-bearded-gold": "Gold bearded axe",
+	"worldofedges:item-axe-bearded-silver": "Silver bearded axe",
 
 
 	"worldofedges:item-axe-battle-copper": "Copper battleaxe",
-"worldofedges:item-axe-battle-tinbronze": "Tin bronze battleaxe",
-"worldofedges:item-axe-battle-bismuthbronze": "Bismuth bronze battleaxe",
-"worldofedges:item-axe-battle-blackbronze": "Black bronze battleaxe",
-"worldofedges:item-axe-battle-iron": "Iron battleaxe",
-"worldofedges:item-axe-battle-meteoriciron": "Meteoric iron battleaxe",
-"worldofedges:item-axe-battle-steel": "Steel battleaxe",
-"worldofedges:item-axe-battle-gold": "Gold battleaxe",
-"worldofedges:item-axe-battle-silver": "Silver battleaxe",
+	"worldofedges:item-axe-battle-tinbronze": "Tin bronze battleaxe",
+	"worldofedges:item-axe-battle-bismuthbronze": "Bismuth bronze battleaxe",
+	"worldofedges:item-axe-battle-blackbronze": "Black bronze battleaxe",
+	"worldofedges:item-axe-battle-iron": "Iron battleaxe",
+	"worldofedges:item-axe-battle-meteoriciron": "Meteoric iron battleaxe",
+	"worldofedges:item-axe-battle-steel": "Steel battleaxe",
+	"worldofedges:item-axe-battle-gold": "Gold battleaxe",
+	"worldofedges:item-axe-battle-silver": "Silver battleaxe",
 
 
 	"worldofedges:item-axe-bardiche-copper": "Copper bardiche",
-"worldofedges:item-axe-bardiche-tinbronze": "Tin bronze bardiche",
-"worldofedges:item-axe-bardiche-bismuthbronze": "Bismuth bronze bardiche",
-"worldofedges:item-axe-bardiche-blackbronze": "Black bronze bardiche",
-"worldofedges:item-axe-bardiche-iron": "Iron bardiche",
-"worldofedges:item-axe-bardiche-meteoriciron": "Meteoric iron bardiche",
-"worldofedges:item-axe-bardiche-steel": "Steel bardiche",
-"worldofedges:item-axe-bardiche-gold": "Gold bardiche",
-"worldofedges:item-axe-bardiche-silver": "Silver bardiche",
+	"worldofedges:item-axe-bardiche-tinbronze": "Tin bronze bardiche",
+	"worldofedges:item-axe-bardiche-bismuthbronze": "Bismuth bronze bardiche",
+	"worldofedges:item-axe-bardiche-blackbronze": "Black bronze bardiche",
+	"worldofedges:item-axe-bardiche-iron": "Iron bardiche",
+	"worldofedges:item-axe-bardiche-meteoriciron": "Meteoric iron bardiche",
+	"worldofedges:item-axe-bardiche-steel": "Steel bardiche",
+	"worldofedges:item-axe-bardiche-gold": "Gold bardiche",
+	"worldofedges:item-axe-bardiche-silver": "Silver bardiche",
 
 
 	"worldofedges:item-blade-arming-copper": "Copper arming sword",
-"worldofedges:item-blade-arming-tinbronze": "Tin bronze arming sword",
-"worldofedges:item-blade-arming-bismuthbronze": "Bismuth bronze arming sword",
-"worldofedges:item-blade-arming-blackbronze": "Black bronze arming sword",
-"worldofedges:item-blade-arming-iron": "Iron arming sword",
-"worldofedges:item-blade-arming-meteoriciron": "Meteoric iron arming sword",
-"worldofedges:item-blade-arming-steel": "Steel arming sword",
-"worldofedges:item-blade-arming-gold": "Gold arming sword",
-"worldofedges:item-blade-arming-silver": "Silver arming sword",
+	"worldofedges:item-blade-arming-tinbronze": "Tin bronze arming sword",
+	"worldofedges:item-blade-arming-bismuthbronze": "Bismuth bronze arming sword",
+	"worldofedges:item-blade-arming-blackbronze": "Black bronze arming sword",
+	"worldofedges:item-blade-arming-iron": "Iron arming sword",
+	"worldofedges:item-blade-arming-meteoriciron": "Meteoric iron arming sword",
+	"worldofedges:item-blade-arming-steel": "Steel arming sword",
+	"worldofedges:item-blade-arming-gold": "Gold arming sword",
+	"worldofedges:item-blade-arming-silver": "Silver arming sword",
 
 
 	"worldofedges:item-blade-gladius-copper": "Copper gladius",
-"worldofedges:item-blade-gladius-tinbronze": "Tin bronze gladius",
-"worldofedges:item-blade-gladius-bismuthbronze": "Bismuth bronze gladius",
-"worldofedges:item-blade-gladius-blackbronze": "Black bronze gladius",
-"worldofedges:item-blade-gladius-iron": "Iron gladius",
-"worldofedges:item-blade-gladius-meteoriciron": "Meteoric iron gladius",
-"worldofedges:item-blade-gladius-steel": "Steel gladius",
-"worldofedges:item-blade-gladius-gold": "Gold gladius",
-"worldofedges:item-blade-gladius-silver": "Silver gladius",
+	"worldofedges:item-blade-gladius-tinbronze": "Tin bronze gladius",
+	"worldofedges:item-blade-gladius-bismuthbronze": "Bismuth bronze gladius",
+	"worldofedges:item-blade-gladius-blackbronze": "Black bronze gladius",
+	"worldofedges:item-blade-gladius-iron": "Iron gladius",
+	"worldofedges:item-blade-gladius-meteoriciron": "Meteoric iron gladius",
+	"worldofedges:item-blade-gladius-steel": "Steel gladius",
+	"worldofedges:item-blade-gladius-gold": "Gold gladius",
+	"worldofedges:item-blade-gladius-silver": "Silver gladius",
 
 
 	"worldofedges:item-blade-claymore-copper": "Copper claymore",
-"worldofedges:item-blade-claymore-tinbronze": "Tin bronze claymore",
-"worldofedges:item-blade-claymore-bismuthbronze": "Bismuth bronze claymore",
-"worldofedges:item-blade-claymore-blackbronze": "Black bronze claymore",
-"worldofedges:item-blade-claymore-iron": "Iron claymore",
-"worldofedges:item-blade-claymore-meteoriciron": "Meteoric iron claymore",
-"worldofedges:item-blade-claymore-steel": "Steel claymore",
-"worldofedges:item-blade-claymore-gold": "Gold claymore",
-"worldofedges:item-blade-claymore-silver": "Silver claymore",
+	"worldofedges:item-blade-claymore-tinbronze": "Tin bronze claymore",
+	"worldofedges:item-blade-claymore-bismuthbronze": "Bismuth bronze claymore",
+	"worldofedges:item-blade-claymore-blackbronze": "Black bronze claymore",
+	"worldofedges:item-blade-claymore-iron": "Iron claymore",
+	"worldofedges:item-blade-claymore-meteoriciron": "Meteoric iron claymore",
+	"worldofedges:item-blade-claymore-steel": "Steel claymore",
+	"worldofedges:item-blade-claymore-gold": "Gold claymore",
+	"worldofedges:item-blade-claymore-silver": "Silver claymore",
 
 
 	"worldofedges:item-blade-sabre-copper": "Copper sabre",
-"worldofedges:item-blade-sabre-tinbronze": "Tin bronze sabre",
-"worldofedges:item-blade-sabre-bismuthbronze": "Bismuth bronze sabre",
-"worldofedges:item-blade-sabre-blackbronze": "Black bronze sabre",
-"worldofedges:item-blade-sabre-iron": "Iron sabre",
-"worldofedges:item-blade-sabre-meteoriciron": "Meteoric iron sabre",
-"worldofedges:item-blade-sabre-steel": "Steel sabre",
-"worldofedges:item-blade-sabre-gold": "Gold sabre",
-"worldofedges:item-blade-sabre-silver": "Silver sabre",
+	"worldofedges:item-blade-sabre-tinbronze": "Tin bronze sabre",
+	"worldofedges:item-blade-sabre-bismuthbronze": "Bismuth bronze sabre",
+	"worldofedges:item-blade-sabre-blackbronze": "Black bronze sabre",
+	"worldofedges:item-blade-sabre-iron": "Iron sabre",
+	"worldofedges:item-blade-sabre-meteoriciron": "Meteoric iron sabre",
+	"worldofedges:item-blade-sabre-steel": "Steel sabre",
+	"worldofedges:item-blade-sabre-gold": "Gold sabre",
+	"worldofedges:item-blade-sabre-silver": "Silver sabre",
 
-"worldofedges:item-blade-spatha-steel": "Steel spatha blade",
+	"worldofedges:item-blade-spatha-steel": "Steel spatha blade",
 
 
-"worldofedges:item-spear-generic-iron": "Iron spear",
-"worldofedges:item-spear-generic-meteoriciron": "Meteoric iron spear",
-"worldofedges:item-spear-generic-steel": "Steel spear",
+	"worldofedges:item-spear-generic-iron": "Iron spear",
+	"worldofedges:item-spear-generic-meteoriciron": "Meteoric iron spear",
+	"worldofedges:item-spear-generic-steel": "Steel spear",
 
 
 	"worldofedges:item-club-spiked-copper": "Copper spiked mace",
-"worldofedges:item-club-spiked-tinbronze": "Tin bronze spiked mace",
-"worldofedges:item-club-spiked-bismuthbronze": "Bismuth bronze spiked mace",
-"worldofedges:item-club-spiked-blackbronze": "Black bronze spiked mace",
-"worldofedges:item-club-spiked-iron": "Iron spiked mace",
-"worldofedges:item-club-spiked-meteoriciron": "Meteoric iron spiked mace",
-"worldofedges:item-club-spiked-steel": "Steel spiked mace",
-"worldofedges:item-club-spiked-gold": "Gold spiked mace",
-"worldofedges:item-club-spiked-silver": "Silver spiked mace",
+	"worldofedges:item-club-spiked-tinbronze": "Tin bronze spiked mace",
+	"worldofedges:item-club-spiked-bismuthbronze": "Bismuth bronze spiked mace",
+	"worldofedges:item-club-spiked-blackbronze": "Black bronze spiked mace",
+	"worldofedges:item-club-spiked-iron": "Iron spiked mace",
+	"worldofedges:item-club-spiked-meteoriciron": "Meteoric iron spiked mace",
+	"worldofedges:item-club-spiked-steel": "Steel spiked mace",
+	"worldofedges:item-club-spiked-gold": "Gold spiked mace",
+	"worldofedges:item-club-spiked-silver": "Silver spiked mace",
 
 
 	"worldofedges:item-club-flanged-copper": "Copper flanged mace",
-"worldofedges:item-club-flanged-tinbronze": "Tin bronze flanged mace",
-"worldofedges:item-club-flanged-bismuthbronze": "Bismuth bronze flanged mace",
-"worldofedges:item-club-flanged-blackbronze": "Black bronze flanged mace",
-"worldofedges:item-club-flanged-iron": "Iron flanged mace",
-"worldofedges:item-club-flanged-meteoriciron": "Meteoric iron flanged mace",
-"worldofedges:item-club-flanged-steel": "Steel flanged mace",
-"worldofedges:item-club-flanged-gold": "Gold flanged mace",
-"worldofedges:item-club-flanged-silver": "Silver flanged mace",
+	"worldofedges:item-club-flanged-tinbronze": "Tin bronze flanged mace",
+	"worldofedges:item-club-flanged-bismuthbronze": "Bismuth bronze flanged mace",
+	"worldofedges:item-club-flanged-blackbronze": "Black bronze flanged mace",
+	"worldofedges:item-club-flanged-iron": "Iron flanged mace",
+	"worldofedges:item-club-flanged-meteoriciron": "Meteoric iron flanged mace",
+	"worldofedges:item-club-flanged-steel": "Steel flanged mace",
+	"worldofedges:item-club-flanged-gold": "Gold flanged mace",
+	"worldofedges:item-club-flanged-silver": "Silver flanged mace",
 
 
 	"worldofedges:item-club-morningstar-copper": "Copper morningstar",
-"worldofedges:item-club-morningstar-tinbronze": "Tin bronze morningstar",
-"worldofedges:item-club-morningstar-bismuthbronze": "Bismuth bronze morningstar",
-"worldofedges:item-club-morningstar-blackbronze": "Black bronze morningstar",
-"worldofedges:item-club-morningstar-iron": "Iron morningstar",
-"worldofedges:item-club-morningstar-meteoriciron": "Meteoric iron morningstar",
-"worldofedges:item-club-morningstar-steel": "Steel morningstar",
-"worldofedges:item-club-morningstar-gold": "Gold morningstar",
-"worldofedges:item-club-morningstar-silver": "Silver morningstar",
+	"worldofedges:item-club-morningstar-tinbronze": "Tin bronze morningstar",
+	"worldofedges:item-club-morningstar-bismuthbronze": "Bismuth bronze morningstar",
+	"worldofedges:item-club-morningstar-blackbronze": "Black bronze morningstar",
+	"worldofedges:item-club-morningstar-iron": "Iron morningstar",
+	"worldofedges:item-club-morningstar-meteoriciron": "Meteoric iron morningstar",
+	"worldofedges:item-club-morningstar-steel": "Steel morningstar",
+	"worldofedges:item-club-morningstar-gold": "Gold morningstar",
+	"worldofedges:item-club-morningstar-silver": "Silver morningstar",
 
 
 	"worldofedges:item-club-warhammer-copper": "Copper warhammer",
-"worldofedges:item-club-warhammer-tinbronze": "Tin bronze warhammer",
-"worldofedges:item-club-warhammer-bismuthbronze": "Bismuth bronze warhammer",
-"worldofedges:item-club-warhammer-blackbronze": "Black bronze warhammer",
-"worldofedges:item-club-warhammer-iron": "Iron warhammer",
-"worldofedges:item-club-warhammer-meteoriciron": "Meteoric iron warhammer",
-"worldofedges:item-club-warhammer-steel": "Steel warhammer",
-"worldofedges:item-club-warhammer-gold": "Gold warhammer",
-"worldofedges:item-club-warhammer-silver": "Silver warhammer",
+	"worldofedges:item-club-warhammer-tinbronze": "Tin bronze warhammer",
+	"worldofedges:item-club-warhammer-bismuthbronze": "Bismuth bronze warhammer",
+	"worldofedges:item-club-warhammer-blackbronze": "Black bronze warhammer",
+	"worldofedges:item-club-warhammer-iron": "Iron warhammer",
+	"worldofedges:item-club-warhammer-meteoriciron": "Meteoric iron warhammer",
+	"worldofedges:item-club-warhammer-steel": "Steel warhammer",
+	"worldofedges:item-club-warhammer-gold": "Gold warhammer",
+	"worldofedges:item-club-warhammer-silver": "Silver warhammer",
 
 
 
 
 	"worldofedges:item-quiver-crude": "Crude quiver",
-"worldofedges:item-quiver-hide": "Hide quiver",
-"worldofedges:item-quiver-leather": "Leather quiver",
-"worldofedges:item-quiver-sturdy": "Sturdy leather quiver",
+	"worldofedges:item-quiver-hide": "Hide quiver",
+	"worldofedges:item-quiver-leather": "Leather quiver",
+	"worldofedges:item-quiver-sturdy": "Sturdy leather quiver",
 
 
 	"worldofedges:item-sturdyleatherarmor-head": "Sturdy leather helmet",
-"worldofedges:item-sturdyleatherarmor-body": "Sturdy leather body armor",
-"worldofedges:item-sturdyleatherarmor-legs": "Sturdy leather leg armor",
+	"worldofedges:item-sturdyleatherarmor-body": "Sturdy leather body armor",
+	"worldofedges:item-sturdyleatherarmor-legs": "Sturdy leather leg armor",
 
 
 	"worldofedges:itemdesc-buckler-*": "<font color=\"#99c9f9\"><i>A small shield, less protective but easier to produce and use.</i></font>",
 
 
 	"worldofedges:item-spear-boar-copper": "Copper boar spear",
-"worldofedges:item-spear-boar-tinbronze": "Tin bronze boar spear",
-"worldofedges:item-spear-boar-bismuthbronze": "Bismuth bronze boar spear",
-"worldofedges:item-spear-boar-blackbronze": "Black bronze boar spear",
-"worldofedges:item-spear-boar-iron": "Iron boar spear",
-"worldofedges:item-spear-boar-meteoriciron": "Meteoric iron boar spear",
-"worldofedges:item-spear-boar-steel": "Steel boar spear",
-"worldofedges:item-spear-boar-gold": "Gold boar spear",
-"worldofedges:item-spear-boar-silver": "Silver boar spear",
+	"worldofedges:item-spear-boar-tinbronze": "Tin bronze boar spear",
+	"worldofedges:item-spear-boar-bismuthbronze": "Bismuth bronze boar spear",
+	"worldofedges:item-spear-boar-blackbronze": "Black bronze boar spear",
+	"worldofedges:item-spear-boar-iron": "Iron boar spear",
+	"worldofedges:item-spear-boar-meteoriciron": "Meteoric iron boar spear",
+	"worldofedges:item-spear-boar-steel": "Steel boar spear",
+	"worldofedges:item-spear-boar-gold": "Gold boar spear",
+	"worldofedges:item-spear-boar-silver": "Silver boar spear",
 
 
 	"worldofedges:item-boarhead-copper": "Copper boar spear head",
-"worldofedges:item-boarhead-tinbronze": "Tin bronze boar spear head",
-"worldofedges:item-boarhead-bismuthbronze": "Bismuth bronze boar spear head",
-"worldofedges:item-boarhead-blackbronze": "Black bronze boar spear head",
-"worldofedges:item-boarhead-iron": "Iron boar spear head",
-"worldofedges:item-boarhead-meteoriciron": "Meteoric iron boar spear head",
-"worldofedges:item-boarhead-steel": "Steel boar spear head",
+	"worldofedges:item-boarhead-tinbronze": "Tin bronze boar spear head",
+	"worldofedges:item-boarhead-bismuthbronze": "Bismuth bronze boar spear head",
+	"worldofedges:item-boarhead-blackbronze": "Black bronze boar spear head",
+	"worldofedges:item-boarhead-iron": "Iron boar spear head",
+	"worldofedges:item-boarhead-meteoriciron": "Meteoric iron boar spear head",
+	"worldofedges:item-boarhead-steel": "Steel boar spear head",
 
 	"worldofedges:item-spear-fork-copper": "Copper war fork",
-"worldofedges:item-spear-fork-tinbronze": "Tin bronze war fork",
-"worldofedges:item-spear-fork-bismuthbronze": "Bismuth bronze war fork",
-"worldofedges:item-spear-fork-blackbronze": "Black bronze war fork",
-"worldofedges:item-spear-fork-iron": "Iron war fork",
-"worldofedges:item-spear-fork-meteoriciron": "Meteoric iron war fork",
-"worldofedges:item-spear-fork-steel": "Steel war fork",
-"worldofedges:item-spear-fork-gold": "Gold war fork",
-"worldofedges:item-spear-fork-silver": "Silver war fork",
+	"worldofedges:item-spear-fork-tinbronze": "Tin bronze war fork",
+	"worldofedges:item-spear-fork-bismuthbronze": "Bismuth bronze war fork",
+	"worldofedges:item-spear-fork-blackbronze": "Black bronze war fork",
+	"worldofedges:item-spear-fork-iron": "Iron war fork",
+	"worldofedges:item-spear-fork-meteoriciron": "Meteoric iron war fork",
+	"worldofedges:item-spear-fork-steel": "Steel war fork",
+	"worldofedges:item-spear-fork-gold": "Gold war fork",
+	"worldofedges:item-spear-fork-silver": "Silver war fork",
 
 
 
 	"worldofedges:item-forkhead-copper": "Copper war fork head",
-"worldofedges:item-forkhead-tinbronze": "Tin bronze war fork head",
-"worldofedges:item-forkhead-bismuthbronze": "Bismuth bronze war fork head",
-"worldofedges:item-forkhead-blackbronze": "Black bronze war fork head",
-"worldofedges:item-forkhead-iron": "Iron war fork head",
-"worldofedges:item-forkhead-meteoriciron": "Meteoric iron war fork head",
-"worldofedges:item-forkhead-steel": "Steel war fork head",
+	"worldofedges:item-forkhead-tinbronze": "Tin bronze war fork head",
+	"worldofedges:item-forkhead-bismuthbronze": "Bismuth bronze war fork head",
+	"worldofedges:item-forkhead-blackbronze": "Black bronze war fork head",
+	"worldofedges:item-forkhead-iron": "Iron war fork head",
+	"worldofedges:item-forkhead-meteoriciron": "Meteoric iron war fork head",
+	"worldofedges:item-forkhead-steel": "Steel war fork head",
 
 
 
 	"worldofedges:item-spear-voulge-copper": "Copper voulge",
-"worldofedges:item-spear-voulge-tinbronze": "Tin bronze voulge",
-"worldofedges:item-spear-voulge-bismuthbronze": "Bismuth bronze voulge",
-"worldofedges:item-spear-voulge-blackbronze": "Black bronze voulge",
-"worldofedges:item-spear-voulge-iron": "Iron voulge",
-"worldofedges:item-spear-voulge-meteoriciron": "Meteoric iron voulge",
-"worldofedges:item-spear-voulge-steel": "Steel voulge",
-"worldofedges:item-spear-voulge-gold": "Gold voulge",
-"worldofedges:item-spear-voulge-silver": "Silver voulge",
+	"worldofedges:item-spear-voulge-tinbronze": "Tin bronze voulge",
+	"worldofedges:item-spear-voulge-bismuthbronze": "Bismuth bronze voulge",
+	"worldofedges:item-spear-voulge-blackbronze": "Black bronze voulge",
+	"worldofedges:item-spear-voulge-iron": "Iron voulge",
+	"worldofedges:item-spear-voulge-meteoriciron": "Meteoric iron voulge",
+	"worldofedges:item-spear-voulge-steel": "Steel voulge",
+	"worldofedges:item-spear-voulge-gold": "Gold voulge",
+	"worldofedges:item-spear-voulge-silver": "Silver voulge",
 
 
 
 	"worldofedges:item-voulgehead-copper": "Copper voulge head",
-"worldofedges:item-voulgehead-tinbronze": "Tin bronze voulge head",
-"worldofedges:item-voulgehead-bismuthbronze": "Bismuth bronze voulge head",
-"worldofedges:item-voulgehead-blackbronze": "Black bronze voulge head",
-"worldofedges:item-voulgehead-iron": "Iron voulge head",
-"worldofedges:item-voulgehead-meteoriciron": "Meteoric iron voulge head",
-"worldofedges:item-voulgehead-steel": "Steel voulge head",
+	"worldofedges:item-voulgehead-tinbronze": "Tin bronze voulge head",
+	"worldofedges:item-voulgehead-bismuthbronze": "Bismuth bronze voulge head",
+	"worldofedges:item-voulgehead-blackbronze": "Black bronze voulge head",
+	"worldofedges:item-voulgehead-iron": "Iron voulge head",
+	"worldofedges:item-voulgehead-meteoriciron": "Meteoric iron voulge head",
+	"worldofedges:item-voulgehead-steel": "Steel voulge head",
 
 
 	"worldofedges:item-spear-ranseur-copper": "Copper ranseur",
-"worldofedges:item-spear-ranseur-tinbronze": "Tin bronze ranseur",
-"worldofedges:item-spear-ranseur-bismuthbronze": "Bismuth bronze ranseur",
-"worldofedges:item-spear-ranseur-blackbronze": "Black bronze ranseur",
-"worldofedges:item-spear-ranseur-iron": "Iron ranseur",
-"worldofedges:item-spear-ranseur-meteoriciron": "Meteoric iron ranseur",
-"worldofedges:item-spear-ranseur-steel": "Steel ranseur",
-"worldofedges:item-spear-ranseur-gold": "Gold ranseur",
-"worldofedges:item-spear-ranseur-silver": "Silver ranseur",
+	"worldofedges:item-spear-ranseur-tinbronze": "Tin bronze ranseur",
+	"worldofedges:item-spear-ranseur-bismuthbronze": "Bismuth bronze ranseur",
+	"worldofedges:item-spear-ranseur-blackbronze": "Black bronze ranseur",
+	"worldofedges:item-spear-ranseur-iron": "Iron ranseur",
+	"worldofedges:item-spear-ranseur-meteoriciron": "Meteoric iron ranseur",
+	"worldofedges:item-spear-ranseur-steel": "Steel ranseur",
+	"worldofedges:item-spear-ranseur-gold": "Gold ranseur",
+	"worldofedges:item-spear-ranseur-silver": "Silver ranseur",
 
 
 
 
 
 	"worldofedges:item-ranseurhead-copper": "Copper ranseur head",
-"worldofedges:item-ranseurhead-tinbronze": "Tin bronze ranseur head",
-"worldofedges:item-ranseurhead-bismuthbronze": "Bismuth bronze ranseur head",
-"worldofedges:item-ranseurhead-blackbronze": "Black bronze ranseur head",
-"worldofedges:item-ranseurhead-iron": "Iron ranseur head",
-"worldofedges:item-ranseurhead-meteoriciron": "Meteoric iron ranseur head",
-"worldofedges:item-ranseurhead-steel": "Steel ranseur head",
+	"worldofedges:item-ranseurhead-tinbronze": "Tin bronze ranseur head",
+	"worldofedges:item-ranseurhead-bismuthbronze": "Bismuth bronze ranseur head",
+	"worldofedges:item-ranseurhead-blackbronze": "Black bronze ranseur head",
+	"worldofedges:item-ranseurhead-iron": "Iron ranseur head",
+	"worldofedges:item-ranseurhead-meteoriciron": "Meteoric iron ranseur head",
+	"worldofedges:item-ranseurhead-steel": "Steel ranseur head",
 
 
 
 
 
 	"worldofedges:item-axe-double-relic0": "Reborn relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-axe-double-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-axe-double-relic1": "Reforged relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-axe-double-relic1": "Reforged relic (double-headed axe)",
+	"worldofedges:itemdesc-axe-double-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-axe-double-relic2": "Twice reforged relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-axe-double-relic2": "Twice reforged relic (double-headed axe)",
+	"worldofedges:itemdesc-axe-double-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-axe-double-relic3": "Thrice reforged relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-axe-double-relic3": "Thrice reforged relic (double-headed axe)",
+	"worldofedges:itemdesc-axe-double-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
 
-"worldofedges:item-axe-double-relic4": "perfected relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-axe-double-relic4": "perfected relic (double-headed axe)",
+	"worldofedges:itemdesc-axe-double-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-axe-double-relic5": "Ascended relic (double-headed axe)",
-"worldofedges:itemdesc-axe-double-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-axe-double-relic5": "Ascended relic (double-headed axe)",
+	"worldofedges:itemdesc-axe-double-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-axe-bearded-relic0": "Reborn relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-axe-bearded-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-axe-bearded-relic1": "Reforged relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-axe-bearded-relic1": "Reforged relic (bearded axe)",
+	"worldofedges:itemdesc-axe-bearded-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-axe-bearded-relic2": "Twice reforged relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-axe-bearded-relic2": "Twice reforged relic (bearded axe)",
+	"worldofedges:itemdesc-axe-bearded-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-axe-bearded-relic3": "Thrice reforged relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-axe-bearded-relic3": "Thrice reforged relic (bearded axe)",
+	"worldofedges:itemdesc-axe-bearded-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-axe-bearded-relic4": "perfected relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-axe-bearded-relic4": "perfected relic (bearded axe)",
+	"worldofedges:itemdesc-axe-bearded-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-axe-bearded-relic5": "Ascended relic (bearded axe)",
-"worldofedges:itemdesc-axe-bearded-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-axe-bearded-relic5": "Ascended relic (bearded axe)",
+	"worldofedges:itemdesc-axe-bearded-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-axe-battle-relic0": "Reborn relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-axe-battle-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-axe-battle-relic1": "Reforged relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-axe-battle-relic1": "Reforged relic (battleaxe)",
+	"worldofedges:itemdesc-axe-battle-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-axe-battle-relic2": "Twice reforged relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-axe-battle-relic2": "Twice reforged relic (battleaxe)",
+	"worldofedges:itemdesc-axe-battle-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-axe-battle-relic3": "Thrice reforged relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-axe-battle-relic3": "Thrice reforged relic (battleaxe)",
+	"worldofedges:itemdesc-axe-battle-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-axe-battle-relic4": "perfected relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-axe-battle-relic4": "perfected relic (battleaxe)",
+	"worldofedges:itemdesc-axe-battle-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-axe-battle-relic5": "Ascended relic (battleaxe)",
-"worldofedges:itemdesc-axe-battle-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-axe-battle-relic5": "Ascended relic (battleaxe)",
+	"worldofedges:itemdesc-axe-battle-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-axe-bardiche-relic0": "Reborn relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-axe-bardiche-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-axe-bardiche-relic1": "Reforged relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-axe-bardiche-relic1": "Reforged relic (bardiche)",
+	"worldofedges:itemdesc-axe-bardiche-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-axe-bardiche-relic2": "Twice reforged relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-axe-bardiche-relic2": "Twice reforged relic (bardiche)",
+	"worldofedges:itemdesc-axe-bardiche-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-axe-bardiche-relic3": "Thrice reforged relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-axe-bardiche-relic3": "Thrice reforged relic (bardiche)",
+	"worldofedges:itemdesc-axe-bardiche-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-axe-bardiche-relic4": "perfected relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-axe-bardiche-relic4": "perfected relic (bardiche)",
+	"worldofedges:itemdesc-axe-bardiche-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-axe-bardiche-relic5": "Ascended relic (bardiche)",
-"worldofedges:itemdesc-axe-bardiche-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-axe-bardiche-relic5": "Ascended relic (bardiche)",
+	"worldofedges:itemdesc-axe-bardiche-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-blade-arming-relic0": "Reborn relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-blade-arming-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-blade-arming-relic1": "Reforged relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-blade-arming-relic1": "Reforged relic (arming sword)",
+	"worldofedges:itemdesc-blade-arming-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-blade-arming-relic2": "Twice reforged relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-blade-arming-relic2": "Twice reforged relic (arming sword)",
+	"worldofedges:itemdesc-blade-arming-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-blade-arming-relic3": "Thrice reforged relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-blade-arming-relic3": "Thrice reforged relic (arming sword)",
+	"worldofedges:itemdesc-blade-arming-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-blade-arming-relic4": "perfected relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-blade-arming-relic4": "perfected relic (arming sword)",
+	"worldofedges:itemdesc-blade-arming-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-blade-arming-relic5": "Ascended relic (arming sword)",
-"worldofedges:itemdesc-blade-arming-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-blade-arming-relic5": "Ascended relic (arming sword)",
+	"worldofedges:itemdesc-blade-arming-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-blade-claymore-relic0": "Reborn relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-blade-claymore-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-blade-claymore-relic1": "Reforged relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-blade-claymore-relic1": "Reforged relic (claymore)",
+	"worldofedges:itemdesc-blade-claymore-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-blade-claymore-relic2": "Twice reforged relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-blade-claymore-relic2": "Twice reforged relic (claymore)",
+	"worldofedges:itemdesc-blade-claymore-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-blade-claymore-relic3": "Thrice reforged relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-blade-claymore-relic3": "Thrice reforged relic (claymore)",
+	"worldofedges:itemdesc-blade-claymore-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-blade-claymore-relic4": "perfected relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-blade-claymore-relic4": "perfected relic (claymore)",
+	"worldofedges:itemdesc-blade-claymore-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-blade-claymore-relic5": "Ascended relic (claymore)",
-"worldofedges:itemdesc-blade-claymore-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-blade-claymore-relic5": "Ascended relic (claymore)",
+	"worldofedges:itemdesc-blade-claymore-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 	"worldofedges:item-blade-gladius-relic0": "Reborn relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-blade-gladius-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-blade-gladius-relic1": "Reforged relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-blade-gladius-relic1": "Reforged relic (gladius)",
+	"worldofedges:itemdesc-blade-gladius-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-blade-gladius-relic2": "Twice reforged relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-blade-gladius-relic2": "Twice reforged relic (gladius)",
+	"worldofedges:itemdesc-blade-gladius-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-blade-gladius-relic3": "Thrice reforged relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-blade-gladius-relic3": "Thrice reforged relic (gladius)",
+	"worldofedges:itemdesc-blade-gladius-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-blade-gladius-relic4": "perfected relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-blade-gladius-relic4": "perfected relic (gladius)",
+	"worldofedges:itemdesc-blade-gladius-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-blade-gladius-relic5": "Ascended relic (gladius)",
-"worldofedges:itemdesc-blade-gladius-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-blade-gladius-relic5": "Ascended relic (gladius)",
+	"worldofedges:itemdesc-blade-gladius-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 
 
 	"worldofedges:item-blade-sabre-relic0": "Reborn relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-blade-sabre-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-blade-sabre-relic1": "Reforged relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-blade-sabre-relic1": "Reforged relic (sabre)",
+	"worldofedges:itemdesc-blade-sabre-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-blade-sabre-relic2": "Twice reforged relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-blade-sabre-relic2": "Twice reforged relic (sabre)",
+	"worldofedges:itemdesc-blade-sabre-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-blade-sabre-relic3": "Thrice reforged relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-blade-sabre-relic3": "Thrice reforged relic (sabre)",
+	"worldofedges:itemdesc-blade-sabre-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-blade-sabre-relic4": "perfected relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-blade-sabre-relic4": "perfected relic (sabre)",
+	"worldofedges:itemdesc-blade-sabre-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-blade-sabre-relic5": "Ascended relic (sabre)",
-"worldofedges:itemdesc-blade-sabre-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-blade-sabre-relic5": "Ascended relic (sabre)",
+	"worldofedges:itemdesc-blade-sabre-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -629,22 +629,22 @@
 
 
 	"worldofedges:item-knife-baselard-relic0": "Reborn relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-knife-baselard-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-knife-baselard-relic1": "Reforged relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-knife-baselard-relic1": "Reforged relic (baselard)",
+	"worldofedges:itemdesc-knife-baselard-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-knife-baselard-relic2": "Twice reforged relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-knife-baselard-relic2": "Twice reforged relic (baselard)",
+	"worldofedges:itemdesc-knife-baselard-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-knife-baselard-relic3": "Thrice reforged relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-knife-baselard-relic3": "Thrice reforged relic (baselard)",
+	"worldofedges:itemdesc-knife-baselard-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-knife-baselard-relic4": "perfected relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-knife-baselard-relic4": "perfected relic (baselard)",
+	"worldofedges:itemdesc-knife-baselard-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-knife-baselard-relic5": "Ascended relic (baselard)",
-"worldofedges:itemdesc-knife-baselard-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-knife-baselard-relic5": "Ascended relic (baselard)",
+	"worldofedges:itemdesc-knife-baselard-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -654,44 +654,44 @@
 
 
 	"worldofedges:item-knife-dagger-relic0": "Reborn relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-knife-dagger-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-knife-dagger-relic1": "Reforged relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-knife-dagger-relic1": "Reforged relic (dagger)",
+	"worldofedges:itemdesc-knife-dagger-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-knife-dagger-relic2": "Twice reforged relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-knife-dagger-relic2": "Twice reforged relic (dagger)",
+	"worldofedges:itemdesc-knife-dagger-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-knife-dagger-relic3": "Thrice reforged relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-knife-dagger-relic3": "Thrice reforged relic (dagger)",
+	"worldofedges:itemdesc-knife-dagger-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-knife-dagger-relic4": "perfected relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-knife-dagger-relic4": "perfected relic (dagger)",
+	"worldofedges:itemdesc-knife-dagger-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-knife-dagger-relic5": "Ascended relic (dagger)",
-"worldofedges:itemdesc-knife-dagger-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-knife-dagger-relic5": "Ascended relic (dagger)",
+	"worldofedges:itemdesc-knife-dagger-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 
 
 	"worldofedges:item-knife-khanjar-relic0": "Reborn relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-knife-khanjar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-knife-khanjar-relic1": "Reforged relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-knife-khanjar-relic1": "Reforged relic (khanjar)",
+	"worldofedges:itemdesc-knife-khanjar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-knife-khanjar-relic2": "Twice reforged relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-knife-khanjar-relic2": "Twice reforged relic (khanjar)",
+	"worldofedges:itemdesc-knife-khanjar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-knife-khanjar-relic3": "Thrice reforged relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-knife-khanjar-relic3": "Thrice reforged relic (khanjar)",
+	"worldofedges:itemdesc-knife-khanjar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-knife-khanjar-relic4": "perfected relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-knife-khanjar-relic4": "perfected relic (khanjar)",
+	"worldofedges:itemdesc-knife-khanjar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-knife-khanjar-relic5": "Ascended relic (khanjar)",
-"worldofedges:itemdesc-knife-khanjar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-knife-khanjar-relic5": "Ascended relic (khanjar)",
+	"worldofedges:itemdesc-knife-khanjar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -699,22 +699,22 @@
 
 
 	"worldofedges:item-knife-stiletto-relic0": "Reborn relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-knife-stiletto-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-knife-stiletto-relic1": "Reforged relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-knife-stiletto-relic1": "Reforged relic (stiletto)",
+	"worldofedges:itemdesc-knife-stiletto-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-knife-stiletto-relic2": "Twice reforged relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-knife-stiletto-relic2": "Twice reforged relic (stiletto)",
+	"worldofedges:itemdesc-knife-stiletto-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-knife-stiletto-relic3": "Thrice reforged relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-knife-stiletto-relic3": "Thrice reforged relic (stiletto)",
+	"worldofedges:itemdesc-knife-stiletto-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-knife-stiletto-relic4": "perfected relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-knife-stiletto-relic4": "perfected relic (stiletto)",
+	"worldofedges:itemdesc-knife-stiletto-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-knife-stiletto-relic5": "Ascended relic (stiletto)",
-"worldofedges:itemdesc-knife-stiletto-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-knife-stiletto-relic5": "Ascended relic (stiletto)",
+	"worldofedges:itemdesc-knife-stiletto-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -722,85 +722,85 @@
 
 
 	"worldofedges:item-club-flanged-relic0": "Reborn relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-flanged-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-club-flanged-relic1": "Reforged relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-club-flanged-relic1": "Reforged relic (flanged mace)",
+	"worldofedges:itemdesc-club-flanged-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-club-flanged-relic2": "Twice reforged relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-club-flanged-relic2": "Twice reforged relic (flanged mace)",
+	"worldofedges:itemdesc-club-flanged-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-club-flanged-relic3": "Thrice reforged relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-club-flanged-relic3": "Thrice reforged relic (flanged mace)",
+	"worldofedges:itemdesc-club-flanged-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-club-flanged-relic4": "perfected relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-club-flanged-relic4": "perfected relic (flanged mace)",
+	"worldofedges:itemdesc-club-flanged-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-club-flanged-relic5": "Ascended relic (flanged mace)",
-"worldofedges:itemdesc-club-flanged-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-club-flanged-relic5": "Ascended relic (flanged mace)",
+	"worldofedges:itemdesc-club-flanged-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 
 	"worldofedges:item-club-spiked-relic0": "Reborn relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-spiked-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-club-spiked-relic1": "Reforged relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-club-spiked-relic1": "Reforged relic (spiked mace)",
+	"worldofedges:itemdesc-club-spiked-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-club-spiked-relic2": "Twice reforged relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-club-spiked-relic2": "Twice reforged relic (spiked mace)",
+	"worldofedges:itemdesc-club-spiked-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-club-spiked-relic3": "Thrice reforged relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-club-spiked-relic3": "Thrice reforged relic (spiked mace)",
+	"worldofedges:itemdesc-club-spiked-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-club-spiked-relic4": "perfected relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-club-spiked-relic4": "perfected relic (spiked mace)",
+	"worldofedges:itemdesc-club-spiked-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-club-spiked-relic5": "Ascended relic (spiked mace)",
-"worldofedges:itemdesc-club-spiked-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-club-spiked-relic5": "Ascended relic (spiked mace)",
+	"worldofedges:itemdesc-club-spiked-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 
 
 	"worldofedges:item-club-morningstar-relic0": "Reborn relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-morningstar-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-club-morningstar-relic1": "Reforged relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-club-morningstar-relic1": "Reforged relic (morningstar)",
+	"worldofedges:itemdesc-club-morningstar-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-club-morningstar-relic2": "Twice reforged relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-club-morningstar-relic2": "Twice reforged relic (morningstar)",
+	"worldofedges:itemdesc-club-morningstar-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-club-morningstar-relic3": "Thrice reforged relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-club-morningstar-relic3": "Thrice reforged relic (morningstar)",
+	"worldofedges:itemdesc-club-morningstar-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-club-morningstar-relic4": "perfected relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-club-morningstar-relic4": "perfected relic (morningstar)",
+	"worldofedges:itemdesc-club-morningstar-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-club-morningstar-relic5": "Ascended relic (morningstar)",
-"worldofedges:itemdesc-club-morningstar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-club-morningstar-relic5": "Ascended relic (morningstar)",
+	"worldofedges:itemdesc-club-morningstar-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-club-warhammer-relic0": "Reborn relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-club-warhammer-relic1": "Reforged relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-club-warhammer-relic1": "Reforged relic (warhammer)",
+	"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-club-warhammer-relic2": "Twice reforged relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-club-warhammer-relic2": "Twice reforged relic (warhammer)",
+	"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-club-warhammer-relic3": "Thrice reforged relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-club-warhammer-relic3": "Thrice reforged relic (warhammer)",
+	"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-club-warhammer-relic4": "perfected relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-club-warhammer-relic4": "perfected relic (warhammer)",
+	"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-club-warhammer-relic5": "Ascended relic (warhammer)",
-"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-club-warhammer-relic5": "Ascended relic (warhammer)",
+	"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -811,64 +811,64 @@
 
 
 	"worldofedges:item-spear-boar-relic0": "Reborn relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-spear-boar-relic1": "Reforged relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-spear-boar-relic1": "Reforged relic (boar spear)",
+	"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-spear-boar-relic2": "Twice reforged relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-spear-boar-relic2": "Twice reforged relic (boar spear)",
+	"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-spear-boar-relic3": "Thrice reforged relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-spear-boar-relic3": "Thrice reforged relic (boar spear)",
+	"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-spear-boar-relic4": "perfected relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-spear-boar-relic4": "perfected relic (boar spear)",
+	"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-spear-boar-relic5": "Ascended relic (boar spear)",
-"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-spear-boar-relic5": "Ascended relic (boar spear)",
+	"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 
 
 	"worldofedges:item-spear-fork-relic0": "Reborn relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-spear-fork-relic1": "Reforged relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-spear-fork-relic1": "Reforged relic (war fork)",
+	"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-spear-fork-relic2": "Twice reforged relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-spear-fork-relic2": "Twice reforged relic (war fork)",
+	"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-spear-fork-relic3": "Thrice reforged relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-spear-fork-relic3": "Thrice reforged relic (war fork)",
+	"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-spear-fork-relic4": "perfected relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-spear-fork-relic4": "perfected relic (war fork)",
+	"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-spear-fork-relic5": "Ascended relic (war fork)",
-"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-spear-fork-relic5": "Ascended relic (war fork)",
+	"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
 	"worldofedges:item-spear-voulge-relic0": "Reborn relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-spear-voulge-relic1": "Reforged relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-spear-voulge-relic1": "Reforged relic (voulge)",
+	"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-spear-voulge-relic2": "Twice reforged relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-spear-voulge-relic2": "Twice reforged relic (voulge)",
+	"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-spear-voulge-relic3": "Thrice reforged relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-spear-voulge-relic3": "Thrice reforged relic (voulge)",
+	"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-spear-voulge-relic4": "perfected relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-spear-voulge-relic4": "perfected relic (voulge)",
+	"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-spear-voulge-relic5": "Ascended relic (voulge)",
-"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-spear-voulge-relic5": "Ascended relic (voulge)",
+	"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -876,22 +876,22 @@
 
 
 	"worldofedges:item-spear-ranseur-relic0": "Reborn relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
+	"worldofedges:itemdesc-club-warhammer-relic0": "<font color=\"#99c9f9\"><i>Coaxed back to shape with a hammer and returned from a time lost using prima materia. It's still quite brittle and needs to be reforged. </i></font>",
 
-"worldofedges:item-spear-ranseur-relic1": "Reforged relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
+	"worldofedges:item-spear-ranseur-relic1": "Reforged relic (ranseur)",
+	"worldofedges:itemdesc-club-warhammer-relic1": "<font color=\"#99c9f9\"><i>The prima materia helps it to remember the forge of the master smiths of the lost kingdoms. still not made of ideal material. </i></font>",
 
-"worldofedges:item-spear-ranseur-relic2": "Twice reforged relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
+	"worldofedges:item-spear-ranseur-relic2": "Twice reforged relic (ranseur)",
+	"worldofedges:itemdesc-club-warhammer-relic2": "<font color=\"#99c9f9\"><i>One step closer to a perfected form. </i></font>",
 
-"worldofedges:item-spear-ranseur-relic3": "Thrice reforged relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
+	"worldofedges:item-spear-ranseur-relic3": "Thrice reforged relic (ranseur)",
+	"worldofedges:itemdesc-club-warhammer-relic3": "<font color=\"#99c9f9\"><i>The weapon almost reforges itself now, like the spirits of smiths long since past inhabit it. </i></font>",
 
-"worldofedges:item-spear-ranseur-relic4": "perfected relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
+	"worldofedges:item-spear-ranseur-relic4": "perfected relic (ranseur)",
+	"worldofedges:itemdesc-club-warhammer-relic4": "<font color=\"#99c9f9\"><i>The perfected form. </i></font>",
 
-"worldofedges:item-spear-ranseur-relic5": "Ascended relic (ranseur)",
-"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
+	"worldofedges:item-spear-ranseur-relic5": "Ascended relic (ranseur)",
+	"worldofedges:itemdesc-club-warhammer-relic5": "<font color=\"#99c9f9\"><i>From a time that never was and never will be. </i></font>",
 
 
 
@@ -900,10 +900,10 @@
 
 
 	"worldofedges:item-bow-ranger": "Compound longbow",
-"worldofedges:itemdesc-bow-ranger": "-20% ranged weapon speed.",
+	"worldofedges:itemdesc-bow-ranger": "-20% ranged weapon speed.",
 
 	"worldofedges:item-bow-yager": "Compound recurve bow",
-"worldofedges:itemdesc-bow-yager": "-20% ranged weapon speed.",
+	"worldofedges:itemdesc-bow-yager": "-20% ranged weapon speed.",
 
 
 
@@ -912,18 +912,18 @@
 
 
 	"worldofedges:item-woodarmor-head": "Improvised helmet (wood)",
-"worldofedges:item-woodarmor-legs": "Improvised leg armor (wood)",
+	"worldofedges:item-woodarmor-legs": "Improvised leg armor (wood)",
 
-	
+
 	"worldofedges:item-bonearmor-head": "Improvised helmet (bone)",
-"worldofedges:item-bonearmor-legs": "Improvised leg armor (bone)",
-"worldofedges:item-bonearmor-body": "Improvised body armor (bone)",
+	"worldofedges:item-bonearmor-legs": "Improvised leg armor (bone)",
+	"worldofedges:item-bonearmor-body": "Improvised body armor (bone)",
 
 	"worldofedges:item-spatha": "Steel spatha",
 	"worldofedges:itemdesc-spatha": "<font color=\"#99c9f9\">A versatile steel sword, perfect for both cutting and thrusting.</font>",
 
 	"worldofedges:item-spatha-steel": "Steel spatha",
-	"worldofedges:itemdesc-spatha-steel": "<font color=\"#99c9f9\">A versatile steel sword, perfect for both cutting and thrusting.</font>",
+	"worldofedges:itemdesc-spatha-steel": "<font color=\"#99c9f9\">A versatile steel sword, perfect for both cutting and thrusting.</font>"
 
 
 

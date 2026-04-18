@@ -16,13 +16,13 @@
 		"leather": [16,16]
 	},
 	"textures": {
-		"feather2": "game:item/tool/material/feather2",
 		"iron": "game:block/metal/ingot/iron",
 		"bone": "game:block/creature/bone",
 		"leather": "game:block/leather/plain",
 		"aged": "game:block/wood/debarked/aged",
-		"linen": "game:item/tool/material/linen",
-		"string": "game:item/tool/material/string"
+		"linen": "game:block/linen",
+		"feather2": "game:item/tool/feather2",
+		"string": "game:item/resource/string"
 	},
 	"elements": [
 		{

@@ -22,7 +22,7 @@
 		"feather2": "game:item/tool/material/feather2",
 		"iron": "game:item/tool/material/iron",
 		"linen": "game:item/tool/material/linen",
-		"string": "game:item/tool/material/string"
+		"string": "game:item/resource/string"
 	},
 	"elements": [
 		{

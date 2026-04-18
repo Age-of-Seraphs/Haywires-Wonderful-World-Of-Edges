@@ -18,12 +18,12 @@
 		"leather": [16,16]
 	},
 	"textures": {
-		"feather": "game:item/tool/material/feather",
 		"blackbronze": "game:block/metal/ingot/blackbronze",
 		"leather": "game:block/leather/plain",
 		"aged": "game:block/wood/debarked/aged",
 		"bone": "game:block/wood/debarked/oak",
-		"string": "game:item/tool/material/string"
+		"string": "game:item/resource/string",
+		"feather": "game:item/tool/feather"
 	},
 	"elements": [
 		{
