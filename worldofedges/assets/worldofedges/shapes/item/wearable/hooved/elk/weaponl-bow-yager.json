@@ -33,7 +33,7 @@
 		"aged": "game:block/wood/debarked/aged",
 		"bone": "game:block/wood/debarked/oak",
 		"linen": "game:item/tool/material/linen",
-		"string": "game:item/tool/material/string"
+		"string": "game:item/resource/string"
 	},
 	"elements": [
 		{

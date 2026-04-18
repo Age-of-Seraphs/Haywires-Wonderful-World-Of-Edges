@@ -1,5 +1,6 @@
 [
 	{
+	"enabled": false,
 		ingredientPattern:"MPM,LBG,MPM",
 		ingredients: {
 			"M": { type: "item", code: "game:metalplate-meteoriciron" },
