@@ -1,17 +1,28 @@
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"____*____",
-"____**___",
-"___***___",
-"___***___",
-"___***___",
-"____*____",
-"_**_*_**_",
-"__*****__",
-	]],
-	name: "Boar spear blade",
-	output: { type: "item", code: "worldofedges:boarhead-{metal}"  }
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+	},
+	"pattern": [
+		[
+			"____*____",
+			"____**___",
+			"___***___",
+			"___***___",
+			"___***___",
+			"____*____",
+			"_**_*_**_",
+			"__*****__"
+		]
+	],
+	"code": "boarspear-{metal}",
+	"name": "Boar spear blade",
+	"output": {
+		"type": "item",
+		"code": "worldofedges:boarhead-{metal}"
+	}
 }
 
 

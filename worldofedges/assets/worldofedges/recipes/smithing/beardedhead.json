@@ -1,15 +1,26 @@
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"_#_____",
-"#######",
-"#######",
-"###_###",
-"###____",
-"###____",
-"###____",
-"_##____",
-	]],
-	name: "Bearded axe blade",
-	output: { type: "item", code: "worldofedges:beardedhead-{metal}"  }
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+	},
+	"pattern": [
+		[
+			"_#_____",
+			"#######",
+			"#######",
+			"###_###",
+			"###____",
+			"###____",
+			"###____",
+			"_##____"
+		]
+	],
+	"code": "beardedaxe-{metal}",
+	"name": "Bearded axe blade",
+	"output": {
+		"type": "item",
+		"code": "worldofedges:beardedhead-{metal}"
+	}
 }

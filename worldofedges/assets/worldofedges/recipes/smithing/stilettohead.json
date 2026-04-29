@@ -1,17 +1,20 @@
 {
 	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"_______#_______",
-"_______#_______",
-"_______#_______",
-"_______#_______",
-"_______#_______",
-"_______#_______",
-"______###______",
-"_______#_______",
-"_______#_______",
-"_______#_______",
-	]],
+	pattern: [
+		[
+			"_______#_______",
+			"_______#_______",
+			"_______#_______",
+			"_______#_______",
+			"_______#_______",
+			"_______#_______",
+			"______###______",
+			"_______#_______",
+			"_______#_______",
+			"_______#_______",
+		]
+	],
+  code: "stiletto-{metal}",
 	name: "Stiletto blade",
 	output: { type: "item", code: "worldofedges:stilettohead-{metal}"  }
 }

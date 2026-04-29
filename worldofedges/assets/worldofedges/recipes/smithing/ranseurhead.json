@@ -1,15 +1,18 @@
 {
 	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"____*____",
-"____*____",
-"____*____",
-"____*____",
-"*___*___*",
-"**__*__**",
-"_**_*_**_",
-"__*****__",
-	]],
+	pattern: [
+		[
+			"____*____",
+			"____*____",
+			"____*____",
+			"____*____",
+			"*___*___*",
+			"**__*__**",
+			"_**_*_**_",
+			"__*****__",
+		]
+	],
+  code: "ranseur-{metal}",
 	name: "Ranseur spear blade",
 	output: { type: "item", code: "worldofedges:ranseurhead-{metal}"  }
 }

@@ -1,15 +1,26 @@
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"_#________#_",
-"############",
-"############",
-"###_####_###",
-"###______###",
-"###______###",
-"###______###",
-"_##______##_",
-	]],
-	name: "Double headed axe blade",
-	output: { type: "item", code: "worldofedges:doublehead-{metal}"  }
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+	},
+	"pattern": [
+		[
+			"_#________#_",
+			"############",
+			"############",
+			"###_####_###",
+			"###______###",
+			"###______###",
+			"###______###",
+			"_##______##_"
+		]
+	],
+	"code": "doubleaxehead-{metal}",
+	"name": "Double headed axe blade",
+	"output": {
+		"type": "item",
+		"code": "worldofedges:doublehead-{metal}"
+	}
 }

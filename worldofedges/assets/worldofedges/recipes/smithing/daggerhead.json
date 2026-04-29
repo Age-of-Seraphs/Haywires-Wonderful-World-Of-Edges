@@ -1,17 +1,28 @@
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-	pattern: [[
-"_______#_______",
-"______##_______",
-"______##_______",
-"______##_______",
-"______##_______",
-"______##_______",
-"_____####______",
-"______##_______",
-"______##_______",
-"______##_______",
-	]],
-	name: "Dagger blade",
-	output: { type: "item", code: "worldofedges:daggerhead-{metal}"  }
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+	},
+	"pattern": [
+		[
+			"_______#_______",
+			"______##_______",
+			"______##_______",
+			"______##_______",
+			"______##_______",
+			"______##_______",
+			"_____####______",
+			"______##_______",
+			"______##_______",
+			"______##_______"
+		]
+	],
+	"code": "dagger-{metal}",
+	"name": "Dagger blade",
+	"output": {
+		"type": "item",
+		"code": "worldofedges:daggerhead-{metal}"
+	}
 }
